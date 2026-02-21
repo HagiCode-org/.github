@@ -110,9 +110,9 @@ OpenSpec 工作流<br>
 
 ## 🔗 快速链接
 
-| 📖 完整文档 | 📐 产品概述 | 🚀 快速开始 | 💬 官网 | 💻 GitHub |
-|:-----------:|:-----------:|:-----------:|:------:|:---------:|
-| [文档站点](https://hagicode.com/) | [产品概述](https://hagicode.com/product-overview) | [快速开始](https://hagicode.com/quick-start/conversation-session) | [hagicode.com](https://hagicode.com/) | [GitHub](https://github.com/Hagicode-org) |
+| 📖 完整文档 | 📐 产品概述 | 🚀 快速开始 | 🏗️ Builder | 💬 官网 | 💻 GitHub |
+|:-----------:|:-----------:|:-----------:|:----------:|:------:|:---------:|
+| [文档站点](https://docs.hagicode.com/) | [产品概述](https://docs.hagicode.com/product-overview) | [快速开始](https://docs.hagicode.com/quick-start/conversation-session) | [Builder](https://builder.hagicode.com/) | [hagicode.com](https://hagicode.com/) | [GitHub](https://github.com/Hagicode-org) |
 
 ---
 
