@@ -116,6 +116,13 @@ OpenSpec 工作流<br>
 
 ---
 
+## 📝 最新博客
+
+<!-- blog-posts-start -->
+<!-- blog-posts-end -->
+
+---
+
 ## 项目仓库
 
 <!-- repositories will be listed here automatically -->
