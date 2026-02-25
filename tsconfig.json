@@ -1,10 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "ESM Configuration for ts-node",
-  "ts-node": {
-    "esm": true,
-    "experimentalSpecifierResolution": "node"
-  },
+  "display": "ESM Configuration",
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "node",
