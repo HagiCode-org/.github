@@ -1,0 +1,36 @@
+name: Sync Blog RSS
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch and parse RSS
+        run: npx ts-node sync-rss.ts
+
+      - name: Commit and Push to Main
+        uses: EndBug/add-and-commit@v7.2.1
+        with:
+          branch: main
+          message: 'chore: sync blog RSS to README'
+          add: 'profile/README.md'
