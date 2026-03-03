@@ -1,0 +1,53 @@
+version: "1.0"
+name: "org-github"
+displayName: "GitHub Organization Management"
+description: "GitHub organization profile management with RSS synchronization"
+indexedAt: "2026-03-03"
+generatedBy: "claude-code"
+
+quickRef:
+  catalogs:
+    - id: "entryPoints"
+      title: "Entry Points"
+      desc: "Main entry points for the project"
+    - id: "configFiles"
+      title: "Config Files"
+      desc: "Key configuration files"
+    - id: "directories"
+      title: "Directories"
+      desc: "Important directory structure"
+    - id: "features"
+      title: "Feature Modules"
+      desc: "Main feature modules of the project"
+
+  entryPoints:
+    - title: "RSS Sync Script"
+      desc: "RSS feed synchronization"
+      path: "sync-rss.ts"
+
+  configFiles:
+    - title: "Package Configuration"
+      desc: "NPM package dependencies"
+      path: "package.json"
+    - title: "TypeScript Configuration"
+      desc: "TypeScript compiler settings"
+      path: "tsconfig.json"
+
+  directories:
+    - title: "Profile"
+      desc: "Organization profile data"
+      path: "profile"
+    - title: "GitHub Actions"
+      desc: "GitHub automation workflows"
+      path: ".github"
+
+  features:
+    - title: "RSS Synchronization"
+      desc: "Feed synchronization with GitHub"
+      path: "sync-rss.ts"
+    - title: "Profile Management"
+      desc: "Organization profile data"
+      path: "profile"
+    - title: "GitHub Actions"
+      desc: "GitHub workflow automation"
+      path: ".github"
