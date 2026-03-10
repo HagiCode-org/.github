@@ -132,7 +132,7 @@ OpenSpec 工作流<br>
 | 2026/2/3 | [HagiCode 启动页设计：React 19 应用中填补 Hydration 空白期的极致体验](https://docs.hagicode.com/blog/2026-02-03-hagicode-react-19-hydration-splash-screen/) |
 | 2026/2/1 | [.NET Core 双数据库实战：优雅融合 PostgreSQL 与 SQLite 的最佳实践](https://docs.hagicode.com/blog/2026-02-01-net-core-%E5%8F%8C%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%9E%E6%88%98%E4%BC%98%E9%9B%85%E8%9E%8D%E5%90%88-postgresql-%E4%B8%8E-sqlite-%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/) |
 | 2026/1/31 | [Docusaurus 3.x 到 Astro 5.x 迁移实战：利用 Islands 架构实现性能与构建速度双重提升](https://docs.hagicode.com/blog/2026-01-31-migrate-docusaurus-to-astro-with-islands-architecture/) |
-| 2026/1/28 | [利用 Worker Threads 优化 Vite 构建性能的实战](https://docs.hagicode.com/blog/2026-01-28-%E5%88%A9%E7%94%A8-worker-threads-%E4%BC%98%E5%8C%96-vite-%E6%9E%84%E5%BB%BA%E6%80%A7%E8%83%BD%E7%9A%84%E5%AE%9E%E6%88%98/) |
+| 2026/1/28 | [StreamJsonRpc 在 HagiCode 中的深度集成与实践](https://docs.hagicode.com/blog/2026-01-28-streamjsonrpc-integration-in-hagicode/) |
 <!-- blog-posts-end -->
 
 ---
