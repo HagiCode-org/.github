@@ -123,6 +123,7 @@ OpenSpec 工作流<br>
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/3/12 | [C# 后端集成 CodeBuddy CLI 实战指南](https://docs.hagicode.com/blog/2026-03-11-csharp-codebuddy-cli-integration-guide/) |
 | 2026/3/11 | [HagiCode 平台的多 AI Provider 架构实践](https://docs.hagicode.com/blog/2026-03-10-hagicode-multi-ai-provider-architecture/) |
 | 2026/3/10 | [Codex SDK 控制台消息解析完全指南](https://docs.hagicode.com/blog/2026-03-09-codex-sdk-console-message-parsing/) |
 | 2026/3/9 | [Hagicode 多 AI 提供者切换与互操作实现方案](https://docs.hagicode.com/blog/2026-03-09-hagicode-multi-ai-provider-switching-interop/) |
@@ -132,7 +133,6 @@ OpenSpec 工作流<br>
 | 2026/2/26 | [AI Compose Commit：用 AI 智能重构 Git 提交工作流](https://docs.hagicode.com/blog/2026-02-26-ai-compose-commit-implementation/) |
 | 2026/2/4 | [基于 Starlight 文档站点接入 Microsoft Clarity 的完整实践指南](https://docs.hagicode.com/blog/2026-02-04-starlight-docs-integration-microsoft-clarity/) |
 | 2026/2/3 | [HagiCode 启动页设计：React 19 应用中填补 Hydration 空白期的极致体验](https://docs.hagicode.com/blog/2026-02-03-hagicode-react-19-hydration-splash-screen/) |
-| 2026/2/1 | [.NET Core 双数据库实战：优雅融合 PostgreSQL 与 SQLite 的最佳实践](https://docs.hagicode.com/blog/2026-02-01-net-core-%E5%8F%8C%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%9E%E6%88%98%E4%BC%98%E9%9B%85%E8%9E%8D%E5%90%88-postgresql-%E4%B8%8E-sqlite-%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/) |
 <!-- blog-posts-end -->
 
 ---
