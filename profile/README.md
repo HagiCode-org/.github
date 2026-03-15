@@ -6,7 +6,7 @@
 
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.24-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.25-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.26-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -123,6 +123,8 @@ OpenSpec 工作流<br>
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/3/13 | [ImgBin CLI 工具设计：HagiCode 图片资产管理方案](https://docs.hagicode.com/blog/2026-03-13-imgbin-cli-tool-asset-management/) |
+| 2026/3/13 | [Primary profession management in hero settings](https://docs.hagicode.com/blog/2026-03-13-primary-profession-management/) |
 | 2026/3/12 | [C# 后端集成 CodeBuddy CLI 实战指南](https://docs.hagicode.com/blog/2026-03-11-csharp-codebuddy-cli-integration-guide/) |
 | 2026/3/11 | [HagiCode 平台的多 AI Provider 架构实践](https://docs.hagicode.com/blog/2026-03-10-hagicode-multi-ai-provider-architecture/) |
 | 2026/3/10 | [Codex SDK 控制台消息解析完全指南](https://docs.hagicode.com/blog/2026-03-09-codex-sdk-console-message-parsing/) |
@@ -131,8 +133,6 @@ OpenSpec 工作流<br>
 | 2026/3/6 | [豆包语音识别热词功能实现指南](https://docs.hagicode.com/blog/2026-03-06-doubao-speech-recognition-hotword-support/) |
 | 2026/3/5 | [解决浏览器 WebSocket 认证难题：豆包语音识别的代理方案实践](https://docs.hagicode.com/blog/2026-03-05-websocket-proxy-for-doubao-speech-recognition/) |
 | 2026/2/26 | [AI Compose Commit：用 AI 智能重构 Git 提交工作流](https://docs.hagicode.com/blog/2026-02-26-ai-compose-commit-implementation/) |
-| 2026/2/4 | [基于 Starlight 文档站点接入 Microsoft Clarity 的完整实践指南](https://docs.hagicode.com/blog/2026-02-04-starlight-docs-integration-microsoft-clarity/) |
-| 2026/2/3 | [HagiCode 启动页设计：React 19 应用中填补 Hydration 空白期的极致体验](https://docs.hagicode.com/blog/2026-02-03-hagicode-react-19-hydration-splash-screen/) |
 <!-- blog-posts-end -->
 
 ---
