@@ -1,8 +1,8 @@
 <div align="center">
 
-<h1>Hagicode-org</h1>
+<h1>Smart · Efficient · Interesting AI Coding Assistant</h1>
 
-<p>用 AI 重新定义代码开发体验</p>
+<p>HagiCode - An AI coding assistant that transforms how developers write, test, and understand code through structured workflows, multi-agent parallelism, and gamified experiences.</p>
 
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.25-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
@@ -14,111 +14,94 @@
 
 ---
 
-## 🖼️ 产品预览
+## Quick Links
 
-<table>
-<tr>
-<td align="center" width="50%">
-  <a href="https://hagicode.com/">
-    <img src="https://hagicode.com/img/home/亮色主题主界面.png" alt="亮色主题" width="500"/>
-  </a>
-  <br/>
-  <sup>亮色主题界面</sup>
-</td>
-<td align="center" width="50%">
-  <a href="https://hagicode.com/">
-    <img src="https://hagicode.com/img/home/暗色主题主界面.png" alt="暗色主题" width="500"/>
-  </a>
-  <br/>
-  <sup>暗色主题界面</sup>
-</td>
-</tr>
-</table>
+| 🌐 Official Website | 🖥️ Desktop | 🐳 Container | 📚 Documentation | 💬 Blog |
+|:------------------:|:-----------:|:------------:|:---------------:|:-------:|
+| [hagicode.com](https://hagicode.com) | [Download](https://hagicode.com/desktop) | [Deploy](https://hagicode.com/container) | [docs.hagicode.com](https://docs.hagicode.com) | [Blog](https://docs.hagicode.com/blog) |
 
 ---
 
-## 💡 核心价值
+## Three Core Features
 
-- **提案驱动开发** - 先规划后实施，变更可追溯可审查
-- **只读/编辑双模式** - 细粒度权限控制，安全探索放心实践
-- **深度代码理解** - 超越代码生成，真正理解你的代码库
-- **游戏化成就系统** - 每日成就、效率追踪，让编码更有趣
+### Smart · 智能
 
----
+**OpenSpec 9-Stage Workflow**
 
-## 🎮 游戏化机制
+OpenSpec provides a structured workflow from `Idea` to `Archive`, helping teams connect requirement breakdown, review, implementation, and archiving:
 
-<table>
-<tr>
-<td align="center" width="33%">
-  <img src="https://hagicode.com/img/home/每日成就报告.png" alt="每日成就报告" width="300"/>
-  <br/>
-  <sup>每日成就报告</sup>
-</td>
-<td align="center" width="33%">
-  <img src="https://hagicode.com/img/home/每日编写代码获得的成就.png" alt="成就系统" width="300"/>
-  <br/>
-  <sup>成就系统</sup>
-</td>
-<td align="center" width="33%">
-  <img src="https://hagicode.com/img/home/使用%20AI%20的效率提升报告.png" alt="效率提升报告" width="300"/>
-  <br/>
-  <sup>效率提升报告</sup>
-</td>
-</tr>
-</table>
+`Idea` → `Proposal` → `Review` → `Tasks` → `Implementation` → `Testing` → `Refactoring` → `Documentation` → `Archive`
 
-<p align="center">
-  每日成就 · 成就系统 · 效率追踪 · Token 监控
-</p>
+This structured approach replaces scattered feature lists with a cohesive AI-driven development process.
 
----
+### Efficient · 高效
 
-## 三大核心特性
+**Multi-Agent Parallel Execution**
 
-<table>
-<tr>
-<td align="center" width="33%">
+Multiple AI agents can drive multiple instances in parallel, transforming wait time into continuous throughput:
 
-**🧠 智能**<br>
-OpenSpec 工作流<br>
-<small>AI 编码效率 ↑300%</small>
+- **Claude Code**: Advanced code understanding and generation
+- **Codex**: GPT-powered code completion and editing
+- **Qwen · GLM**: Alternative AI provider with specialized capabilities
 
-</td>
-<td align="center" width="33%">
+Additional CLI integrations: GitHubCopilot, CodebuddyCli, OpenCodeCli, IFlowCli
 
-**⚡ 便捷**<br>
-多线程操作<br>
-<small>额度利用率 20%→100%</small>
+**Typical parallel scenarios:**
+- Proposal drafting and design proofreading
+- Feature implementation and regression fixes
+- Issue troubleshooting and copy optimization
 
-</td>
-<td align="center" width="33%">
+### Interesting · 有趣
 
-**🎮 有趣**<br>
-游戏化机制<br>
-<small>让编码不再枯燥</small>
+**Gamified Development Experience**
 
-</td>
-</tr>
-</table>
+- **Hero Dungeon**: Organizes workspaces like proposals, dungeon execution, and Prompt visualization into an intuitive adventure experience
+- **Team Formation**: Roles like `Spec Strategist`, `Patch Runner`, and `Prompt Artist` assume different responsibilities
+- **Hero Battle Reports**: Review daily execution results with XP, levels, and dungeon progress
+- **Daily Achievements**: Track your coding journey with achievement systems and efficiency metrics
 
 ---
 
-## 🚀 OpenSpec 工作流
+## Featured Projects
 
-💡 **IDEA** → 📄 **PROPOSAL** → 🔍 **REVIEW** → ⚙️ **TASKS** → 💻 **CODE** → 🧪 **TEST** → 🔧 **REFACTOR** → 📚 **DOCS** → ✅ **ARCHIVE**
-
----
-
-## 🔗 快速链接
-
-| 📖 完整文档 | 📐 产品概述 | 🚀 快速开始 | 🏗️ Builder | 💬 官网 | 💻 GitHub | 🗨️ Discord |
-|:-----------:|:-----------:|:-----------:|:----------:|:------:|:---------:|:-----------:|
-| [文档站点](https://docs.hagicode.com/) | [产品概述](https://docs.hagicode.com/product-overview) | [快速开始](https://docs.hagicode.com/quick-start/conversation-session) | [Builder](https://builder.hagicode.com/) | [hagicode.com](https://hagicode.com/) | [GitHub](https://github.com/Hagicode-org) | [Discord](https://discord.gg/qY662sJK) |
+- **[site](https://github.com/HagiCode-org/site)** - Official Astro-based website showcasing HagiCode features
+- **[desktop](https://github.com/HagiCode-org/desktop)** - Cross-platform desktop application (Windows/macOS/Linux)
+- **[container](https://github.com/HagiCode-org/container)** - Docker deployment for team and server environments
+- **[codex](https://github.com/HagiCode-org/codex)** - C# SDK for AI model integration
+- **[openspec-cli](https://github.com/HagiCode-org/openspec-cli)** - Command-line interface for OpenSpec workflow management
 
 ---
 
-## 📝 最新博客
+## Getting Started
+
+### Desktop Installation
+```bash
+# Download from official website
+https://hagicode.com/desktop
+
+# Supports: Windows / macOS / Linux
+```
+
+### Container Deployment
+```bash
+# View deployment guide
+https://hagicode.com/container
+
+# Features: Server deployment, data persistence, Docker Compose support
+```
+
+### Quick Documentation
+```bash
+# Product Overview
+https://docs.hagicode.com/product-overview
+
+# Quick Start Guide
+https://docs.hagicode.com/quick-start/conversation-session
+```
+
+---
+
+## Screenshots
 
 <!-- blog-posts-start -->
 | 日期 | 标题 |
@@ -137,14 +120,26 @@ OpenSpec 工作流<br>
 
 ---
 
-## 项目仓库
+## Video Demos
 
-<!-- repositories will be listed here automatically -->
+- [30 Minutes Daily with Hagi - AI Multi-task Programming in Action](https://www.bilibili.com/video/BV1pirZBuEzq/)
+- [AI Actually Games While Coding](https://www.bilibili.com/video/BV1KxwMzxEVK/)
+- [GPT Codex in Hagicode Real Test](https://www.bilibili.com/video/BV1yqPmzTEqP/)
+
+---
+
+## Community & Support
+
+- **Documentation**: [docs.hagicode.com](https://docs.hagicode.com)
+- **Blog**: [docs.hagicode.com/blog](https://docs.hagicode.com/blog)
+- **Issues**: [GitHub Issues](https://github.com/HagiCode-org/site/issues)
 
 ---
 
 <div align="center">
 
-Built with ❤️ and 🎮
+Built with ❤️ and 🎮 by the HagiCode Team
+
+[Official Website](https://hagicode.com) | [GitHub](https://github.com/HagiCode-org) | [Documentation](https://docs.hagicode.com) | [Blog](https://docs.hagicode.com/blog)
 
 </div>
