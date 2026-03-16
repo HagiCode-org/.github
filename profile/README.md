@@ -2,7 +2,7 @@
 
 <h1>Smart · Efficient · Interesting AI Coding Assistant</h1>
 
-<p>HagiCode - An AI coding assistant that transforms how developers write, test, and understand code through structured workflows, multi-agent parallelism, and gamified experiences.</p>
+<p>HagiCode turns ideas into shipped work with OpenSpec workflows, multi-agent parallel execution, and Hero Dungeon battle reports that keep AI coding visible, structured, and fun.</p>
 
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.25-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
@@ -18,7 +18,9 @@
 
 | 🌐 Official Website | 🖥️ Desktop | 🐳 Container | 📚 Documentation | 💬 Blog |
 |:------------------:|:-----------:|:------------:|:---------------:|:-------:|
-| [hagicode.com](https://hagicode.com) | [Download](https://hagicode.com/desktop) | [Deploy](https://hagicode.com/container) | [docs.hagicode.com](https://docs.hagicode.com) | [Blog](https://docs.hagicode.com/blog) |
+| [Start at hagicode.com](https://hagicode.com/) | [Download](https://hagicode.com/desktop/) | [Deploy](https://hagicode.com/container/) | [Product Overview](https://docs.hagicode.com/product-overview/) | [Blog](https://docs.hagicode.com/blog/) |
+
+Start with [hagicode.com](https://hagicode.com/) for the full product story, then choose the desktop, container, or documentation path that fits your workflow.
 
 ---
 
@@ -26,39 +28,22 @@
 
 ### Smart · 智能
 
-**OpenSpec 9-Stage Workflow**
-
-OpenSpec provides a structured workflow from `Idea` to `Archive`, helping teams connect requirement breakdown, review, implementation, and archiving:
-
-`Idea` → `Proposal` → `Review` → `Tasks` → `Implementation` → `Testing` → `Refactoring` → `Documentation` → `Archive`
-
-This structured approach replaces scattered feature lists with a cohesive AI-driven development process.
+- **OpenSpec keeps delivery structured** - OpenSpec gives teams a clear path from idea, proposal, and design to implementation, testing, and archive, so AI work stays reviewable instead of scattered.
 
 ### Efficient · 高效
 
-**Multi-Agent Parallel Execution**
-
-Multiple AI agents can drive multiple instances in parallel, transforming wait time into continuous throughput:
-
-- **Claude Code**: Advanced code understanding and generation
-- **Codex**: GPT-powered code completion and editing
-- **Qwen · GLM**: Alternative AI provider with specialized capabilities
-
-Additional CLI integrations: GitHubCopilot, CodebuddyCli, OpenCodeCli, IFlowCli
-
-**Typical parallel scenarios:**
-- Proposal drafting and design proofreading
-- Feature implementation and regression fixes
-- Issue troubleshooting and copy optimization
+- **Parallel agents keep work moving** - Claude Code, Codex, and other CLI agents can drive multiple agents and instances in parallel, so proposals, fixes, reviews, and support work move together instead of queueing behind one another.
 
 ### Interesting · 有趣
 
-**Gamified Development Experience**
+- **Hero Dungeon makes AI coding memorable** - Hero Dungeon rosters, battle reports, and visual workspaces make daily AI coding feel more like a coordinated adventure than a pile of disconnected chats.
 
-- **Hero Dungeon**: Organizes workspaces like proposals, dungeon execution, and Prompt visualization into an intuitive adventure experience
-- **Team Formation**: Roles like `Spec Strategist`, `Patch Runner`, and `Prompt Artist` assume different responsibilities
-- **Hero Battle Reports**: Review daily execution results with XP, levels, and dungeon progress
-- **Daily Achievements**: Track your coding journey with achievement systems and efficiency metrics
+## Why HagiCode
+
+- **Proposal-driven by default** - OpenSpec keeps scope, tasks, and archive history connected so AI work stays reviewable from first idea to final handoff. Explore the full workflow at [hagicode.com](https://hagicode.com/).
+- **Built for parallel throughput** - The product experience is designed around multi-agent workspaces, real-time execution visibility, and multiple streams moving at once across desktop and container deployments.
+- **Memorable to use** - Hero Dungeon and Hero Battle report surfaces add narrative, feedback, and momentum to team workflows instead of hiding progress inside plain logs.
+- **Private when you need it** - The desktop path emphasizes [100% local execution, code never uploaded](https://hagicode.com/desktop/), so teams can keep sensitive work on their own machines.
 
 ---
 
@@ -74,30 +59,13 @@ Additional CLI integrations: GitHubCopilot, CodebuddyCli, OpenCodeCli, IFlowCli
 
 ## Getting Started
 
-### Desktop Installation
-```bash
-# Download from official website
-https://hagicode.com/desktop
+Start with the official entry points:
 
-# Supports: Windows / macOS / Linux
-```
-
-### Container Deployment
-```bash
-# View deployment guide
-https://hagicode.com/container
-
-# Features: Server deployment, data persistence, Docker Compose support
-```
-
-### Quick Documentation
-```bash
-# Product Overview
-https://docs.hagicode.com/product-overview
-
-# Quick Start Guide
-https://docs.hagicode.com/quick-start/conversation-session
-```
+- [hagicode.com](https://hagicode.com/) for the full homepage experience and product overview
+- [Desktop](https://hagicode.com/desktop/) for the local app on Windows, macOS, and Linux
+- [Container](https://hagicode.com/container/) for the self-hosted deployment path
+- [Product Overview](https://docs.hagicode.com/product-overview/) for guided documentation
+- [Quick Start Guide](https://docs.hagicode.com/quick-start/conversation-session/) when you are ready to begin using the product
 
 ---
 
@@ -131,15 +99,20 @@ https://docs.hagicode.com/quick-start/conversation-session
 ## Community & Support
 
 - **Documentation**: [docs.hagicode.com](https://docs.hagicode.com)
-- **Blog**: [docs.hagicode.com/blog](https://docs.hagicode.com/blog)
+- **Blog**: [docs.hagicode.com/blog](https://docs.hagicode.com/blog/)
 - **Issues**: [GitHub Issues](https://github.com/HagiCode-org/site/issues)
 
 ---
 
 <div align="center">
 
+Ready to explore the full product story? Visit <a href="https://hagicode.com/">hagicode.com</a> and choose the desktop, container, or documentation path that fits your workflow.
+
+<br />
+<br />
+
 Built with ❤️ and 🎮 by the HagiCode Team
 
-[Official Website](https://hagicode.com) | [GitHub](https://github.com/HagiCode-org) | [Documentation](https://docs.hagicode.com) | [Blog](https://docs.hagicode.com/blog)
+[Official Website](https://hagicode.com/) | [GitHub](https://github.com/HagiCode-org) | [Documentation](https://docs.hagicode.com) | [Blog](https://docs.hagicode.com/blog/)
 
 </div>
