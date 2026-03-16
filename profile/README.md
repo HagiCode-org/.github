@@ -4,9 +4,9 @@
 
 <p>用 AI 重新定义代码开发体验</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.24-blue)
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.25-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.26-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.27-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
