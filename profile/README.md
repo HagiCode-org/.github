@@ -4,9 +4,9 @@
 
 <p>HagiCode turns ideas into shipped work with OpenSpec workflows, multi-agent parallel execution, and Hero Dungeon battle reports that keep AI coding visible, structured, and fun.</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.25-blue)
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.26-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.27-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.28-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -74,6 +74,7 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/3/16 | [如何用游戏化设计让 AI 编程变得更好玩](https://docs.hagicode.com/blog/2026-03-16-gamifying-ai-coding/) |
 | 2026/3/13 | [ImgBin CLI 工具设计：HagiCode 图片资产管理方案](https://docs.hagicode.com/blog/2026-03-13-imgbin-cli-tool-asset-management/) |
 | 2026/3/13 | [Primary profession management in hero settings](https://docs.hagicode.com/blog/2026-03-13-primary-profession-management/) |
 | 2026/3/12 | [C# 后端集成 CodeBuddy CLI 实战指南](https://docs.hagicode.com/blog/2026-03-11-csharp-codebuddy-cli-integration-guide/) |
@@ -83,7 +84,6 @@ Start with the official entry points:
 | 2026/3/7 | [从 TypeScript 到 C#：Codex SDK 的跨语言移植实践](https://docs.hagicode.com/blog/2026-03-07-codex-sdk-typescript-to-csharp-porting-guide/) |
 | 2026/3/6 | [豆包语音识别热词功能实现指南](https://docs.hagicode.com/blog/2026-03-06-doubao-speech-recognition-hotword-support/) |
 | 2026/3/5 | [解决浏览器 WebSocket 认证难题：豆包语音识别的代理方案实践](https://docs.hagicode.com/blog/2026-03-05-websocket-proxy-for-doubao-speech-recognition/) |
-| 2026/2/26 | [AI Compose Commit：用 AI 智能重构 Git 提交工作流](https://docs.hagicode.com/blog/2026-02-26-ai-compose-commit-implementation/) |
 <!-- blog-posts-end -->
 
 ---
