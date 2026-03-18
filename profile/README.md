@@ -4,9 +4,9 @@
 
 <p>HagiCode turns ideas into shipped work with OpenSpec workflows, multi-agent parallel execution, and Hero Dungeon battle reports that keep AI coding visible, structured, and fun.</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.26-blue)
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.28-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.28-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.29-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -74,16 +74,16 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/3/17 | [打造 AI 冒险团：HagiCode 多 Agent 协作配置实战](https://docs.hagicode.com/blog/2026-03-17-%E6%89%93%E9%80%A0-ai-%E5%86%92%E9%99%A9%E5%9B%A2-hagicode-%E5%A4%9A-agent-%E5%8D%8F%E4%BD%9C%E9%85%8D%E7%BD%AE%E5%AE%9E%E6%88%98/) |
+| 2026/3/17 | [打造 AI 冒险团：HagiCode 多 Agent 协作配置实战](https://docs.hagicode.com/blog/2026-03-17-hagicode-ai-agent-party/) |
 | 2026/3/16 | [如何用游戏化设计让 AI 编程变得更好玩](https://docs.hagicode.com/blog/2026-03-16-gamifying-ai-coding/) |
-| 2026/3/13 | [ImgBin CLI 工具设计：HagiCode 图片资产管理方案](https://docs.hagicode.com/blog/2026-03-13-imgbin-cli-tool-asset-management/) |
 | 2026/3/13 | [Primary profession management in hero settings](https://docs.hagicode.com/blog/2026-03-13-primary-profession-management/) |
+| 2026/3/13 | [ImgBin CLI 工具设计：HagiCode 图片资产管理方案](https://docs.hagicode.com/blog/2026-03-13-imgbin-cli-tool-asset-management/) |
 | 2026/3/12 | [C# 后端集成 CodeBuddy CLI 实战指南](https://docs.hagicode.com/blog/2026-03-11-csharp-codebuddy-cli-integration-guide/) |
 | 2026/3/11 | [HagiCode 平台的多 AI Provider 架构实践](https://docs.hagicode.com/blog/2026-03-10-hagicode-multi-ai-provider-architecture/) |
 | 2026/3/10 | [Codex SDK 控制台消息解析完全指南](https://docs.hagicode.com/blog/2026-03-09-codex-sdk-console-message-parsing/) |
 | 2026/3/9 | [Hagicode 多 AI 提供者切换与互操作实现方案](https://docs.hagicode.com/blog/2026-03-09-hagicode-multi-ai-provider-switching-interop/) |
 | 2026/3/7 | [从 TypeScript 到 C#：Codex SDK 的跨语言移植实践](https://docs.hagicode.com/blog/2026-03-07-codex-sdk-typescript-to-csharp-porting-guide/) |
-| 2026/3/6 | [豆包语音识别热词功能实现指南](https://docs.hagicode.com/blog/2026-03-06-doubao-speech-recognition-hotword-support/) |
-| 2026/3/5 | [解决浏览器 WebSocket 认证难题：豆包语音识别的代理方案实践](https://docs.hagicode.com/blog/2026-03-05-websocket-proxy-for-doubao-speech-recognition/) |
 <!-- blog-posts-end -->
 
 ---
