@@ -74,16 +74,16 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
-| 2026/3/17 | [打造 AI 冒险团：HagiCode 多 Agent 协作配置实战](https://docs.hagicode.com/blog/2026-03-17-%E6%89%93%E9%80%A0-ai-%E5%86%92%E9%99%A9%E5%9B%A2-hagicode-%E5%A4%9A-agent-%E5%8D%8F%E4%BD%9C%E9%85%8D%E7%BD%AE%E5%AE%9E%E6%88%98/) |
+| 2026/3/18 | [.NET 代码保护实战：从混淆到虚拟机保护](https://docs.hagicode.com/blog/2026-03-18-dotnet-code-protection-obfuscation-to-vmprotect/) |
 | 2026/3/17 | [打造 AI 冒险团：HagiCode 多 Agent 协作配置实战](https://docs.hagicode.com/blog/2026-03-17-hagicode-ai-agent-party/) |
+| 2026/3/17 | [打造 AI 冒险团：HagiCode 多 Agent 协作配置实战](https://docs.hagicode.com/blog/2026-03-17-%E6%89%93%E9%80%A0-ai-%E5%86%92%E9%99%A9%E5%9B%A2-hagicode-%E5%A4%9A-agent-%E5%8D%8F%E4%BD%9C%E9%85%8D%E7%BD%AE%E5%AE%9E%E6%88%98/) |
 | 2026/3/16 | [如何用游戏化设计让 AI 编程变得更好玩](https://docs.hagicode.com/blog/2026-03-16-gamifying-ai-coding/) |
-| 2026/3/13 | [Primary profession management in hero settings](https://docs.hagicode.com/blog/2026-03-13-primary-profession-management/) |
 | 2026/3/13 | [ImgBin CLI 工具设计：HagiCode 图片资产管理方案](https://docs.hagicode.com/blog/2026-03-13-imgbin-cli-tool-asset-management/) |
+| 2026/3/13 | [Primary profession management in hero settings](https://docs.hagicode.com/blog/2026-03-13-primary-profession-management/) |
 | 2026/3/12 | [C# 后端集成 CodeBuddy CLI 实战指南](https://docs.hagicode.com/blog/2026-03-11-csharp-codebuddy-cli-integration-guide/) |
 | 2026/3/11 | [HagiCode 平台的多 AI Provider 架构实践](https://docs.hagicode.com/blog/2026-03-10-hagicode-multi-ai-provider-architecture/) |
 | 2026/3/10 | [Codex SDK 控制台消息解析完全指南](https://docs.hagicode.com/blog/2026-03-09-codex-sdk-console-message-parsing/) |
 | 2026/3/9 | [Hagicode 多 AI 提供者切换与互操作实现方案](https://docs.hagicode.com/blog/2026-03-09-hagicode-multi-ai-provider-switching-interop/) |
-| 2026/3/7 | [从 TypeScript 到 C#：Codex SDK 的跨语言移植实践](https://docs.hagicode.com/blog/2026-03-07-codex-sdk-typescript-to-csharp-porting-guide/) |
 <!-- blog-posts-end -->
 
 ---
