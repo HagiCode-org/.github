@@ -4,9 +4,9 @@
 
 <p>HagiCode turns ideas into shipped work with OpenSpec workflows, multi-agent parallel execution, and Hero Dungeon battle reports that keep AI coding visible, structured, and fun.</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.28-blue)
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.30-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.29-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.31-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -74,6 +74,7 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/3/19 | [HagiCode 为什么选择 Hermes 作为综合 Agent 核心](https://docs.hagicode.com/blog/2026-03-19-hagicode-hermes-agent-core/) |
 | 2026/3/18 | [.NET 代码保护实战：从混淆到虚拟机保护](https://docs.hagicode.com/blog/2026-03-18-dotnet-code-protection-obfuscation-to-vmprotect/) |
 | 2026/3/17 | [打造 AI 冒险团：HagiCode 多 Agent 协作配置实战](https://docs.hagicode.com/blog/2026-03-17-hagicode-ai-agent-party/) |
 | 2026/3/17 | [打造 AI 冒险团：HagiCode 多 Agent 协作配置实战](https://docs.hagicode.com/blog/2026-03-17-%E6%89%93%E9%80%A0-ai-%E5%86%92%E9%99%A9%E5%9B%A2-hagicode-%E5%A4%9A-agent-%E5%8D%8F%E4%BD%9C%E9%85%8D%E7%BD%AE%E5%AE%9E%E6%88%98/) |
@@ -83,7 +84,6 @@ Start with the official entry points:
 | 2026/3/12 | [C# 后端集成 CodeBuddy CLI 实战指南](https://docs.hagicode.com/blog/2026-03-11-csharp-codebuddy-cli-integration-guide/) |
 | 2026/3/11 | [HagiCode 平台的多 AI Provider 架构实践](https://docs.hagicode.com/blog/2026-03-10-hagicode-multi-ai-provider-architecture/) |
 | 2026/3/10 | [Codex SDK 控制台消息解析完全指南](https://docs.hagicode.com/blog/2026-03-09-codex-sdk-console-message-parsing/) |
-| 2026/3/9 | [Hagicode 多 AI 提供者切换与互操作实现方案](https://docs.hagicode.com/blog/2026-03-09-hagicode-multi-ai-provider-switching-interop/) |
 <!-- blog-posts-end -->
 
 ---
