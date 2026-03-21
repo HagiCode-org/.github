@@ -74,6 +74,7 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/3/20 | [Hagicode.Libs：统一集成多个 AI 编程助手 CLI 的工程实践](https://docs.hagicode.com/blog/2026-03-20-hagicode-libs-unified-cli-integration/) |
 | 2026/3/19 | [HagiCode 为什么选择 Hermes 作为综合 Agent 核心](https://docs.hagicode.com/blog/2026-03-19-hagicode-hermes-agent-core/) |
 | 2026/3/18 | [.NET 代码保护实战：从混淆到虚拟机保护](https://docs.hagicode.com/blog/2026-03-18-dotnet-code-protection-obfuscation-to-vmprotect/) |
 | 2026/3/17 | [打造 AI 冒险团：HagiCode 多 Agent 协作配置实战](https://docs.hagicode.com/blog/2026-03-17-hagicode-ai-agent-party/) |
@@ -83,7 +84,6 @@ Start with the official entry points:
 | 2026/3/13 | [Primary profession management in hero settings](https://docs.hagicode.com/blog/2026-03-13-primary-profession-management/) |
 | 2026/3/12 | [C# 后端集成 CodeBuddy CLI 实战指南](https://docs.hagicode.com/blog/2026-03-11-csharp-codebuddy-cli-integration-guide/) |
 | 2026/3/11 | [HagiCode 平台的多 AI Provider 架构实践](https://docs.hagicode.com/blog/2026-03-10-hagicode-multi-ai-provider-architecture/) |
-| 2026/3/10 | [Codex SDK 控制台消息解析完全指南](https://docs.hagicode.com/blog/2026-03-09-codex-sdk-console-message-parsing/) |
 <!-- blog-posts-end -->
 
 ---
