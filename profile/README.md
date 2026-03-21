@@ -101,6 +101,7 @@ Start with the official entry points:
 - **Documentation**: [docs.hagicode.com](https://docs.hagicode.com)
 - **Blog**: [docs.hagicode.com/blog](https://docs.hagicode.com/blog/)
 - **Issues**: [GitHub Issues](https://github.com/HagiCode-org/site/issues)
+- **AI Replacement Calculator**: [cost.hagicode.com](https://cost.hagicode.com) — 算一算，AI会不会淘汰我
 
 ---
 
