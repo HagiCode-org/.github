@@ -6,7 +6,7 @@
 
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.31-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.32-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.33-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -74,6 +74,7 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/3/22 | [我好像会被 Agent 淘汰，我用数据算了一算](https://docs.hagicode.com/blog/2026-03-22-ai-productivity-calculator-science/) |
 | 2026/3/20 | [Hagicode.Libs：统一集成多个 AI 编程助手 CLI 的工程实践](https://docs.hagicode.com/blog/2026-03-20-hagicode-libs-unified-cli-integration/) |
 | 2026/3/19 | [HagiCode 为什么选择 Hermes 作为综合 Agent 核心](https://docs.hagicode.com/blog/2026-03-19-hagicode-hermes-agent-core/) |
 | 2026/3/18 | [.NET 代码保护实战：从混淆到虚拟机保护](https://docs.hagicode.com/blog/2026-03-18-dotnet-code-protection-obfuscation-to-vmprotect/) |
@@ -83,7 +84,6 @@ Start with the official entry points:
 | 2026/3/13 | [ImgBin CLI 工具设计：HagiCode 图片资产管理方案](https://docs.hagicode.com/blog/2026-03-13-imgbin-cli-tool-asset-management/) |
 | 2026/3/13 | [Primary profession management in hero settings](https://docs.hagicode.com/blog/2026-03-13-primary-profession-management/) |
 | 2026/3/12 | [C# 后端集成 CodeBuddy CLI 实战指南](https://docs.hagicode.com/blog/2026-03-11-csharp-codebuddy-cli-integration-guide/) |
-| 2026/3/11 | [HagiCode 平台的多 AI Provider 架构实践](https://docs.hagicode.com/blog/2026-03-10-hagicode-multi-ai-provider-architecture/) |
 <!-- blog-posts-end -->
 
 ---
