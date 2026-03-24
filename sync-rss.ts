@@ -86,8 +86,8 @@ interface BadgeConfig {
 const RSS_URL = 'https://docs.hagicode.com/blog/rss.xml';
 const README_PATH = path.join(__dirname, 'profile', 'README.md');
 const MAX_POSTS = 10;
-const DESKTOP_INDEX_URL = 'https://desktop.dl.hagicode.com/index.json';
-const SERVER_INDEX_URL = 'https://server.dl.hagicode.com/index.json';
+const DESKTOP_INDEX_URL = 'https://index.hagicode.com/desktop/index.json';
+const SERVER_INDEX_URL = 'https://index.hagicode.com/server/index.json';
 
 /**
  * Badge configurations for different product-channel combinations
