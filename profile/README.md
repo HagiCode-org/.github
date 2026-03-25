@@ -74,6 +74,7 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/3/24 | [HagiCode Skill 系统技术解析：如何打造可扩展的 AI 技能管理平台](https://docs.hagicode.com/blog/2026-03-24-hagicode-skill-system-technical-analysis/) |
 | 2026/3/22 | [我好像会被 Agent 淘汰，我用数据算了一算](https://docs.hagicode.com/blog/2026-03-22-ai-productivity-calculator-science/) |
 | 2026/3/20 | [Hagicode.Libs：统一集成多个 AI 编程助手 CLI 的工程实践](https://docs.hagicode.com/blog/2026-03-20-hagicode-libs-unified-cli-integration/) |
 | 2026/3/19 | [HagiCode 为什么选择 Hermes 作为综合 Agent 核心](https://docs.hagicode.com/blog/2026-03-19-hagicode-hermes-agent-core/) |
@@ -83,7 +84,6 @@ Start with the official entry points:
 | 2026/3/16 | [如何用游戏化设计让 AI 编程变得更好玩](https://docs.hagicode.com/blog/2026-03-16-gamifying-ai-coding/) |
 | 2026/3/13 | [ImgBin CLI 工具设计：HagiCode 图片资产管理方案](https://docs.hagicode.com/blog/2026-03-13-imgbin-cli-tool-asset-management/) |
 | 2026/3/13 | [Primary profession management in hero settings](https://docs.hagicode.com/blog/2026-03-13-primary-profession-management/) |
-| 2026/3/12 | [C# 后端集成 CodeBuddy CLI 实战指南](https://docs.hagicode.com/blog/2026-03-11-csharp-codebuddy-cli-integration-guide/) |
 <!-- blog-posts-end -->
 
 ---
