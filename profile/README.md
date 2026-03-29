@@ -4,9 +4,9 @@
 
 <p>HagiCode turns ideas into shipped work with OpenSpec workflows, multi-agent parallel execution, and Hero Dungeon battle reports that keep AI coding visible, structured, and fun.</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.33-blue)
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.34-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.34-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.35-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -74,6 +74,7 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/3/28 | [Hagicode 联合 GLM-5.1 多 CLI 集成指南](https://docs.hagicode.com/blog/2026-03-28-hagicode-glm5-1-multi-cli-integration/) |
 | 2026/3/27 | [HagiCode Desktop 混合分发架构解析：如何用 P2P 加速大文件下载](https://docs.hagicode.com/blog/2026-03-27-hagicode-desktop-p2p-acceleration-architecture/) |
 | 2026/3/26 | [Docker 容器中运行 AI CLI 工具：用户隔离与持久化卷实战指南](https://docs.hagicode.com/blog/2026-03-26-docker-ai-cli-user-isolation-guide/) |
 | 2026/3/25 | [HagiCode Soul 平台技术解析：从需求萌发到独立平台的演进之路](https://docs.hagicode.com/blog/2026-03-25-hagicode-soul-platform-technical-analysis/) |
@@ -83,7 +84,6 @@ Start with the official entry points:
 | 2026/3/19 | [HagiCode 为什么选择 Hermes 作为综合 Agent 核心](https://docs.hagicode.com/blog/2026-03-19-hagicode-hermes-agent-core/) |
 | 2026/3/18 | [.NET 代码保护实战：从混淆到虚拟机保护](https://docs.hagicode.com/blog/2026-03-18-dotnet-code-protection-obfuscation-to-vmprotect/) |
 | 2026/3/17 | [打造 AI 冒险团：HagiCode 多 Agent 协作配置实战](https://docs.hagicode.com/blog/2026-03-17-hagicode-ai-agent-party/) |
-| 2026/3/17 | [打造 AI 冒险团：HagiCode 多 Agent 协作配置实战](https://docs.hagicode.com/blog/2026-03-17-%E6%89%93%E9%80%A0-ai-%E5%86%92%E9%99%A9%E5%9B%A2-hagicode-%E5%A4%9A-agent-%E5%8D%8F%E4%BD%9C%E9%85%8D%E7%BD%AE%E5%AE%9E%E6%88%98/) |
 <!-- blog-posts-end -->
 
 ---
