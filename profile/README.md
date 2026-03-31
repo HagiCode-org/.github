@@ -74,6 +74,7 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/3/31 | [打字不如说话，说话不如截图——AI 代码助手的多模态输入实践](https://docs.hagicode.com/blog/2026-03-31-voice-and-image-upload-multimodal-input/) |
 | 2026/3/30 | [GLM-5.1 全面支持与 Gemini CLI 集成：HagiCode 的多模型进化之路](https://docs.hagicode.com/blog/2026-03-30-hagicode-glm-5-1-gemini-cli-update/) |
 | 2026/3/28 | [Hagicode 联合 GLM-5.1 多 CLI 集成指南](https://docs.hagicode.com/blog/2026-03-28-hagicode-glm5-1-multi-cli-integration/) |
 | 2026/3/27 | [HagiCode Desktop 混合分发架构解析：如何用 P2P 加速大文件下载](https://docs.hagicode.com/blog/2026-03-27-hagicode-desktop-p2p-acceleration-architecture/) |
@@ -83,7 +84,6 @@ Start with the official entry points:
 | 2026/3/22 | [我好像会被 Agent 淘汰，我用数据算了一算](https://docs.hagicode.com/blog/2026-03-22-ai-productivity-calculator-science/) |
 | 2026/3/20 | [Hagicode.Libs：统一集成多个 AI 编程助手 CLI 的工程实践](https://docs.hagicode.com/blog/2026-03-20-hagicode-libs-unified-cli-integration/) |
 | 2026/3/19 | [HagiCode 为什么选择 Hermes 作为综合 Agent 核心](https://docs.hagicode.com/blog/2026-03-19-hagicode-hermes-agent-core/) |
-| 2026/3/18 | [.NET 代码保护实战：从混淆到虚拟机保护](https://docs.hagicode.com/blog/2026-03-18-dotnet-code-protection-obfuscation-to-vmprotect/) |
 <!-- blog-posts-end -->
 
 ---
