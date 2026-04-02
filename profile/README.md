@@ -6,7 +6,7 @@
 
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.34-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.37-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.38-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -74,6 +74,7 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/4/1 | [在 React 项目中优雅实现新用户引导：HagiCode 的 driver.js 实践](https://docs.hagicode.com/blog/2026-04-01-new-user-guide-with-driverjs/) |
 | 2026/3/31 | [打字不如说话，说话不如截图——AI 代码助手的多模态输入实践](https://docs.hagicode.com/blog/2026-03-31-voice-and-image-upload-multimodal-input/) |
 | 2026/3/30 | [GLM-5.1 全面支持与 Gemini CLI 集成：HagiCode 的多模型进化之路](https://docs.hagicode.com/blog/2026-03-30-hagicode-glm-5-1-gemini-cli-update/) |
 | 2026/3/28 | [Hagicode 联合 GLM-5.1 多 CLI 集成指南](https://docs.hagicode.com/blog/2026-03-28-hagicode-glm5-1-multi-cli-integration/) |
@@ -83,7 +84,6 @@ Start with the official entry points:
 | 2026/3/24 | [HagiCode Skill 系统技术解析：如何打造可扩展的 AI 技能管理平台](https://docs.hagicode.com/blog/2026-03-24-hagicode-skill-system-technical-analysis/) |
 | 2026/3/22 | [我好像会被 Agent 淘汰，我用数据算了一算](https://docs.hagicode.com/blog/2026-03-22-ai-productivity-calculator-science/) |
 | 2026/3/20 | [Hagicode.Libs：统一集成多个 AI 编程助手 CLI 的工程实践](https://docs.hagicode.com/blog/2026-03-20-hagicode-libs-unified-cli-integration/) |
-| 2026/3/19 | [HagiCode 为什么选择 Hermes 作为综合 Agent 核心](https://docs.hagicode.com/blog/2026-03-19-hagicode-hermes-agent-core/) |
 <!-- blog-posts-end -->
 
 ---
