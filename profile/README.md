@@ -74,6 +74,7 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/4/2 | [AI 编程助手的幻觉问题：如何用 OpenSpec 实现规范驱动开发](https://docs.hagicode.com/blog/2026-04-02-ai-coding-assistant-hallucination-openspec-spec-driven-development/) |
 | 2026/4/1 | [在 React 项目中优雅实现新用户引导：HagiCode 的 driver.js 实践](https://docs.hagicode.com/blog/2026-04-01-new-user-guide-with-driverjs/) |
 | 2026/3/31 | [打字不如说话，说话不如截图——AI 代码助手的多模态输入实践](https://docs.hagicode.com/blog/2026-03-31-voice-and-image-upload-multimodal-input/) |
 | 2026/3/30 | [GLM-5.1 全面支持与 Gemini CLI 集成：HagiCode 的多模型进化之路](https://docs.hagicode.com/blog/2026-03-30-hagicode-glm-5-1-gemini-cli-update/) |
@@ -83,7 +84,6 @@ Start with the official entry points:
 | 2026/3/25 | [HagiCode Soul 平台技术解析：从需求萌发到独立平台的演进之路](https://docs.hagicode.com/blog/2026-03-25-hagicode-soul-platform-technical-analysis/) |
 | 2026/3/24 | [HagiCode Skill 系统技术解析：如何打造可扩展的 AI 技能管理平台](https://docs.hagicode.com/blog/2026-03-24-hagicode-skill-system-technical-analysis/) |
 | 2026/3/22 | [我好像会被 Agent 淘汰，我用数据算了一算](https://docs.hagicode.com/blog/2026-03-22-ai-productivity-calculator-science/) |
-| 2026/3/20 | [Hagicode.Libs：统一集成多个 AI 编程助手 CLI 的工程实践](https://docs.hagicode.com/blog/2026-03-20-hagicode-libs-unified-cli-integration/) |
 <!-- blog-posts-end -->
 
 ---
