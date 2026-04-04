@@ -4,9 +4,9 @@
 
 <p>HagiCode turns ideas into shipped work with OpenSpec workflows, multi-agent parallel execution, and Hero Dungeon battle reports that keep AI coding visible, structured, and fun.</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.34-blue)
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.35-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.38-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.39-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -74,6 +74,7 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/4/3 | [从 CLI 调用到 SDK 集成：GitHub Copilot 在 .NET 项目中的最佳实践](https://docs.hagicode.com/blog/2026-04-03-github-copilot-sdk-integration/) |
 | 2026/4/2 | [AI 编程助手的幻觉问题：如何用 OpenSpec 实现规范驱动开发](https://docs.hagicode.com/blog/2026-04-02-ai-coding-assistant-hallucination-openspec-spec-driven-development/) |
 | 2026/4/1 | [在 React 项目中优雅实现新用户引导：HagiCode 的 driver.js 实践](https://docs.hagicode.com/blog/2026-04-01-new-user-guide-with-driverjs/) |
 | 2026/3/31 | [打字不如说话，说话不如截图——AI 代码助手的多模态输入实践](https://docs.hagicode.com/blog/2026-03-31-voice-and-image-upload-multimodal-input/) |
@@ -83,7 +84,6 @@ Start with the official entry points:
 | 2026/3/26 | [Docker 容器中运行 AI CLI 工具：用户隔离与持久化卷实战指南](https://docs.hagicode.com/blog/2026-03-26-docker-ai-cli-user-isolation-guide/) |
 | 2026/3/25 | [HagiCode Soul 平台技术解析：从需求萌发到独立平台的演进之路](https://docs.hagicode.com/blog/2026-03-25-hagicode-soul-platform-technical-analysis/) |
 | 2026/3/24 | [HagiCode Skill 系统技术解析：如何打造可扩展的 AI 技能管理平台](https://docs.hagicode.com/blog/2026-03-24-hagicode-skill-system-technical-analysis/) |
-| 2026/3/22 | [我好像会被 Agent 淘汰，我用数据算了一算](https://docs.hagicode.com/blog/2026-03-22-ai-productivity-calculator-science/) |
 <!-- blog-posts-end -->
 
 ---
