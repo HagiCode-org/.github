@@ -74,6 +74,8 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/4/6 | [AI时代如何临摹项目：Vault跨项目持久化存储系统](https://docs.hagicode.com/blog/2026-04-06-vault-persistent-storage-for-ai-era/) |
+| 2026/4/5 | [渐进式披露：如何用少即是多的理念改进 AI 产品的人机交互](https://docs.hagicode.com/blog/2026-04-05-progressive-disclosure-hci/) |
 | 2026/4/4 | [AI 输出 Token 优化：文言文极简模式的实践](https://docs.hagicode.com/blog/2026-04-04-soul-token-optimization-classical-chinese/) |
 | 2026/4/3 | [从 CLI 调用到 SDK 集成：GitHub Copilot 在 .NET 项目中的最佳实践](https://docs.hagicode.com/blog/2026-04-03-github-copilot-sdk-integration/) |
 | 2026/4/2 | [AI 编程助手的幻觉问题：如何用 OpenSpec 实现规范驱动开发](https://docs.hagicode.com/blog/2026-04-02-ai-coding-assistant-hallucination-openspec-spec-driven-development/) |
@@ -82,8 +84,6 @@ Start with the official entry points:
 | 2026/3/30 | [GLM-5.1 全面支持与 Gemini CLI 集成：HagiCode 的多模型进化之路](https://docs.hagicode.com/blog/2026-03-30-hagicode-glm-5-1-gemini-cli-update/) |
 | 2026/3/28 | [Hagicode 联合 GLM-5.1 多 CLI 集成指南](https://docs.hagicode.com/blog/2026-03-28-hagicode-glm5-1-multi-cli-integration/) |
 | 2026/3/27 | [HagiCode Desktop 混合分发架构解析：如何用 P2P 加速大文件下载](https://docs.hagicode.com/blog/2026-03-27-hagicode-desktop-p2p-acceleration-architecture/) |
-| 2026/3/26 | [Docker 容器中运行 AI CLI 工具：用户隔离与持久化卷实战指南](https://docs.hagicode.com/blog/2026-03-26-docker-ai-cli-user-isolation-guide/) |
-| 2026/3/25 | [HagiCode Soul 平台技术解析：从需求萌发到独立平台的演进之路](https://docs.hagicode.com/blog/2026-03-25-hagicode-soul-platform-technical-analysis/) |
 <!-- blog-posts-end -->
 
 ---
