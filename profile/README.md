@@ -6,7 +6,7 @@
 
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.37-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.41-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.42-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -74,6 +74,7 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/4/9 | [在 Web 界面直接编辑 DESIGN.md：从思路到实现](https://docs.hagicode.com/blog/2026-04-09-design-md-web-editor-implementation/) |
 | 2026/4/8 | [Design.md：让 AI 一致性进行前端 UI 设计的解决方案](https://docs.hagicode.com/blog/2026-04-08-design-md-consistent-ui/) |
 | 2026/4/7 | [为什么使用 Skillsbase 维护自己的 Skills 收藏仓库](https://docs.hagicode.com/blog/2026-04-07-why-use-skillsbase-for-skills-repository/) |
 | 2026/4/6 | [AI时代如何临摹项目：Vault跨项目持久化存储系统](https://docs.hagicode.com/blog/2026-04-06-vault-persistent-storage-for-ai-era/) |
@@ -83,7 +84,6 @@ Start with the official entry points:
 | 2026/4/2 | [AI 编程助手的幻觉问题：如何用 OpenSpec 实现规范驱动开发](https://docs.hagicode.com/blog/2026-04-02-ai-coding-assistant-hallucination-openspec-spec-driven-development/) |
 | 2026/4/1 | [在 React 项目中优雅实现新用户引导：HagiCode 的 driver.js 实践](https://docs.hagicode.com/blog/2026-04-01-new-user-guide-with-driverjs/) |
 | 2026/3/31 | [打字不如说话，说话不如截图——AI 代码助手的多模态输入实践](https://docs.hagicode.com/blog/2026-03-31-voice-and-image-upload-multimodal-input/) |
-| 2026/3/30 | [GLM-5.1 全面支持与 Gemini CLI 集成：HagiCode 的多模型进化之路](https://docs.hagicode.com/blog/2026-03-30-hagicode-glm-5-1-gemini-cli-update/) |
 <!-- blog-posts-end -->
 
 ---
