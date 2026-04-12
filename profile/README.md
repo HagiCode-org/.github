@@ -4,9 +4,9 @@
 
 <p>HagiCode turns ideas into shipped work with OpenSpec workflows, multi-agent parallel execution, and Hero Dungeon battle reports that keep AI coding visible, structured, and fun.</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.37-blue)
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.38-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.43-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.44-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -74,6 +74,7 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/4/11 | [边框灯光环绕动画特效实现指南](https://docs.hagicode.com/blog/2026-04-11-border-light-animation-effect/) |
 | 2026/4/10 | [用 Vault 系统构建 AI 时代的跨项目知识库](https://docs.hagicode.com/blog/2026-04-10-vault-system-ai-knowledge-base/) |
 | 2026/4/9 | [在 Web 界面直接编辑 DESIGN.md：从思路到实现](https://docs.hagicode.com/blog/2026-04-09-design-md-web-editor-implementation/) |
 | 2026/4/8 | [Design.md：让 AI 一致性进行前端 UI 设计的解决方案](https://docs.hagicode.com/blog/2026-04-08-design-md-consistent-ui/) |
@@ -83,7 +84,6 @@ Start with the official entry points:
 | 2026/4/4 | [AI 输出 Token 优化：文言文极简模式的实践](https://docs.hagicode.com/blog/2026-04-04-soul-token-optimization-classical-chinese/) |
 | 2026/4/3 | [从 CLI 调用到 SDK 集成：GitHub Copilot 在 .NET 项目中的最佳实践](https://docs.hagicode.com/blog/2026-04-03-github-copilot-sdk-integration/) |
 | 2026/4/2 | [AI 编程助手的幻觉问题：如何用 OpenSpec 实现规范驱动开发](https://docs.hagicode.com/blog/2026-04-02-ai-coding-assistant-hallucination-openspec-spec-driven-development/) |
-| 2026/4/1 | [在 React 项目中优雅实现新用户引导：HagiCode 的 driver.js 实践](https://docs.hagicode.com/blog/2026-04-01-new-user-guide-with-driverjs/) |
 <!-- blog-posts-end -->
 
 ---
