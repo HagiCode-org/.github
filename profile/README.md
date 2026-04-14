@@ -4,9 +4,9 @@
 
 <p>HagiCode turns ideas into shipped work with OpenSpec workflows, multi-agent parallel execution, and Hero Dungeon battle reports that keep AI coding visible, structured, and fun.</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.39-blue)
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.40-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.45-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.46-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -74,6 +74,9 @@ Start with the official entry points:
 <!-- blog-posts-start -->
 | 日期 | 标题 |
 |------|------|
+| 2026/4/13 | [如何安装和使用 Hermes：从本地 CLI 到 Feishu 接入快速上手](https://docs.hagicode.com/blog/2026-04-13-how-to-install-and-use-hermes/) |
+| 2026/4/13 | [VSCode 与 code-server：浏览器端代码编辑方案选型](https://docs.hagicode.com/blog/2026-04-13-vscode-web-integration-browser-editing/) |
+| 2026/4/12 | [在浏览器中快速编辑代码：VSCode Web 集成实践](https://docs.hagicode.com/blog/2026-04-12-vscode-web-integration-browser-editing/) |
 | 2026/4/11 | [边框灯光环绕动画特效实现指南](https://docs.hagicode.com/blog/2026-04-11-border-light-animation-effect/) |
 | 2026/4/10 | [用 Vault 系统构建 AI 时代的跨项目知识库](https://docs.hagicode.com/blog/2026-04-10-vault-system-ai-knowledge-base/) |
 | 2026/4/9 | [在 Web 界面直接编辑 DESIGN.md：从思路到实现](https://docs.hagicode.com/blog/2026-04-09-design-md-web-editor-implementation/) |
@@ -81,9 +84,6 @@ Start with the official entry points:
 | 2026/4/7 | [为什么使用 Skillsbase 维护自己的 Skills 收藏仓库](https://docs.hagicode.com/blog/2026-04-07-why-use-skillsbase-for-skills-repository/) |
 | 2026/4/6 | [AI时代如何临摹项目：Vault跨项目持久化存储系统](https://docs.hagicode.com/blog/2026-04-06-vault-persistent-storage-for-ai-era/) |
 | 2026/4/5 | [渐进式披露：如何用少即是多的理念改进 AI 产品的人机交互](https://docs.hagicode.com/blog/2026-04-05-progressive-disclosure-hci/) |
-| 2026/4/4 | [AI 输出 Token 优化：文言文极简模式的实践](https://docs.hagicode.com/blog/2026-04-04-soul-token-optimization-classical-chinese/) |
-| 2026/4/3 | [从 CLI 调用到 SDK 集成：GitHub Copilot 在 .NET 项目中的最佳实践](https://docs.hagicode.com/blog/2026-04-03-github-copilot-sdk-integration/) |
-| 2026/4/2 | [AI 编程助手的幻觉问题：如何用 OpenSpec 实现规范驱动开发](https://docs.hagicode.com/blog/2026-04-02-ai-coding-assistant-hallucination-openspec-spec-driven-development/) |
 <!-- blog-posts-end -->
 
 ---
