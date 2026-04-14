@@ -1,14 +1,16 @@
 <div align="center">
 
-<h1>Smart · Efficient · Interesting AI Coding Assistant</h1>
+<h1>Smart · Efficient · Fun AI Coding Assistant</h1>
 
-<p>HagiCode turns ideas into shipped work with OpenSpec workflows, multi-agent parallel execution, and Hero Dungeon battle reports that keep AI coding visible, structured, and fun.</p>
+<p>HagiCode redefines AI coding with OpenSpec workflows, multi-agent multi-instance execution, and Hero Dungeon gameplay. It turns scattered prompts into a structured flow from idea and proposal to implementation, review, and archive.</p>
+
+<p>Choose Desktop for 100% local execution and code privacy, or Container for self-hosted team deployment with the same proposal-driven workflow.</p>
 
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.40-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
 ![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.46-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Agent CLI](https://img.shields.io/badge/Agent%20CLI-11%20supported-1f6feb)
 
 </div>
 
@@ -20,7 +22,7 @@
 |:------------------:|:-----------:|:------------:|:---------------:|:-------:|
 | [Start at hagicode.com](https://hagicode.com/) | [Download](https://hagicode.com/desktop/) | [Deploy](https://hagicode.com/container/) | [Product Overview](https://docs.hagicode.com/product-overview/) | [Blog](https://docs.hagicode.com/blog/) |
 
-Start with [hagicode.com](https://hagicode.com/) for the full product story, then choose the desktop, container, or documentation path that fits your workflow.
+Start with [hagicode.com](https://hagicode.com/) for the full product story, then choose Desktop for local use, Container for deployment, or Docs for step-by-step onboarding.
 
 ---
 
@@ -28,22 +30,22 @@ Start with [hagicode.com](https://hagicode.com/) for the full product story, the
 
 ### Smart · 智能
 
-- **OpenSpec keeps delivery structured** - OpenSpec gives teams a clear path from idea, proposal, and design to implementation, testing, and archive, so AI work stays reviewable instead of scattered.
+- **OpenSpec keeps delivery structured** - The 9-stage workflow connects idea, proposal, review, tasks, code, test, docs, and archive so AI work stays reviewable instead of drifting across chats.
 
 ### Efficient · 高效
 
-- **Parallel agents keep work moving** - Claude Code, Codex, and other CLI agents can drive multiple agents and instances in parallel, so proposals, fixes, reviews, and support work move together instead of queueing behind one another.
+- **Parallel agents keep work moving** - Claude Code, Codex, GitHub Copilot, OpenCode, Hermes, and other supported Agent CLIs can drive multiple instances at once, so proposals, fixes, and reviews move in parallel instead of waiting in a serial queue.
 
-### Interesting · 有趣
+### Fun · 有趣
 
-- **Hero Dungeon makes AI coding memorable** - Hero Dungeon rosters, battle reports, and visual workspaces make daily AI coding feel more like a coordinated adventure than a pile of disconnected chats.
+- **Hero Dungeon makes AI coding memorable** - Hero Dungeon, captain rosters, prompt visuals, and battle reports turn daily AI coding into a coordinated adventure without hiding the real execution data.
 
 ## Why HagiCode
 
-- **Proposal-driven by default** - OpenSpec keeps scope, tasks, and archive history connected so AI work stays reviewable from first idea to final handoff. Explore the full workflow at [hagicode.com](https://hagicode.com/).
-- **Built for parallel throughput** - The product experience is designed around multi-agent workspaces, real-time execution visibility, and multiple streams moving at once across desktop and container deployments.
-- **Memorable to use** - Hero Dungeon and Hero Battle report surfaces add narrative, feedback, and momentum to team workflows instead of hiding progress inside plain logs.
-- **Private when you need it** - The desktop path emphasizes [100% local execution, code never uploaded](https://hagicode.com/desktop/), so teams can keep sensitive work on their own machines.
+- **Workflow first** - OpenSpec keeps scope, tasks, execution, and archive history connected from the first idea to the final handoff.
+- **Built for parallel throughput** - Multi-agent workspaces and multi-instance execution turn waiting time into visible throughput across drafting, implementation, and review.
+- **Private when you need it** - The desktop path emphasizes [100% local execution and code never uploaded](https://hagicode.com/desktop/), so sensitive work can stay on your own machine.
+- **Deploy your way** - Use Desktop for personal local workflows or Container for self-hosted team environments without changing the core product model.
 
 ---
 
@@ -59,17 +61,17 @@ Start with [hagicode.com](https://hagicode.com/) for the full product story, the
 
 ## Getting Started
 
-Start with the official entry points:
+Start with the official paths that match your workflow:
 
-- [hagicode.com](https://hagicode.com/) for the full homepage experience and product overview
-- [Desktop](https://hagicode.com/desktop/) for the local app on Windows, macOS, and Linux
+- [hagicode.com](https://hagicode.com/) for the homepage experience and product overview
+- [Desktop](https://hagicode.com/desktop/) for local use on Windows, macOS, and Linux
 - [Container](https://hagicode.com/container/) for the self-hosted deployment path
-- [Product Overview](https://docs.hagicode.com/product-overview/) for guided documentation
-- [Quick Start Guide](https://docs.hagicode.com/quick-start/conversation-session/) when you are ready to begin using the product
+- [Product Overview](https://docs.hagicode.com/product-overview/) for the guided feature tour
+- [Quick Start Guide](https://docs.hagicode.com/quick-start/conversation-session/) when you are ready to create your first session
 
 ---
 
-## Screenshots
+## Latest Blog Posts
 
 <!-- blog-posts-start -->
 | 日期 | 标题 |
@@ -90,9 +92,9 @@ Start with the official entry points:
 
 ## Video Demos
 
-- [30 Minutes Daily with Hagi - AI Multi-task Programming in Action](https://www.bilibili.com/video/BV1pirZBuEzq/)
-- [AI Actually Games While Coding](https://www.bilibili.com/video/BV1KxwMzxEVK/)
-- [GPT Codex in Hagicode Real Test](https://www.bilibili.com/video/BV1yqPmzTEqP/)
+- [Daily Hagi Half-Hour: AI Multi-Task Programming Practice](https://www.bilibili.com/video/BV1pirZBuEzq/)
+- [AI Playing Games While Coding](https://www.bilibili.com/video/BV1KxwMzxEVK/)
+- [GPT Codex in Hagicode: Live Trial](https://www.bilibili.com/video/BV1yqPmzTEqP/)
 
 ---
 
@@ -107,7 +109,7 @@ Start with the official entry points:
 
 <div align="center">
 
-Ready to explore the full product story? Visit <a href="https://hagicode.com/">hagicode.com</a> and choose the desktop, container, or documentation path that fits your workflow.
+Ready to explore the full product story? Visit <a href="https://hagicode.com/">hagicode.com</a> and choose the Desktop, Container, or Docs path that fits your workflow.
 
 <br />
 <br />
