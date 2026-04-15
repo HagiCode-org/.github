@@ -78,14 +78,14 @@ Start with the official paths that match your workflow:
 |------|------|
 | 2026/4/13 | [如何安装和使用 Hermes：从本地 CLI 到 Feishu 接入快速上手](https://docs.hagicode.com/blog/2026-04-13-how-to-install-and-use-hermes/) |
 | 2026/4/13 | [VSCode 与 code-server：浏览器端代码编辑方案选型](https://docs.hagicode.com/blog/2026-04-13-vscode-web-integration-browser-editing/) |
+| 2026/4/13 | [How to Install and Use Hermes: A Quick Start from the Local CLI to Feishu Integration](https://docs.hagicode.com/en/blog/2026-04-13-how-to-install-and-use-hermes/) |
+| 2026/4/13 | [VSCode and code-server: Choosing a Browser-Based Code Editing Solution](https://docs.hagicode.com/en/blog/2026-04-13-vscode-web-integration-browser-editing/) |
 | 2026/4/12 | [在浏览器中快速编辑代码：VSCode Web 集成实践](https://docs.hagicode.com/blog/2026-04-12-vscode-web-integration-browser-editing/) |
+| 2026/4/12 | [Fast Code Editing in the Browser: VSCode Web Integration in Practice](https://docs.hagicode.com/en/blog/2026-04-12-vscode-web-integration-browser-editing/) |
 | 2026/4/11 | [边框灯光环绕动画特效实现指南](https://docs.hagicode.com/blog/2026-04-11-border-light-animation-effect/) |
+| 2026/4/11 | [Guide to Creating a Border Light Sweep Animation Effect](https://docs.hagicode.com/en/blog/2026-04-11-border-light-animation-effect/) |
 | 2026/4/10 | [用 Vault 系统构建 AI 时代的跨项目知识库](https://docs.hagicode.com/blog/2026-04-10-vault-system-ai-knowledge-base/) |
-| 2026/4/9 | [在 Web 界面直接编辑 DESIGN.md：从思路到实现](https://docs.hagicode.com/blog/2026-04-09-design-md-web-editor-implementation/) |
-| 2026/4/8 | [Design.md：让 AI 一致性进行前端 UI 设计的解决方案](https://docs.hagicode.com/blog/2026-04-08-design-md-consistent-ui/) |
-| 2026/4/7 | [为什么使用 Skillsbase 维护自己的 Skills 收藏仓库](https://docs.hagicode.com/blog/2026-04-07-why-use-skillsbase-for-skills-repository/) |
-| 2026/4/6 | [AI时代如何临摹项目：Vault跨项目持久化存储系统](https://docs.hagicode.com/blog/2026-04-06-vault-persistent-storage-for-ai-era/) |
-| 2026/4/5 | [渐进式披露：如何用少即是多的理念改进 AI 产品的人机交互](https://docs.hagicode.com/blog/2026-04-05-progressive-disclosure-hci/) |
+| 2026/4/10 | [Building a Cross-Project Knowledge Base for the AI Era with the Vault System](https://docs.hagicode.com/en/blog/2026-04-10-vault-system-ai-knowledge-base/) |
 <!-- blog-posts-end -->
 
 ---
