@@ -23,6 +23,8 @@
 ·
 <a href="https://hagicode.com/container/">Container</a>
 ·
+<a href="https://store.steampowered.com/app/4625540/Hagicode/">Steam</a>
+·
 <a href="https://docs.hagicode.com/blog/">Blog</a>
 
 <br />
@@ -33,6 +35,12 @@
 </div>
 
 ---
+
+| Steam Edition |
+| --- |
+| **HagiCode is also on Steam** |
+| Add it to your Steam library for Cloud Saves, Workshop support, and the most obvious public install entry point. |
+| [![Open on Steam](https://img.shields.io/badge/Open%20on-Steam-1b2838?logo=steam&logoColor=white)](https://store.steampowered.com/app/4625540/Hagicode/) |
 
 ## Why HagiCode
 
@@ -51,6 +59,7 @@
 - [Product Overview](https://docs.hagicode.com/product-overview/)
 - [Desktop](https://hagicode.com/desktop/)
 - [Container](https://hagicode.com/container/)
+- [Steam](https://store.steampowered.com/app/4625540/Hagicode/)
 - [Blog](https://docs.hagicode.com/blog/)
 - [Quick Start Guide](https://docs.hagicode.com/quick-start/conversation-session/)
 
