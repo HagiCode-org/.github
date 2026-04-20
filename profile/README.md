@@ -1,10 +1,10 @@
 <div align="center">
 
-<h1>Smart · Efficient · Fun AI Coding Assistant</h1>
+# HagiCode
 
-<p>HagiCode redefines AI coding with OpenSpec workflows, multi-agent multi-instance execution, and Hero Dungeon gameplay. It turns scattered prompts into a structured flow from idea and proposal to implementation, review, and archive.</p>
+<p><strong>HagiCode is a product that combines an AI coding tool, a gamified feedback system, and a full development workspace into one platform.</strong></p>
 
-<p>Choose Desktop for 100% local execution and code privacy, or Container for self-hosted team deployment with the same proposal-driven workflow.</p>
+<p>It brings AI into the full software development process, from repository understanding and proposals to implementation, commits, knowledge capture, and feedback.</p>
 
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.41-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
@@ -12,64 +12,54 @@
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Agent CLI](https://img.shields.io/badge/Agent%20CLI-11%20supported-1f6feb)
 
+<br />
+<br />
+
+<a href="https://hagicode.com/">Website</a>
+·
+<a href="https://docs.hagicode.com/product-overview/">Product Overview</a>
+·
+<a href="https://hagicode.com/desktop/">Desktop</a>
+·
+<a href="https://hagicode.com/container/">Container</a>
+·
+<a href="https://docs.hagicode.com/blog/">Blog</a>
+
+<br />
+<br />
+
+<img src="./assets/workspace-overview.png" alt="HagiCode workspace overview showing sessions, commit notes, and top-level actions." width="100%" />
+
 </div>
 
 ---
 
-## Quick Links
-
-| 🌐 Official Website | 🖥️ Desktop | 🐳 Container | 📚 Documentation | 💬 Blog |
-|:------------------:|:-----------:|:------------:|:---------------:|:-------:|
-| [Start at hagicode.com](https://hagicode.com/) | [Download](https://hagicode.com/desktop/) | [Deploy](https://hagicode.com/container/) | [Product Overview](https://docs.hagicode.com/product-overview/) | [Blog](https://docs.hagicode.com/blog/) |
-
-Start with [hagicode.com](https://hagicode.com/) for the full product story, then choose Desktop for local use, Container for deployment, or Docs for step-by-step onboarding.
-
----
-
-## Three Core Features
-
-### Smart · 智能
-
-- **OpenSpec keeps delivery structured** - The 9-stage workflow connects idea, proposal, review, tasks, code, test, docs, and archive so AI work stays reviewable instead of drifting across chats.
-
-### Efficient · 高效
-
-- **Parallel agents keep work moving** - Claude Code, Codex, GitHub Copilot, OpenCode, Hermes, and other supported Agent CLIs can drive multiple instances at once, so proposals, fixes, and reviews move in parallel instead of waiting in a serial queue.
-
-### Fun · 有趣
-
-- **Hero Dungeon makes AI coding memorable** - Hero Dungeon, captain rosters, prompt visuals, and battle reports turn daily AI coding into a coordinated adventure without hiding the real execution data.
-
 ## Why HagiCode
 
-- **Workflow first** - OpenSpec keeps scope, tasks, execution, and archive history connected from the first idea to the final handoff.
-- **Built for parallel throughput** - Multi-agent workspaces and multi-instance execution turn waiting time into visible throughput across drafting, implementation, and review.
-- **Private when you need it** - The desktop path emphasizes [100% local execution and code never uploaded](https://hagicode.com/desktop/), so sensitive work can stay on your own machine.
-- **Deploy your way** - Use Desktop for personal local workflows or Container for self-hosted team environments without changing the core product model.
+- **Proposal-driven AI coding**: `OpenSpec` keeps scope, tasks, impact analysis, validation, and execution connected instead of turning complex work into blind edits.
+- **Flexible agent and model routing**: mainstream Agent CLIs and `OmniRoute` let teams choose the interaction layer and the model layer independently.
+- **A full development workspace**: `MonoSpecs`, `Skills`, `Vault`, `AI Compose Commit`, and `code-server` keep multi-repository work, knowledge capture, and finishing steps inside one system.
+- **Gamified feedback with real signals**: achievements, daily reports, efficiency multipliers, and token throughput make long-running AI work easier to read and manage.
 
----
+<p align="center">
+  <img src="./assets/gamified-feedback.png" alt="Achievement view showing daily progress, long-term milestones, and gamified feedback surfaces." width="100%" />
+</p>
+
+## Quick Links
+
+- [Website](https://hagicode.com/)
+- [Product Overview](https://docs.hagicode.com/product-overview/)
+- [Desktop](https://hagicode.com/desktop/)
+- [Container](https://hagicode.com/container/)
+- [Blog](https://docs.hagicode.com/blog/)
+- [Quick Start Guide](https://docs.hagicode.com/quick-start/conversation-session/)
 
 ## Featured Projects
 
-- **[site](https://github.com/HagiCode-org/site)** - Official Astro-based website showcasing HagiCode features
-- **[desktop](https://github.com/HagiCode-org/desktop)** - Cross-platform desktop application (Windows/macOS/Linux)
-- **[container](https://github.com/HagiCode-org/container)** - Docker deployment for team and server environments
-- **[codex](https://github.com/HagiCode-org/codex)** - C# SDK for AI model integration
-- **[openspec-cli](https://github.com/HagiCode-org/openspec-cli)** - Command-line interface for OpenSpec workflow management
-
----
-
-## Getting Started
-
-Start with the official paths that match your workflow:
-
-- [hagicode.com](https://hagicode.com/) for the homepage experience and product overview
-- [Desktop](https://hagicode.com/desktop/) for local use on Windows, macOS, and Linux
-- [Container](https://hagicode.com/container/) for the self-hosted deployment path
-- [Product Overview](https://docs.hagicode.com/product-overview/) for the guided feature tour
-- [Quick Start Guide](https://docs.hagicode.com/quick-start/conversation-session/) when you are ready to create your first session
-
----
+- **[site](https://github.com/HagiCode-org/site)** - Official marketing site and public GitHub landing repository
+- **[desktop](https://github.com/HagiCode-org/desktop)** - Desktop client for local-first HagiCode workflows
+- **[container](https://github.com/HagiCode-org/container)** - Self-hosted deployment path for teams and server environments
+- **[docs](https://github.com/HagiCode-org/docs)** - Documentation site with the canonical product overview and guides
 
 ## Latest Blog Posts
 
@@ -88,34 +78,12 @@ Start with the official paths that match your workflow:
 | 2026/4/14 | [Hermes Agent Integration Practice: From Protocol to Production](https://docs.hagicode.com/en/blog/2026-04-14-hermes-agent-integration-practice/) |
 <!-- blog-posts-end -->
 
----
+## Support
 
-## Video Demos
+- [Documentation](https://docs.hagicode.com/)
+- [Blog](https://docs.hagicode.com/blog/)
+- [GitHub Organization](https://github.com/HagiCode-org)
+- [Issues](https://github.com/HagiCode-org/site/issues)
+- [AI Replacement Calculator](https://cost.hagicode.com)
 
-- [Daily Hagi Half-Hour: AI Multi-Task Programming Practice](https://www.bilibili.com/video/BV1pirZBuEzq/)
-- [AI Playing Games While Coding](https://www.bilibili.com/video/BV1KxwMzxEVK/)
-- [GPT Codex in Hagicode: Live Trial](https://www.bilibili.com/video/BV1yqPmzTEqP/)
-
----
-
-## Community & Support
-
-- **Documentation**: [docs.hagicode.com](https://docs.hagicode.com)
-- **Blog**: [docs.hagicode.com/blog](https://docs.hagicode.com/blog/)
-- **Issues**: [GitHub Issues](https://github.com/HagiCode-org/site/issues)
-- **AI Replacement Calculator**: [cost.hagicode.com](https://cost.hagicode.com) — 算一算，AI会不会淘汰我
-
----
-
-<div align="center">
-
-Ready to explore the full product story? Visit <a href="https://hagicode.com/">hagicode.com</a> and choose the Desktop, Container, or Docs path that fits your workflow.
-
-<br />
-<br />
-
-Built with ❤️ and 🎮 by the HagiCode Team
-
-[Official Website](https://hagicode.com/) | [GitHub](https://github.com/HagiCode-org) | [Documentation](https://docs.hagicode.com) | [Blog](https://docs.hagicode.com/blog/)
-
-</div>
+Ready to explore the full product story? Start at [hagicode.com](https://hagicode.com/) and choose the path that fits your workflow.
