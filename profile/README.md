@@ -8,7 +8,7 @@
 
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.44-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.52-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.53-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Agent CLI](https://img.shields.io/badge/Agent%20CLI-11%20supported-1f6feb)
 
