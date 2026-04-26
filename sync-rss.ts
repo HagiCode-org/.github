@@ -83,11 +83,15 @@ interface BadgeConfig {
 // Constants
 // ============================================================================
 
-const RSS_URL = 'https://docs.hagicode.com/blog/rss.xml';
+export const DEFAULT_RSS_URL = 'https://docs.hagicode.com/blog/rss.xml';
 const README_PATH = path.join(__dirname, 'profile', 'README.md');
 const MAX_POSTS = 10;
 const DESKTOP_INDEX_URL = 'https://index.hagicode.com/desktop/index.json';
 const SERVER_INDEX_URL = 'https://index.hagicode.com/server/index.json';
+
+export function resolveRSSUrl(env: NodeJS.ProcessEnv = process.env): string {
+  return env.HAGICODE_BLOG_RSS_URL?.trim() || env.RSS_URL?.trim() || DEFAULT_RSS_URL;
+}
 
 /**
  * Badge configurations for different product-channel combinations
@@ -107,13 +111,13 @@ const BADGE_CONFIGS: Record<string, BadgeConfig> = {
 /**
  * Fetches and parses the RSS feed from the blog
  */
-async function fetchRSS(): Promise<BlogPost[]> {
-  console.log(`Fetching RSS from ${RSS_URL}...`);
+export async function fetchRSS(rssUrl = resolveRSSUrl()): Promise<BlogPost[]> {
+  console.log(`Fetching RSS from ${rssUrl}...`);
 
   const parser = new Parser();
 
   try {
-    const feed = await parser.parseURL(RSS_URL);
+    const feed = await parser.parseURL(rssUrl);
     console.log(`Successfully fetched ${feed.items.length} items from RSS`);
 
     const posts: BlogPost[] = feed.items.slice(0, MAX_POSTS).map(item => ({
@@ -129,7 +133,7 @@ async function fetchRSS(): Promise<BlogPost[]> {
   }
 }
 
-function generateBlogTable(posts: BlogPost[]): string {
+export function generateBlogTable(posts: BlogPost[]): string {
   const header = '| 日期 | 标题 |\n|------|------|';
   const rows = posts.map(post => {
     const date = post.date || 'N/A';
@@ -404,4 +408,6 @@ async function main(): Promise<void> {
   }
 }
 
-main();
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main();
+}
