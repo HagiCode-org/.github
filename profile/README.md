@@ -6,7 +6,7 @@
 
 <p>It brings AI into the full software development process, from repository understanding and proposals to implementation, commits, knowledge capture, and feedback.</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.50-blue)
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.51-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
 ![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.57-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
