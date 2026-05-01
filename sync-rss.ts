@@ -16,6 +16,18 @@ interface BlogPost {
   date: string;
 }
 
+interface BlogTableLabels {
+  date: string;
+  title: string;
+}
+
+interface BlogFeedConfig {
+  key: 'zh-CN' | 'en';
+  heading: string;
+  rssUrl: string;
+  tableLabels: BlogTableLabels;
+}
+
 /**
  * Desktop index.json structure from desktop.dl.hagicode.com/index.json
  */
@@ -83,7 +95,8 @@ interface BadgeConfig {
 // Constants
 // ============================================================================
 
-export const DEFAULT_RSS_URL = 'https://docs.hagicode.com/blog/rss.xml';
+export const DEFAULT_RSS_URL = 'https://docs.hagicode.com/blog/rss.zh-CN.xml';
+export const DEFAULT_EN_RSS_URL = 'https://docs.hagicode.com/blog/rss.en.xml';
 const README_PATH = path.join(__dirname, 'profile', 'README.md');
 const MAX_POSTS = 10;
 const DESKTOP_INDEX_URL = 'https://index.hagicode.com/desktop/index.json';
@@ -91,6 +104,29 @@ const SERVER_INDEX_URL = 'https://index.hagicode.com/server/index.json';
 
 export function resolveRSSUrl(env: NodeJS.ProcessEnv = process.env): string {
   return env.HAGICODE_BLOG_RSS_URL?.trim() || env.RSS_URL?.trim() || DEFAULT_RSS_URL;
+}
+
+export function resolveRSSFeeds(env: NodeJS.ProcessEnv = process.env): BlogFeedConfig[] {
+  return [
+    {
+      key: 'zh-CN',
+      heading: '中文',
+      rssUrl: env.HAGICODE_BLOG_RSS_URL_ZH?.trim() || resolveRSSUrl(env),
+      tableLabels: {
+        date: '日期',
+        title: '标题',
+      },
+    },
+    {
+      key: 'en',
+      heading: 'English',
+      rssUrl: env.HAGICODE_BLOG_RSS_URL_EN?.trim() || DEFAULT_EN_RSS_URL,
+      tableLabels: {
+        date: 'Date',
+        title: 'Title',
+      },
+    },
+  ];
 }
 
 /**
@@ -133,8 +169,11 @@ export async function fetchRSS(rssUrl = resolveRSSUrl()): Promise<BlogPost[]> {
   }
 }
 
-export function generateBlogTable(posts: BlogPost[]): string {
-  const header = '| 日期 | 标题 |\n|------|------|';
+export function generateBlogTable(
+  posts: BlogPost[],
+  tableLabels: BlogTableLabels = { date: '日期', title: '标题' },
+): string {
+  const header = `| ${tableLabels.date} | ${tableLabels.title} |\n|------|------|`;
   const rows = posts.map(post => {
     const date = post.date || 'N/A';
     const title = `[${post.title}](${post.link})`;
@@ -142,6 +181,12 @@ export function generateBlogTable(posts: BlogPost[]): string {
   });
 
   return `${header}\n${rows.join('\n')}`;
+}
+
+export function generateBlogSection(sections: Array<{ heading: string; table: string }>): string {
+  return sections
+    .map(section => `### ${section.heading}\n\n${section.table}`)
+    .join('\n\n');
 }
 
 function updateReadme(blogTable: string): void {
@@ -356,11 +401,25 @@ async function main(): Promise<void> {
   try {
     // Blog RSS Sync
     console.log('\n--- Blog RSS Sync ---');
-    const posts = await fetchRSS();
+    const feedConfigs = resolveRSSFeeds();
+    const postsByFeed = await Promise.all(
+      feedConfigs.map(async (feedConfig) => ({
+        heading: feedConfig.heading,
+        tableLabels: feedConfig.tableLabels,
+        posts: await fetchRSS(feedConfig.rssUrl),
+      })),
+    );
 
-    if (posts.length > 0) {
-      const blogTable = generateBlogTable(posts);
-      updateReadme(blogTable);
+    const blogSections = postsByFeed
+      .filter(feedResult => feedResult.posts.length > 0)
+      .map(feedResult => ({
+        heading: feedResult.heading,
+        table: generateBlogTable(feedResult.posts, feedResult.tableLabels),
+      }));
+
+    if (blogSections.length > 0) {
+      const blogSection = generateBlogSection(blogSections);
+      updateReadme(blogSection);
       console.log('=== Blog RSS Sync Completed ===\n');
     } else {
       console.log('No blog posts found, skipping RSS update\n');
