@@ -81,17 +81,24 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 ## Latest Blog Posts
 
 <!-- blog-posts-start -->
+### 中文
+
 | 日期 | 标题 |
 |------|------|
 | 2026/4/18 | [如何实现 Claude Code 和 Codex 等 Agent CLI 的自动重试](https://docs.hagicode.com/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/18 | [How to Implement Automatic Retry for Agent CLIs Like Claude Code and Codex](https://docs.hagicode.com/en/blog/2026-02-11-agent-cli-automatic-retry/) |
 | 2026/4/17 | [SQLite 分片方案实战：三种分片策略的深度对比](https://docs.hagicode.com/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
-| 2026/4/17 | [SQLite Sharding in Practice: An In-Depth Comparison of Three Sharding Strategies](https://docs.hagicode.com/en/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
 | 2026/4/16 | [如何用 GitHub Actions 实现 Steam 自动化发布](https://docs.hagicode.com/blog/2026-04-16-steam-release-automation-github-actions/) |
-| 2026/4/16 | [How to Automate Steam Releases with GitHub Actions](https://docs.hagicode.com/en/blog/2026-04-16-steam-release-automation-github-actions/) |
 | 2026/4/15 | [如何利用廉价的云服务器搭建加速下载的分发站](https://docs.hagicode.com/blog/2026-04-15-low-cost-cloud-server-download-distribution-station/) |
-| 2026/4/15 | [How to Build a Fast Download Distribution Station with Low-Cost Cloud Servers](https://docs.hagicode.com/en/blog/2026-04-15-low-cost-cloud-server-download-distribution-station/) |
 | 2026/4/14 | [Hermes Agent 集成实践：从协议到生产](https://docs.hagicode.com/blog/2026-04-14-hermes-agent-integration-practice/) |
+
+### English
+
+| Date | Title |
+|------|------|
+| 2026/4/18 | [How to Implement Automatic Retry for Agent CLIs Like Claude Code and Codex](https://docs.hagicode.com/en/blog/2026-02-11-agent-cli-automatic-retry/) |
+| 2026/4/17 | [SQLite Sharding in Practice: An In-Depth Comparison of Three Sharding Strategies](https://docs.hagicode.com/en/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
+| 2026/4/16 | [How to Automate Steam Releases with GitHub Actions](https://docs.hagicode.com/en/blog/2026-04-16-steam-release-automation-github-actions/) |
+| 2026/4/15 | [How to Build a Fast Download Distribution Station with Low-Cost Cloud Servers](https://docs.hagicode.com/en/blog/2026-04-15-low-cost-cloud-server-download-distribution-station/) |
 | 2026/4/14 | [Hermes Agent Integration Practice: From Protocol to Production](https://docs.hagicode.com/en/blog/2026-04-14-hermes-agent-integration-practice/) |
 <!-- blog-posts-end -->
 
