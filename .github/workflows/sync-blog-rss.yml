@@ -26,6 +26,9 @@ jobs:
         run: npm ci
 
       - name: Fetch and parse RSS
+        env:
+          HAGICODE_BLOG_RSS_URL_ZH: https://docs.hagicode.com/blog/rss.zh-CN.xml
+          HAGICODE_BLOG_RSS_URL_EN: https://docs.hagicode.com/blog/rss.en.xml
         run: npx tsx sync-rss.ts
 
       - name: Commit and Push to Main

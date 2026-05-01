@@ -8,7 +8,7 @@
     "sync": "tsx sync-rss.ts",
     "test": "tsx --test tests/*.test.ts",
     "test:rss-url:default": "tsx --test tests/sync-rss.test.ts",
-    "test:rss-url:override": "HAGICODE_BLOG_RSS_URL=https://docs.hagicode.com/blog/rss.en.xml tsx --test tests/sync-rss.test.ts"
+    "test:rss-url:override": "HAGICODE_BLOG_RSS_URL_ZH=https://docs.hagicode.com/blog/rss.zh-CN.xml HAGICODE_BLOG_RSS_URL_EN=https://docs.hagicode.com/blog/rss.en.xml tsx --test tests/sync-rss.test.ts"
   },
   "dependencies": {
     "rss-parser": "^3.13.0"
