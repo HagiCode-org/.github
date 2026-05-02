@@ -90,6 +90,11 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 | 2026/4/16 | [如何用 GitHub Actions 实现 Steam 自动化发布](https://docs.hagicode.com/blog/2026-04-16-steam-release-automation-github-actions/) |
 | 2026/4/15 | [如何利用廉价的云服务器搭建加速下载的分发站](https://docs.hagicode.com/blog/2026-04-15-low-cost-cloud-server-download-distribution-station/) |
 | 2026/4/14 | [Hermes Agent 集成实践：从协议到生产](https://docs.hagicode.com/blog/2026-04-14-hermes-agent-integration-practice/) |
+| 2026/4/13 | [如何安装和使用 Hermes：从本地 CLI 到 Feishu 接入快速上手](https://docs.hagicode.com/blog/2026-04-13-how-to-install-and-use-hermes/) |
+| 2026/4/13 | [VSCode 与 code-server：浏览器端代码编辑方案选型](https://docs.hagicode.com/blog/2026-04-13-vscode-web-integration-browser-editing/) |
+| 2026/4/12 | [在浏览器中快速编辑代码：VSCode Web 集成实践](https://docs.hagicode.com/blog/2026-04-12-vscode-web-integration-browser-editing/) |
+| 2026/4/11 | [边框灯光环绕动画特效实现指南](https://docs.hagicode.com/blog/2026-04-11-border-light-animation-effect/) |
+| 2026/4/10 | [用 Vault 系统构建 AI 时代的跨项目知识库](https://docs.hagicode.com/blog/2026-04-10-vault-system-ai-knowledge-base/) |
 
 ### English
 
@@ -100,6 +105,11 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 | 2026/4/16 | [How to Automate Steam Releases with GitHub Actions](https://docs.hagicode.com/en/blog/2026-04-16-steam-release-automation-github-actions/) |
 | 2026/4/15 | [How to Build a Fast Download Distribution Station with Low-Cost Cloud Servers](https://docs.hagicode.com/en/blog/2026-04-15-low-cost-cloud-server-download-distribution-station/) |
 | 2026/4/14 | [Hermes Agent Integration Practice: From Protocol to Production](https://docs.hagicode.com/en/blog/2026-04-14-hermes-agent-integration-practice/) |
+| 2026/4/13 | [How to Install and Use Hermes: A Quick Start from the Local CLI to Feishu Integration](https://docs.hagicode.com/en/blog/2026-04-13-how-to-install-and-use-hermes/) |
+| 2026/4/13 | [VSCode and code-server: Choosing a Browser-Based Code Editing Solution](https://docs.hagicode.com/en/blog/2026-04-13-vscode-web-integration-browser-editing/) |
+| 2026/4/12 | [Fast Code Editing in the Browser: VSCode Web Integration in Practice](https://docs.hagicode.com/en/blog/2026-04-12-vscode-web-integration-browser-editing/) |
+| 2026/4/11 | [Guide to Creating a Border Light Sweep Animation Effect](https://docs.hagicode.com/en/blog/2026-04-11-border-light-animation-effect/) |
+| 2026/4/10 | [Building a Cross-Project Knowledge Base for the AI Era with the Vault System](https://docs.hagicode.com/en/blog/2026-04-10-vault-system-ai-knowledge-base/) |
 <!-- blog-posts-end -->
 
 ## Support
