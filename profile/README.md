@@ -2,6 +2,19 @@
 
 # HagiCode
 
+<p>
+  <a href="./README.md">English</a> ·
+  <a href="./README.zh-CN.md">简体中文</a> ·
+  <a href="./README.zh-Hant.md">繁體中文</a> ·
+  <a href="./README.ja-JP.md">日本語</a> ·
+  <a href="./README.ko-KR.md">한국어</a> ·
+  <a href="./README.de-DE.md">Deutsch</a> ·
+  <a href="./README.fr-FR.md">Français</a> ·
+  <a href="./README.es-ES.md">Español</a> ·
+  <a href="./README.pt-BR.md">Português (Brasil)</a> ·
+  <a href="./README.ru-RU.md">Русский</a>
+</p>
+
 <p><strong>HagiCode is a product that combines an AI coding tool, a gamified feedback system, and a full development workspace into one platform.</strong></p>
 
 <p>It brings AI into the full software development process, from repository understanding and proposals to implementation, commits, knowledge capture, and feedback.</p>
@@ -20,7 +33,7 @@
 
 <a href="https://hagicode.com/">Website</a>
 ·
-<a href="https://docs.hagicode.com/product-overview/">Product Overview</a>
+<a href="https://docs.hagicode.com/en-US/product-overview/">Product Overview</a>
 ·
 <a href="https://hagicode.com/desktop/">Desktop</a>
 ·
@@ -28,7 +41,7 @@
 ·
 <a href="https://store.steampowered.com/app/4625540/Hagicode/">Steam</a>
 ·
-<a href="https://docs.hagicode.com/blog/">Blog</a>
+<a href="https://docs.hagicode.com/en-US/blog/">Blog</a>
 
 <br />
 <br />
@@ -50,7 +63,7 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 | Preview | Product | Role | CTA |
 | --- | --- | --- | --- |
 | <img src="./assets/steam/hagicode-store-capsule.png" alt="HagiCode Steam store capsule" width="180" /> | **HagiCode** | Base application on Steam. | [Open on Steam](https://store.steampowered.com/app/4625540/Hagicode/) |
-| <img src="./assets/steam/hagicode-plus-store-capsule.png" alt="Hagicode Plus Steam bundle store capsule" width="180" /> | **Hagicode Plus** | Bundle including HagiCode and Turbo Engine DLC. | [Read Bundle Guide](https://docs.hagicode.com/en/bundles/hagicode-plus/) · [View Bundle on Steam](https://store.steampowered.com/bundle/73989/Hagicode_Plus/) |
+| <img src="./assets/steam/hagicode-plus-store-capsule.png" alt="Hagicode Plus Steam bundle store capsule" width="180" /> | **Hagicode Plus** | Bundle including HagiCode and Turbo Engine DLC. | [Read Bundle Guide](https://docs.hagicode.com/en-US/bundles/hagicode-plus/) · [View Bundle on Steam](https://store.steampowered.com/bundle/73989/Hagicode_Plus/) |
 | <img src="./assets/steam/turbo-engine-store-capsule.png" alt="Turbo Engine DLC Steam store capsule" width="180" /> | **Turbo Engine DLC** | DLC for HagiCode with up to 32 concurrent online sessions. | [View DLC](https://store.steampowered.com/app/4635480/Hagicode__Turbo_Engine/) |
 
 ## Why HagiCode
@@ -67,12 +80,12 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 ## Quick Links
 
 - [Website](https://hagicode.com/)
-- [Product Overview](https://docs.hagicode.com/product-overview/)
+- [Product Overview](https://docs.hagicode.com/en-US/product-overview/)
 - [Desktop](https://hagicode.com/desktop/)
 - [Container](https://hagicode.com/container/)
 - [Steam](https://store.steampowered.com/app/4625540/Hagicode/)
-- [Blog](https://docs.hagicode.com/blog/)
-- [Quick Start Guide](https://docs.hagicode.com/quick-start/conversation-session/)
+- [Blog](https://docs.hagicode.com/en-US/blog/)
+- [Quick Start Guide](https://docs.hagicode.com/en-US/quick-start/conversation-session/)
 
 ## Featured Projects
 
@@ -117,8 +130,8 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 
 ## Support
 
-- [Documentation](https://docs.hagicode.com/)
-- [Blog](https://docs.hagicode.com/blog/)
+- [Documentation](https://docs.hagicode.com/en-US/)
+- [Blog](https://docs.hagicode.com/en-US/blog/)
 - [GitHub Organization](https://github.com/HagiCode-org)
 - [Issues](https://github.com/HagiCode-org/site/issues)
 - [AI Replacement Calculator](https://cost.hagicode.com)
