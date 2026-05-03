@@ -1,0 +1,122 @@
+<div align="center">
+
+# HagiCode
+
+<p>
+  <a href="./README.md">English</a> ·
+  <a href="./README.zh-CN.md">简体中文</a> ·
+  <a href="./README.zh-Hant.md">繁體中文</a> ·
+  <a href="./README.ja-JP.md">日本語</a> ·
+  <a href="./README.ko-KR.md">한국어</a> ·
+  <a href="./README.de-DE.md">Deutsch</a> ·
+  <a href="./README.fr-FR.md">Français</a> ·
+  <a href="./README.es-ES.md">Español</a> ·
+  <a href="./README.pt-BR.md">Português (Brasil)</a> ·
+  <a href="./README.ru-RU.md">Русский</a>
+</p>
+
+<p><strong>HagiCode reúne uma ferramenta de codificação com IA, um sistema de feedback gamificado e um espaço de trabalho de desenvolvimento completo em uma única plataforma.</strong></p>
+
+<p>Ela leva a IA para todo o processo de desenvolvimento de software, do entendimento do repositório e das propostas até implementação, commits, captura de conhecimento e feedback.</p>
+
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.51-blue)
+![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
+![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.57-orange)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Agent CLI](https://img.shields.io/badge/Agent%20CLI-11%20supported-1f6feb)
+[![npm @hagicode/cli](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=%40hagicode%2Fcli)](https://www.npmjs.com/package/@hagicode/cli)
+[![npm @hagicode/hagi18n](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=%40hagicode%2Fhagi18n)](https://www.npmjs.com/package/@hagicode/hagi18n)
+[![npm @hagicode/hagiscript](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=%40hagicode%2Fhagiscript)](https://www.npmjs.com/package/@hagicode/hagiscript)
+[![npm @hagicode/imgbin](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=%40hagicode%2Fimgbin)](https://www.npmjs.com/package/@hagicode/imgbin)
+[![npm @hagicode/skillsbase](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=%40hagicode%2Fskillsbase)](https://www.npmjs.com/package/@hagicode/skillsbase)
+
+<br />
+<br />
+
+<a href="https://hagicode.com/">Website</a>
+·
+<a href="https://docs.hagicode.com/pt-BR/product-overview/">Visão geral do produto</a>
+·
+<a href="https://hagicode.com/desktop/">Desktop</a>
+·
+<a href="https://hagicode.com/container/">Container</a>
+·
+<a href="https://store.steampowered.com/app/4625540/Hagicode/">Steam</a>
+·
+<a href="https://docs.hagicode.com/pt-BR/blog/">Blog</a>
+
+<br />
+<br />
+
+<img src="./assets/workspace-overview.png" alt="Visão geral do workspace do HagiCode mostrando sessões, notas de commit e ações principais." width="100%" />
+
+</div>
+
+---
+
+## Linha Steam
+
+Veja rapidamente o app base, o caminho do Bundle e a relação com o DLC.
+
+<p align="center">
+  <img src="./assets/steam/hagicode-wide-capsule.png" alt="Prévia da linha Steam do HagiCode mostrando a arte do aplicativo base." width="100%" />
+</p>
+
+| Prévia | Produto | Papel | Ação |
+| --- | --- | --- | --- |
+| <img src="./assets/steam/hagicode-store-capsule.png" alt="Cápsula da loja Steam do HagiCode" width="180" /> | **HagiCode** | Aplicativo base na Steam. | [Abrir na Steam](https://store.steampowered.com/app/4625540/Hagicode/) |
+| <img src="./assets/steam/hagicode-plus-store-capsule.png" alt="Cápsula da loja Steam do Bundle Hagicode Plus" width="180" /> | **Hagicode Plus** | Bundle que inclui HagiCode e o DLC Turbo Engine. | [Ler o guia do Bundle](https://docs.hagicode.com/pt-BR/bundles/hagicode-plus/) · [Ver o Bundle na Steam](https://store.steampowered.com/bundle/73989/Hagicode_Plus/) |
+| <img src="./assets/steam/turbo-engine-store-capsule.png" alt="Cápsula da loja Steam do DLC Turbo Engine" width="180" /> | **Turbo Engine DLC** | DLC para HagiCode com até 32 sessões online simultâneas. | [Ver o DLC](https://store.steampowered.com/app/4635480/Hagicode__Turbo_Engine/) |
+
+## Por que HagiCode
+
+- **Codificação com IA orientada por proposta**: `OpenSpec` conecta escopo, tarefas, análise de impacto, validação e execução, em vez de transformar trabalho complexo em edições cegas.
+- **Roteamento flexível de agentes e modelos**: Agent CLIs populares e `OmniRoute` permitem que as equipes escolham separadamente a camada de interação e a camada de modelo.
+- **Um espaço de trabalho de desenvolvimento completo**: `MonoSpecs`, `Skills`, `Vault`, `AI Compose Commit` e `code-server` mantêm trabalho multi-repositório, captura de conhecimento e etapas finais dentro de um só sistema.
+- **Feedback gamificado com sinais reais**: conquistas, relatórios diários, multiplicadores de eficiência e throughput de tokens tornam o trabalho prolongado com IA mais fácil de acompanhar e gerenciar.
+
+<p align="center">
+  <img src="./assets/gamified-feedback.png" alt="Tela de conquistas mostrando progresso diário, marcos de longo prazo e superfícies de feedback gamificado." width="100%" />
+</p>
+
+## Links rápidos
+
+- [Website](https://hagicode.com/)
+- [Visão geral do produto](https://docs.hagicode.com/pt-BR/product-overview/)
+- [Desktop](https://hagicode.com/desktop/)
+- [Container](https://hagicode.com/container/)
+- [Steam](https://store.steampowered.com/app/4625540/Hagicode/)
+- [Blog](https://docs.hagicode.com/pt-BR/blog/)
+- [Guia de início rápido](https://docs.hagicode.com/pt-BR/quick-start/conversation-session/)
+
+## Projetos em destaque
+
+- **[site](https://github.com/HagiCode-org/site)** - Site oficial de marketing e repositório público de entrada no GitHub
+- **[desktop](https://github.com/HagiCode-org/desktop)** - Cliente desktop para fluxos HagiCode local-first
+- **[container](https://github.com/HagiCode-org/container)** - Caminho de implantação self-hosted para equipes e ambientes de servidor
+- **[docs](https://github.com/HagiCode-org/docs)** - Site de documentação com a visão oficial do produto e os guias
+
+## Últimas postagens do blog
+
+| Data | Título |
+|------|------|
+| 2026/4/18 | [How to Implement Automatic Retry for Agent CLIs Like Claude Code and Codex](https://docs.hagicode.com/pt-BR/blog/2026-02-11-agent-cli-automatic-retry/) |
+| 2026/4/17 | [SQLite Sharding in Practice: An In-Depth Comparison of Three Sharding Strategies](https://docs.hagicode.com/pt-BR/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
+| 2026/4/16 | [How to Automate Steam Releases with GitHub Actions](https://docs.hagicode.com/pt-BR/blog/2026-04-16-steam-release-automation-github-actions/) |
+| 2026/4/15 | [How to Build a Fast Download Distribution Station with Low-Cost Cloud Servers](https://docs.hagicode.com/pt-BR/blog/2026-04-15-low-cost-cloud-server-download-distribution-station/) |
+| 2026/4/14 | [Hermes Agent Integration Practice: From Protocol to Production](https://docs.hagicode.com/pt-BR/blog/2026-04-14-hermes-agent-integration-practice/) |
+| 2026/4/13 | [Como Instalar e Usar o Hermes: Guia Rápido do CLI Local até a Integração com Feishu](https://docs.hagicode.com/pt-BR/blog/2026-04-13-how-to-install-and-use-hermes/) |
+| 2026/4/13 | [VSCode and code-server: Choosing a Browser-Based Code Editing Solution](https://docs.hagicode.com/pt-BR/blog/2026-04-13-vscode-web-integration-browser-editing/) |
+| 2026/4/12 | [Fast Code Editing in the Browser: VSCode Web Integration in Practice](https://docs.hagicode.com/pt-BR/blog/2026-04-12-vscode-web-integration-browser-editing/) |
+| 2026/4/11 | [Guide to Creating a Border Light Sweep Animation Effect](https://docs.hagicode.com/pt-BR/blog/2026-04-11-border-light-animation-effect/) |
+| 2026/4/10 | [Building a Cross-Project Knowledge Base for the AI Era with the Vault System](https://docs.hagicode.com/pt-BR/blog/2026-04-10-vault-system-ai-knowledge-base/) |
+
+## Suporte
+
+- [Documentação](https://docs.hagicode.com/pt-BR/)
+- [Blog](https://docs.hagicode.com/pt-BR/blog/)
+- [GitHub Organization](https://github.com/HagiCode-org)
+- [Issues](https://github.com/HagiCode-org/site/issues)
+- [AI Replacement Calculator](https://cost.hagicode.com)
+
+Pronto para explorar toda a história do produto? Comece em [hagicode.com](https://hagicode.com/) e escolha o caminho que melhor se encaixa no seu fluxo de trabalho.
