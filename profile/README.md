@@ -11,6 +11,11 @@
 ![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.57-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Agent CLI](https://img.shields.io/badge/Agent%20CLI-11%20supported-1f6feb)
+[![npm @hagicode/cli](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=%40hagicode%2Fcli)](https://www.npmjs.com/package/@hagicode/cli)
+[![npm @hagicode/hagi18n](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=%40hagicode%2Fhagi18n)](https://www.npmjs.com/package/@hagicode/hagi18n)
+[![npm @hagicode/hagiscript](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=%40hagicode%2Fhagiscript)](https://www.npmjs.com/package/@hagicode/hagiscript)
+[![npm @hagicode/imgbin](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=%40hagicode%2Fimgbin)](https://www.npmjs.com/package/@hagicode/imgbin)
+[![npm @hagicode/skillsbase](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=%40hagicode%2Fskillsbase)](https://www.npmjs.com/package/@hagicode/skillsbase)
 
 <br />
 <br />
