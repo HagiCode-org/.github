@@ -96,7 +96,7 @@ interface BadgeConfig {
 // ============================================================================
 
 export const DEFAULT_RSS_URL = 'https://docs.hagicode.com/blog/rss.zh-CN.xml';
-export const DEFAULT_EN_RSS_URL = 'https://docs.hagicode.com/blog/rss.en.xml';
+export const DEFAULT_EN_RSS_URL = 'https://docs.hagicode.com/blog/rss.en-US.xml';
 const README_PATH = path.join(__dirname, 'profile', 'README.md');
 const MAX_POSTS = 10;
 const DESKTOP_INDEX_URL = 'https://index.hagicode.com/desktop/index.json';

@@ -68,7 +68,7 @@ test('resolveRSSFeeds defaults to zh-CN and English docs blog feeds', () => {
 test('resolveRSSFeeds supports separate zh and en overrides', () => {
   assert.deepEqual(resolveRSSFeeds({
     HAGICODE_BLOG_RSS_URL_ZH: 'https://docs.hagicode.com/blog/rss.zh-CN.xml?lang=zh',
-    HAGICODE_BLOG_RSS_URL_EN: 'https://docs.hagicode.com/blog/rss.en.xml?lang=en',
+    HAGICODE_BLOG_RSS_URL_EN: 'https://docs.hagicode.com/blog/rss.en-US.xml?lang=en',
   }), [
     {
       key: 'zh-CN',
@@ -82,7 +82,7 @@ test('resolveRSSFeeds supports separate zh and en overrides', () => {
     {
       key: 'en',
       heading: 'English',
-      rssUrl: 'https://docs.hagicode.com/blog/rss.en.xml?lang=en',
+      rssUrl: 'https://docs.hagicode.com/blog/rss.en-US.xml?lang=en',
       tableLabels: {
         date: 'Date',
         title: 'Title',
