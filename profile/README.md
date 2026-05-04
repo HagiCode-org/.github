@@ -116,16 +116,16 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 
 | Date | Title |
 |------|------|
-| 2026/4/18 | [How to Implement Automatic Retry for Agent CLIs Like Claude Code and Codex](https://docs.hagicode.com/en/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/17 | [SQLite Sharding in Practice: An In-Depth Comparison of Three Sharding Strategies](https://docs.hagicode.com/en/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
-| 2026/4/16 | [How to Automate Steam Releases with GitHub Actions](https://docs.hagicode.com/en/blog/2026-04-16-steam-release-automation-github-actions/) |
-| 2026/4/15 | [How to Build a Fast Download Distribution Station with Low-Cost Cloud Servers](https://docs.hagicode.com/en/blog/2026-04-15-low-cost-cloud-server-download-distribution-station/) |
-| 2026/4/14 | [Hermes Agent Integration Practice: From Protocol to Production](https://docs.hagicode.com/en/blog/2026-04-14-hermes-agent-integration-practice/) |
-| 2026/4/13 | [How to Install and Use Hermes: A Quick Start from the Local CLI to Feishu Integration](https://docs.hagicode.com/en/blog/2026-04-13-how-to-install-and-use-hermes/) |
-| 2026/4/13 | [VSCode and code-server: Choosing a Browser-Based Code Editing Solution](https://docs.hagicode.com/en/blog/2026-04-13-vscode-web-integration-browser-editing/) |
-| 2026/4/12 | [Fast Code Editing in the Browser: VSCode Web Integration in Practice](https://docs.hagicode.com/en/blog/2026-04-12-vscode-web-integration-browser-editing/) |
-| 2026/4/11 | [Guide to Creating a Border Light Sweep Animation Effect](https://docs.hagicode.com/en/blog/2026-04-11-border-light-animation-effect/) |
-| 2026/4/10 | [Building a Cross-Project Knowledge Base for the AI Era with the Vault System](https://docs.hagicode.com/en/blog/2026-04-10-vault-system-ai-knowledge-base/) |
+| 2026/4/18 | [How to Implement Automatic Retry for Agent CLIs Like Claude Code and Codex](https://docs.hagicode.com/en-US/blog/2026-02-11-agent-cli-automatic-retry/) |
+| 2026/4/17 | [SQLite Sharding in Practice: An In-Depth Comparison of Three Sharding Strategies](https://docs.hagicode.com/en-US/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
+| 2026/4/16 | [How to Automate Steam Releases with GitHub Actions](https://docs.hagicode.com/en-US/blog/2026-04-16-steam-release-automation-github-actions/) |
+| 2026/4/15 | [How to Build a Fast Download Distribution Station with Low-Cost Cloud Servers](https://docs.hagicode.com/en-US/blog/2026-04-15-low-cost-cloud-server-download-distribution-station/) |
+| 2026/4/14 | [Hermes Agent Integration Practice: From Protocol to Production](https://docs.hagicode.com/en-US/blog/2026-04-14-hermes-agent-integration-practice/) |
+| 2026/4/13 | [How to Install and Use Hermes: A Quick Start from the Local CLI to Feishu Integration](https://docs.hagicode.com/en-US/blog/2026-04-13-how-to-install-and-use-hermes/) |
+| 2026/4/13 | [VSCode and code-server: Choosing a Browser-Based Code Editing Solution](https://docs.hagicode.com/en-US/blog/2026-04-13-vscode-web-integration-browser-editing/) |
+| 2026/4/12 | [Fast Code Editing in the Browser: VSCode Web Integration in Practice](https://docs.hagicode.com/en-US/blog/2026-04-12-vscode-web-integration-browser-editing/) |
+| 2026/4/11 | [Guide to Creating a Border Light Sweep Animation Effect](https://docs.hagicode.com/en-US/blog/2026-04-11-border-light-animation-effect/) |
+| 2026/4/10 | [Building a Cross-Project Knowledge Base for the AI Era with the Vault System](https://docs.hagicode.com/en-US/blog/2026-04-10-vault-system-ai-knowledge-base/) |
 <!-- blog-posts-end -->
 
 ## Support
