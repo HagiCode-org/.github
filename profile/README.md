@@ -19,7 +19,7 @@
 
 <p>It brings AI into the full software development process, from repository understanding and proposals to implementation, commits, knowledge capture, and feedback.</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.55-blue)
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.56-blue)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Agent CLI](https://img.shields.io/badge/Agent%20CLI-11%20supported-1f6feb)
 [![npm @hagicode/cli](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=%40hagicode%2Fcli)](https://www.npmjs.com/package/@hagicode/cli)
@@ -101,21 +101,22 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 
 | 日期 | 标题 |
 |------|------|
-| 2026/4/18 | [如何实现 Claude Code 和 Codex 等 Agent CLI 的自动重试](https://docs.hagicode.com/bg-BG/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/18 | [如何实现 Claude Code 和 Codex 等 Agent CLI 的自动重试](https://docs.hagicode.com/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/18 | [如何实现 Claude Code 和 Codex 等 Agent CLI 的自动重试](https://docs.hagicode.com/cs-CZ/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/18 | [Sådan implementeres automatisk genforsøg for agent-CLI'er som Claude Code og Codex](https://docs.hagicode.com/da-DK/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/18 | [如何实现 Claude Code 和 Codex 等 Agent CLI 的自动重试](https://docs.hagicode.com/el-GR/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/18 | [如何实现 Claude Code 和 Codex 等 Agent CLI 的自动重试](https://docs.hagicode.com/es-419/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/18 | [Kuinka ottaa automaattinen uudelleenyritys käyttöön agentin CLI:ille, kuten Claude Codelle ja Codexille](https://docs.hagicode.com/fi-FI/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/18 | [如何实现 Claude Code 和 Codex 等 Agent CLI 的自动重试](https://docs.hagicode.com/hu-HU/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/18 | [如何实现 Claude Code 和 Codex 等 Agent CLI 的自动重试](https://docs.hagicode.com/id-ID/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/18 | [Come implementare il nuovo tentativo automatico per le CLI dell'agente come Claude Code e Codex](https://docs.hagicode.com/it-IT/blog/2026-02-11-agent-cli-automatic-retry/) |
+| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/bg-BG/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
+| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
+| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/cs-CZ/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
+| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/da-DK/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
+| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/el-GR/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
+| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/es-419/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
+| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/fi-FI/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
+| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/hu-HU/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
+| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/id-ID/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
+| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/it-IT/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
 
 ### English
 
 | Date | Title |
 |------|------|
+| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/en-US/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
 | 2026/4/18 | [How to Implement Automatic Retry for Agent CLIs Like Claude Code and Codex](https://docs.hagicode.com/en-US/blog/2026-02-11-agent-cli-automatic-retry/) |
 | 2026/4/17 | [SQLite Sharding in Practice: An In-Depth Comparison of Three Sharding Strategies](https://docs.hagicode.com/en-US/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
 | 2026/4/16 | [How to Automate Steam Releases with GitHub Actions](https://docs.hagicode.com/en-US/blog/2026-04-16-steam-release-automation-github-actions/) |
@@ -125,7 +126,6 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 | 2026/4/13 | [VSCode and code-server: Choosing a Browser-Based Code Editing Solution](https://docs.hagicode.com/en-US/blog/2026-04-13-vscode-web-integration-browser-editing/) |
 | 2026/4/12 | [Fast Code Editing in the Browser: VSCode Web Integration in Practice](https://docs.hagicode.com/en-US/blog/2026-04-12-vscode-web-integration-browser-editing/) |
 | 2026/4/11 | [Guide to Creating a Border Light Sweep Animation Effect](https://docs.hagicode.com/en-US/blog/2026-04-11-border-light-animation-effect/) |
-| 2026/4/10 | [Building a Cross-Project Knowledge Base for the AI Era with the Vault System](https://docs.hagicode.com/en-US/blog/2026-04-10-vault-system-ai-knowledge-base/) |
 <!-- blog-posts-end -->
 
 ## Support
