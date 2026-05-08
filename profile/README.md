@@ -101,31 +101,31 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 
 | 日期 | 标题 |
 |------|------|
-| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/bg-BG/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
-| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
-| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/cs-CZ/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
-| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/da-DK/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
-| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/el-GR/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
-| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/es-419/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
-| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/fi-FI/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
-| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/hu-HU/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
-| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/id-ID/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
-| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/it-IT/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
+| 2026/5/7 | [如何使用 GitHub Actions 构建多平台的 code-server 与 OmniRoute](https://docs.hagicode.com/bg-BG/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
+| 2026/5/7 | [自定义 OpenSpec 步骤改进生成结果](https://docs.hagicode.com/bg-BG/blog/2026-05-07-customizing-openspec-steps/) |
+| 2026/5/7 | [如何使用 GitHub Actions 构建多平台的 code-server 与 OmniRoute](https://docs.hagicode.com/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
+| 2026/5/7 | [自定义 OpenSpec 步骤改进生成结果](https://docs.hagicode.com/blog/2026-05-07-customizing-openspec-steps/) |
+| 2026/5/7 | [如何使用 GitHub Actions 构建多平台的 code-server 与 OmniRoute](https://docs.hagicode.com/cs-CZ/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
+| 2026/5/7 | [自定义 OpenSpec 步骤改进生成结果](https://docs.hagicode.com/cs-CZ/blog/2026-05-07-customizing-openspec-steps/) |
+| 2026/5/7 | [如何使用 GitHub Actions 构建多平台的 code-server 与 OmniRoute](https://docs.hagicode.com/da-DK/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
+| 2026/5/7 | [自定义 OpenSpec 步骤改进生成结果](https://docs.hagicode.com/da-DK/blog/2026-05-07-customizing-openspec-steps/) |
+| 2026/5/7 | [如何使用 GitHub Actions 构建多平台的 code-server 与 OmniRoute](https://docs.hagicode.com/el-GR/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
+| 2026/5/7 | [自定义 OpenSpec 步骤改进生成结果](https://docs.hagicode.com/el-GR/blog/2026-05-07-customizing-openspec-steps/) |
 
 ### English
 
 | Date | Title |
 |------|------|
-| 2026/5/5 | [为什么 HagiCode 选择 execa 处理 CLI 命令执行](https://docs.hagicode.com/en-US/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
+| 2026/5/7 | [How to Build Multi-Platform code-server and OmniRoute with GitHub Actions](https://docs.hagicode.com/en-US/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
+| 2026/5/7 | [Customizing OpenSpec Steps to Improve AI Generation Results](https://docs.hagicode.com/en-US/blog/2026-05-07-customizing-openspec-steps/) |
+| 2026/5/6 | [How to Use Copilot CLI to Integrate GPT, Claude, and Other AI Models](https://docs.hagicode.com/en-US/blog/2026-05-06-gpt-model-integration-with-copilot-cli/) |
+| 2026/5/5 | [Why HagiCode Chose execa for CLI Command Execution](https://docs.hagicode.com/en-US/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
 | 2026/4/18 | [How to Implement Automatic Retry for Agent CLIs Like Claude Code and Codex](https://docs.hagicode.com/en-US/blog/2026-02-11-agent-cli-automatic-retry/) |
 | 2026/4/17 | [SQLite Sharding in Practice: An In-Depth Comparison of Three Sharding Strategies](https://docs.hagicode.com/en-US/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
 | 2026/4/16 | [How to Automate Steam Releases with GitHub Actions](https://docs.hagicode.com/en-US/blog/2026-04-16-steam-release-automation-github-actions/) |
 | 2026/4/15 | [How to Build a Fast Download Distribution Station with Low-Cost Cloud Servers](https://docs.hagicode.com/en-US/blog/2026-04-15-low-cost-cloud-server-download-distribution-station/) |
 | 2026/4/14 | [Hermes Agent Integration Practice: From Protocol to Production](https://docs.hagicode.com/en-US/blog/2026-04-14-hermes-agent-integration-practice/) |
 | 2026/4/13 | [How to Install and Use Hermes: A Quick Start from the Local CLI to Feishu Integration](https://docs.hagicode.com/en-US/blog/2026-04-13-how-to-install-and-use-hermes/) |
-| 2026/4/13 | [VSCode and code-server: Choosing a Browser-Based Code Editing Solution](https://docs.hagicode.com/en-US/blog/2026-04-13-vscode-web-integration-browser-editing/) |
-| 2026/4/12 | [Fast Code Editing in the Browser: VSCode Web Integration in Practice](https://docs.hagicode.com/en-US/blog/2026-04-12-vscode-web-integration-browser-editing/) |
-| 2026/4/11 | [Guide to Creating a Border Light Sweep Animation Effect](https://docs.hagicode.com/en-US/blog/2026-04-11-border-light-animation-effect/) |
 <!-- blog-posts-end -->
 
 ## Support
