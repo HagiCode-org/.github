@@ -101,21 +101,22 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 
 | 日期 | 标题 |
 |------|------|
-| 2026/5/8 | [用不同的 Agent 优化 OpenSpec 各阶段效能：HagiCode 实践总结](https://docs.hagicode.com/bg-BG/blog/2026-05-08-optimizing-openspec-with-different-agents/) |
-| 2026/5/8 | [桌面应用 P2P 分发加速实践：从消费端到发布端的全链路打通](https://docs.hagicode.com/bg-BG/blog/2026-05-08-p2p-distribution-acceleration-practice/) |
-| 2026/5/8 | [用不同的 Agent 优化 OpenSpec 各阶段效能：HagiCode 实践总结](https://docs.hagicode.com/blog/2026-05-08-optimizing-openspec-with-different-agents/) |
-| 2026/5/8 | [桌面应用 P2P 分发加速实践：从消费端到发布端的全链路打通](https://docs.hagicode.com/blog/2026-05-08-p2p-distribution-acceleration-practice/) |
-| 2026/5/8 | [用不同的 Agent 优化 OpenSpec 各阶段效能：HagiCode 实践总结](https://docs.hagicode.com/cs-CZ/blog/2026-05-08-optimizing-openspec-with-different-agents/) |
-| 2026/5/8 | [桌面应用 P2P 分发加速实践：从消费端到发布端的全链路打通](https://docs.hagicode.com/cs-CZ/blog/2026-05-08-p2p-distribution-acceleration-practice/) |
-| 2026/5/8 | [用不同的 Agent 优化 OpenSpec 各阶段效能：HagiCode 实践总结](https://docs.hagicode.com/da-DK/blog/2026-05-08-optimizing-openspec-with-different-agents/) |
-| 2026/5/8 | [桌面应用 P2P 分发加速实践：从消费端到发布端的全链路打通](https://docs.hagicode.com/da-DK/blog/2026-05-08-p2p-distribution-acceleration-practice/) |
-| 2026/5/8 | [用不同的 Agent 优化 OpenSpec 各阶段效能：HagiCode 实践总结](https://docs.hagicode.com/el-GR/blog/2026-05-08-optimizing-openspec-with-different-agents/) |
-| 2026/5/8 | [桌面应用 P2P 分发加速实践：从消费端到发布端的全链路打通](https://docs.hagicode.com/el-GR/blog/2026-05-08-p2p-distribution-acceleration-practice/) |
+| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/bg-BG/blog/2026-05-09-ai-cost-efficiency-calculation/) |
+| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/blog/2026-05-09-ai-cost-efficiency-calculation/) |
+| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/cs-CZ/blog/2026-05-09-ai-cost-efficiency-calculation/) |
+| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/da-DK/blog/2026-05-09-ai-cost-efficiency-calculation/) |
+| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/el-GR/blog/2026-05-09-ai-cost-efficiency-calculation/) |
+| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/es-419/blog/2026-05-09-ai-cost-efficiency-calculation/) |
+| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/fi-FI/blog/2026-05-09-ai-cost-efficiency-calculation/) |
+| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/hu-HU/blog/2026-05-09-ai-cost-efficiency-calculation/) |
+| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/id-ID/blog/2026-05-09-ai-cost-efficiency-calculation/) |
+| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/it-IT/blog/2026-05-09-ai-cost-efficiency-calculation/) |
 
 ### English
 
 | Date | Title |
 |------|------|
+| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/en-US/blog/2026-05-09-ai-cost-efficiency-calculation/) |
 | 2026/5/8 | [Optimizing OpenSpec Phase Efficiency with Different Agents: HagiCode Practice Summary](https://docs.hagicode.com/en-US/blog/2026-05-08-optimizing-openspec-with-different-agents/) |
 | 2026/5/8 | [Desktop Application P2P Distribution Acceleration Practice: Full-Stack Integration from Consumer to Publisher](https://docs.hagicode.com/en-US/blog/2026-05-08-p2p-distribution-acceleration-practice/) |
 | 2026/5/7 | [How to Build Multi-Platform code-server and OmniRoute with GitHub Actions](https://docs.hagicode.com/en-US/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
@@ -125,7 +126,6 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 | 2026/5/5 | [Why HagiCode Chose execa for CLI Command Execution](https://docs.hagicode.com/en-US/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
 | 2026/4/18 | [How to Implement Automatic Retry for Agent CLIs Like Claude Code and Codex](https://docs.hagicode.com/en-US/blog/2026-02-11-agent-cli-automatic-retry/) |
 | 2026/4/17 | [SQLite Sharding in Practice: An In-Depth Comparison of Three Sharding Strategies](https://docs.hagicode.com/en-US/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
-| 2026/4/16 | [How to Automate Steam Releases with GitHub Actions](https://docs.hagicode.com/en-US/blog/2026-04-16-steam-release-automation-github-actions/) |
 <!-- blog-posts-end -->
 
 ## Support
