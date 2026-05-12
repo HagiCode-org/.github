@@ -101,22 +101,24 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 
 | 日期 | 标题 |
 |------|------|
-| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/bg-BG/blog/2026-05-09-ai-cost-efficiency-calculation/) |
-| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/blog/2026-05-09-ai-cost-efficiency-calculation/) |
-| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/cs-CZ/blog/2026-05-09-ai-cost-efficiency-calculation/) |
-| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/da-DK/blog/2026-05-09-ai-cost-efficiency-calculation/) |
-| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/el-GR/blog/2026-05-09-ai-cost-efficiency-calculation/) |
-| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/es-419/blog/2026-05-09-ai-cost-efficiency-calculation/) |
-| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/fi-FI/blog/2026-05-09-ai-cost-efficiency-calculation/) |
-| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/hu-HU/blog/2026-05-09-ai-cost-efficiency-calculation/) |
-| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/id-ID/blog/2026-05-09-ai-cost-efficiency-calculation/) |
-| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/it-IT/blog/2026-05-09-ai-cost-efficiency-calculation/) |
+| 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/bg-BG/blog/2026-05-11-opencode-integration/) |
+| 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/blog/2026-05-11-opencode-integration/) |
+| 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/cs-CZ/blog/2026-05-11-opencode-integration/) |
+| 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/da-DK/blog/2026-05-11-opencode-integration/) |
+| 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/el-GR/blog/2026-05-11-opencode-integration/) |
+| 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/es-419/blog/2026-05-11-opencode-integration/) |
+| 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/fi-FI/blog/2026-05-11-opencode-integration/) |
+| 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/hu-HU/blog/2026-05-11-opencode-integration/) |
+| 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/id-ID/blog/2026-05-11-opencode-integration/) |
+| 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/it-IT/blog/2026-05-11-opencode-integration/) |
 
 ### English
 
 | Date | Title |
 |------|------|
-| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/en-US/blog/2026-05-09-ai-cost-efficiency-calculation/) |
+| 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/en-US/blog/2026-05-11-opencode-integration/) |
+| 2026/5/9 | [Quantitative Assessment of AI Cost Efficiency](https://docs.hagicode.com/en-US/blog/2026-05-09-ai-cost-efficiency-calculation/) |
+| 2026/5/9 | [Steamworks Multilingual Metadata Management: From Manual Maintenance to Structured Workflows](https://docs.hagicode.com/en-US/blog/2026-05-09-steamworks-multilingual-metadata-management/) |
 | 2026/5/8 | [Optimizing OpenSpec Phase Efficiency with Different Agents: HagiCode Practice Summary](https://docs.hagicode.com/en-US/blog/2026-05-08-optimizing-openspec-with-different-agents/) |
 | 2026/5/8 | [Desktop Application P2P Distribution Acceleration Practice: Full-Stack Integration from Consumer to Publisher](https://docs.hagicode.com/en-US/blog/2026-05-08-p2p-distribution-acceleration-practice/) |
 | 2026/5/7 | [How to Build Multi-Platform code-server and OmniRoute with GitHub Actions](https://docs.hagicode.com/en-US/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
@@ -124,8 +126,6 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 | 2026/5/7 | [Customizing OpenSpec Steps to Improve AI Generation Results](https://docs.hagicode.com/en-US/blog/2026-05-07-customizing-openspec-steps/) |
 | 2026/5/6 | [How to Use Copilot CLI to Integrate GPT, Claude, and Other AI Models](https://docs.hagicode.com/en-US/blog/2026-05-06-gpt-model-integration-with-copilot-cli/) |
 | 2026/5/5 | [Why HagiCode Chose execa for CLI Command Execution](https://docs.hagicode.com/en-US/blog/2026-04-28-why-hagicode-chose-execa-for-cli-execution/) |
-| 2026/4/18 | [How to Implement Automatic Retry for Agent CLIs Like Claude Code and Codex](https://docs.hagicode.com/en-US/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/17 | [SQLite Sharding in Practice: An In-Depth Comparison of Three Sharding Strategies](https://docs.hagicode.com/en-US/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
 <!-- blog-posts-end -->
 
 ## Support
