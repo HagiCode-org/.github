@@ -101,23 +101,24 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 
 | 日期 | 标题 |
 |------|------|
-| 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/bg-BG/blog/2026-05-19-user-custom-configuration-management/) |
-| 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/blog/2026-05-19-user-custom-configuration-management/) |
-| 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/cs-CZ/blog/2026-05-19-user-custom-configuration-management/) |
-| 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/da-DK/blog/2026-05-19-user-custom-configuration-management/) |
-| 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/el-GR/blog/2026-05-19-user-custom-configuration-management/) |
-| 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/es-419/blog/2026-05-19-user-custom-configuration-management/) |
-| 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/fi-FI/blog/2026-05-19-user-custom-configuration-management/) |
-| 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/hu-HU/blog/2026-05-19-user-custom-configuration-management/) |
-| 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/id-ID/blog/2026-05-19-user-custom-configuration-management/) |
-| 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/it-IT/blog/2026-05-19-user-custom-configuration-management/) |
+| 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/bg-BG/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
+| 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
+| 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/cs-CZ/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
+| 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/da-DK/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
+| 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/el-GR/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
+| 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/es-419/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
+| 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/fi-FI/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
+| 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/hu-HU/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
+| 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/id-ID/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
+| 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/it-IT/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
 
 ### English
 
 | Date | Title |
 |------|------|
-| 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/en-US/blog/2026-05-19-user-custom-configuration-management/) |
-| 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/en-US/blog/2026-05-11-opencode-integration/) |
+| 2026/5/20 | [Automated Practice for Publishing Windows Apps to Microsoft Store](https://docs.hagicode.com/en-US/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
+| 2026/5/19 | [User Custom Configuration Management Best Practices](https://docs.hagicode.com/en-US/blog/2026-05-19-user-custom-configuration-management/) |
+| 2026/5/11 | [OpenCode Integration Practice: Architectural Evolution from Standalone Process to Shared Runtime](https://docs.hagicode.com/en-US/blog/2026-05-11-opencode-integration/) |
 | 2026/5/9 | [Quantitative Assessment of AI Cost Efficiency](https://docs.hagicode.com/en-US/blog/2026-05-09-ai-cost-efficiency-calculation/) |
 | 2026/5/9 | [Steamworks Multilingual Metadata Management: From Manual Maintenance to Structured Workflows](https://docs.hagicode.com/en-US/blog/2026-05-09-steamworks-multilingual-metadata-management/) |
 | 2026/5/8 | [Optimizing OpenSpec Phase Efficiency with Different Agents: HagiCode Practice Summary](https://docs.hagicode.com/en-US/blog/2026-05-08-optimizing-openspec-with-different-agents/) |
@@ -125,7 +126,6 @@ See the base app, the bundle path, and the DLC relationship at a glance.
 | 2026/5/7 | [How to Build Multi-Platform code-server and OmniRoute with GitHub Actions](https://docs.hagicode.com/en-US/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
 | 2026/5/7 | [Implementing Image Upload and AI Recognition in Chat: A Complete Solution from Design to Implementation](https://docs.hagicode.com/en-US/blog/2026-05-07-chat-image-upload-ai-recognition/) |
 | 2026/5/7 | [Customizing OpenSpec Steps to Improve AI Generation Results](https://docs.hagicode.com/en-US/blog/2026-05-07-customizing-openspec-steps/) |
-| 2026/5/6 | [How to Use Copilot CLI to Integrate GPT, Claude, and Other AI Models](https://docs.hagicode.com/en-US/blog/2026-05-06-gpt-model-integration-with-copilot-cli/) |
 <!-- blog-posts-end -->
 
 ## Support
