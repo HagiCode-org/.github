@@ -41,7 +41,7 @@
 ·
 <a href="https://hagicode.com/container/">Container</a>
 ·
-<a href="https://store.steampowered.com/app/4625540/Hagicode/">Steam</a>
+<a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW">Windows Store</a>
 ·
 <a href="https://docs.hagicode.com/fr-FR/blog/">Blog</a>
 
@@ -54,19 +54,19 @@
 
 ---
 
-## Gamme Steam
+## Windows Store And Add-ons
 
 Visualisez en un coup d'oeil l'application de base, le parcours du Bundle et la relation avec le DLC.
 
 <p align="center">
-  <img src="./assets/steam/hagicode-wide-capsule.png" alt="Aperçu de la gamme Steam de HagiCode montrant l'illustration de l'application de base." width="100%" />
+  <img src="./assets/workspace-overview.png" alt="HagiCode desktop workspace preview." width="100%" />
 </p>
 
 | Aperçu | Produit | Rôle | Action |
 | --- | --- | --- | --- |
-| <img src="./assets/steam/hagicode-store-capsule.png" alt="Capsule Steam de HagiCode" width="180" /> | **HagiCode** | Application de base sur Steam. | [Ouvrir sur Steam](https://store.steampowered.com/app/4625540/Hagicode/) |
-| <img src="./assets/steam/hagicode-plus-store-capsule.png" alt="Capsule Steam du Bundle Hagicode Plus" width="180" /> | **Hagicode Plus** | Bundle incluant HagiCode et le DLC Turbo Engine. | [Lire le guide du Bundle](https://docs.hagicode.com/fr-FR/bundles/hagicode-plus/) · [Voir le Bundle sur Steam](https://store.steampowered.com/bundle/73989/Hagicode_Plus/) |
-| <img src="./assets/steam/turbo-engine-store-capsule.png" alt="Capsule Steam du DLC Turbo Engine" width="180" /> | **Turbo Engine DLC** | DLC pour HagiCode permettant jusqu'à 32 sessions en ligne simultanées. | [Voir le DLC](https://store.steampowered.com/app/4635480/Hagicode__Turbo_Engine/) |
+| <img src="./assets/workspace-overview.png" alt="HagiCode desktop workspace preview" width="180" /> | **HagiCode for Windows** | Current public entry point for the desktop app. The Steam main application entry has been retired. | [Open Windows Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) · [Desktop downloads](https://hagicode.com/desktop/) · [Steam status FAQ](https://docs.hagicode.com/faq/steam-distribution-status/) |
+| <img src="./assets/steam/hagicode-plus-store-capsule.png" alt="Hagicode Plus bundle artwork" width="180" /> | **Hagicode Plus** | Bundle and upgrade guidance remains available through the docs site. | [Read Hagicode Plus docs](https://docs.hagicode.com/bundles/hagicode-plus/) |
+| <img src="./assets/steam/turbo-engine-store-capsule.png" alt="Turbo Engine DLC artwork" width="180" /> | **Turbo Engine DLC** | DLC guidance for higher concurrency and customization remains available through the docs site. | [Read Turbo Engine DLC docs](https://docs.hagicode.com/dlc/turbo-engine-dlc/) |
 
 ## Pourquoi HagiCode
 
@@ -85,7 +85,8 @@ Visualisez en un coup d'oeil l'application de base, le parcours du Bundle et la 
 - [Vue d'ensemble du produit](https://docs.hagicode.com/fr-FR/product-overview/)
 - [Desktop](https://hagicode.com/desktop/)
 - [Container](https://hagicode.com/container/)
-- [Steam](https://store.steampowered.com/app/4625540/Hagicode/)
+- [Windows Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) for the current Windows desktop entry point
+- [Steam status FAQ](https://docs.hagicode.com/faq/steam-distribution-status/) for why the Steam main application is no longer the primary channel
 - [Blog](https://docs.hagicode.com/fr-FR/blog/)
 - [Guide de démarrage rapide](https://docs.hagicode.com/fr-FR/quick-start/conversation-session/)
 
