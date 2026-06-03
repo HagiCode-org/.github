@@ -19,7 +19,7 @@
 
 <p>It brings AI into the full software development process, from repository understanding and proposals to implementation, commits, knowledge capture, and feedback.</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.60-blue)
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.66-blue)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Agent CLI](https://img.shields.io/badge/Agent%20CLI-11%20supported-1f6feb)
 [![npm @hagicode/cli](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=%40hagicode%2Fcli)](https://www.npmjs.com/package/@hagicode/cli)
