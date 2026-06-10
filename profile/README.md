@@ -19,7 +19,7 @@
 
 <p>It brings AI into the full software development process, from repository understanding and proposals to implementation, commits, knowledge capture, and feedback.</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.70-blue)
+![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.71-blue)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Agent CLI](https://img.shields.io/badge/Agent%20CLI-11%20supported-1f6feb)
 [![npm @hagicode/cli](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=%40hagicode%2Fcli)](https://www.npmjs.com/package/@hagicode/cli)
@@ -102,6 +102,8 @@ Use Windows Store for the current desktop entry point. Plus and DLC details now 
 
 | 日期 | 标题 |
 |------|------|
+| 2026/6/9 | [从零开始：如何将 Reasonix CLI 集成到 HagiCode 系统中](https://docs.hagicode.com/blog/2026-06-09-integrating-reasonix-cli-into-hagicode/) |
+| 2026/6/8 | [将 Pi Agent 接入 HagiCode 的实践之路](https://docs.hagicode.com/blog/2026-06-08-integrating-pi-agent-into-hagicode/) |
 | 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
 | 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/blog/2026-05-19-user-custom-configuration-management/) |
 | 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/blog/2026-05-11-opencode-integration/) |
@@ -110,13 +112,13 @@ Use Windows Store for the current desktop entry point. Plus and DLC details now 
 | 2026/5/8 | [用不同的 Agent 优化 OpenSpec 各阶段效能：HagiCode 实践总结](https://docs.hagicode.com/blog/2026-05-08-optimizing-openspec-with-different-agents/) |
 | 2026/5/8 | [桌面应用 P2P 分发加速实践：从消费端到发布端的全链路打通](https://docs.hagicode.com/blog/2026-05-08-p2p-distribution-acceleration-practice/) |
 | 2026/5/7 | [如何使用 GitHub Actions 构建多平台的 code-server 与 OmniRoute](https://docs.hagicode.com/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
-| 2026/5/7 | [在聊天中实现图片上传与 AI 识别：从设计到落地的完整方案](https://docs.hagicode.com/blog/2026-05-07-chat-image-upload-ai-recognition/) |
-| 2026/5/7 | [自定义 OpenSpec 步骤改进生成结果](https://docs.hagicode.com/blog/2026-05-07-customizing-openspec-steps/) |
 
 ### English
 
 | Date | Title |
 |------|------|
+| 2026/6/9 | [From Zero: How to Integrate Reasonix CLI into HagiCode System](https://docs.hagicode.com/en-US/blog/2026-06-09-integrating-reasonix-cli-into-hagicode/) |
+| 2026/6/8 | [The Practice of Integrating Pi Agent into HagiCode](https://docs.hagicode.com/en-US/blog/2026-06-08-integrating-pi-agent-into-hagicode/) |
 | 2026/5/20 | [Automated Practice for Publishing Windows Apps to Microsoft Store](https://docs.hagicode.com/en-US/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
 | 2026/5/19 | [User Custom Configuration Management Best Practices](https://docs.hagicode.com/en-US/blog/2026-05-19-user-custom-configuration-management/) |
 | 2026/5/11 | [OpenCode Integration Practice: Architectural Evolution from Standalone Process to Shared Runtime](https://docs.hagicode.com/en-US/blog/2026-05-11-opencode-integration/) |
@@ -125,8 +127,6 @@ Use Windows Store for the current desktop entry point. Plus and DLC details now 
 | 2026/5/8 | [Optimizing OpenSpec Phase Efficiency with Different Agents: HagiCode Practice Summary](https://docs.hagicode.com/en-US/blog/2026-05-08-optimizing-openspec-with-different-agents/) |
 | 2026/5/8 | [Desktop Application P2P Distribution Acceleration Practice: Full-Stack Integration from Consumer to Publisher](https://docs.hagicode.com/en-US/blog/2026-05-08-p2p-distribution-acceleration-practice/) |
 | 2026/5/7 | [How to Build Multi-Platform code-server and OmniRoute with GitHub Actions](https://docs.hagicode.com/en-US/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
-| 2026/5/7 | [Implementing Image Upload and AI Recognition in Chat: A Complete Solution from Design to Implementation](https://docs.hagicode.com/en-US/blog/2026-05-07-chat-image-upload-ai-recognition/) |
-| 2026/5/7 | [Customizing OpenSpec Steps to Improve AI Generation Results](https://docs.hagicode.com/en-US/blog/2026-05-07-customizing-openspec-steps/) |
 <!-- blog-posts-end -->
 
 ## Support
