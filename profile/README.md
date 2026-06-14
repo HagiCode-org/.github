@@ -102,6 +102,7 @@ Use Windows Store for the current desktop entry point. Plus and DLC details now 
 
 | 日期 | 标题 |
 |------|------|
+| 2026/6/10 | [如何集成和使用 impeccable](https://docs.hagicode.com/blog/2026-06-10-how-to-integrate-and-use-impeccable/) |
 | 2026/6/9 | [从零开始：如何将 Reasonix CLI 集成到 HagiCode 系统中](https://docs.hagicode.com/blog/2026-06-09-integrating-reasonix-cli-into-hagicode/) |
 | 2026/6/8 | [将 Pi Agent 接入 HagiCode 的实践之路](https://docs.hagicode.com/blog/2026-06-08-integrating-pi-agent-into-hagicode/) |
 | 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
@@ -111,12 +112,12 @@ Use Windows Store for the current desktop entry point. Plus and DLC details now 
 | 2026/5/9 | [Steamworks 多语言元数据管理：从手动维护到结构化工作流](https://docs.hagicode.com/blog/2026-05-09-steamworks-multilingual-metadata-management/) |
 | 2026/5/8 | [用不同的 Agent 优化 OpenSpec 各阶段效能：HagiCode 实践总结](https://docs.hagicode.com/blog/2026-05-08-optimizing-openspec-with-different-agents/) |
 | 2026/5/8 | [桌面应用 P2P 分发加速实践：从消费端到发布端的全链路打通](https://docs.hagicode.com/blog/2026-05-08-p2p-distribution-acceleration-practice/) |
-| 2026/5/7 | [如何使用 GitHub Actions 构建多平台的 code-server 与 OmniRoute](https://docs.hagicode.com/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
 
 ### English
 
 | Date | Title |
 |------|------|
+| 2026/6/10 | [How to integrate and use impeccable](https://docs.hagicode.com/en-US/blog/2026-06-10-how-to-integrate-and-use-impeccable/) |
 | 2026/6/9 | [From Zero: How to Integrate Reasonix CLI into HagiCode System](https://docs.hagicode.com/en-US/blog/2026-06-09-integrating-reasonix-cli-into-hagicode/) |
 | 2026/6/8 | [The Practice of Integrating Pi Agent into HagiCode](https://docs.hagicode.com/en-US/blog/2026-06-08-integrating-pi-agent-into-hagicode/) |
 | 2026/5/20 | [Automated Practice for Publishing Windows Apps to Microsoft Store](https://docs.hagicode.com/en-US/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
@@ -126,7 +127,6 @@ Use Windows Store for the current desktop entry point. Plus and DLC details now 
 | 2026/5/9 | [Steamworks Multilingual Metadata Management: From Manual Maintenance to Structured Workflows](https://docs.hagicode.com/en-US/blog/2026-05-09-steamworks-multilingual-metadata-management/) |
 | 2026/5/8 | [Optimizing OpenSpec Phase Efficiency with Different Agents: HagiCode Practice Summary](https://docs.hagicode.com/en-US/blog/2026-05-08-optimizing-openspec-with-different-agents/) |
 | 2026/5/8 | [Desktop Application P2P Distribution Acceleration Practice: Full-Stack Integration from Consumer to Publisher](https://docs.hagicode.com/en-US/blog/2026-05-08-p2p-distribution-acceleration-practice/) |
-| 2026/5/7 | [How to Build Multi-Platform code-server and OmniRoute with GitHub Actions](https://docs.hagicode.com/en-US/blog/2026-05-06-github-actions-multi-platform-code-server-omniroute/) |
 <!-- blog-posts-end -->
 
 ## Support
