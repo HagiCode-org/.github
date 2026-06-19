@@ -102,6 +102,8 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 
 | 日期 | 标题 |
 |------|------|
+| 2026/6/18 | [Electron 应用如何上架微软商店：从 MSIX 打包到商店提交](https://docs.hagicode.com/blog/2026-06-18-electron-app-publish-to-microsoft-store/) |
+| 2026/6/18 | [如何使用 Upptime 免费搭建自己的状态站点](https://docs.hagicode.com/blog/2026-06-18-how-to-use-upptime-for-free-status-page/) |
 | 2026/6/17 | [Electron 如何调用 Windows 原生 API](https://docs.hagicode.com/blog/2026-06-17-electron-windows-native-api-integration/) |
 | 2026/6/16 | [Electron 桌面应用如何接入 Microsoft Store 订阅与永久许可证](https://docs.hagicode.com/blog/2026-06-16-electron-msstore-subscription-license/) |
 | 2026/6/10 | [如何集成和使用 impeccable](https://docs.hagicode.com/blog/2026-06-10-how-to-integrate-and-use-impeccable/) |
@@ -110,13 +112,13 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 | 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
 | 2026/5/19 | [用户自定义配置管理最佳实践](https://docs.hagicode.com/blog/2026-05-19-user-custom-configuration-management/) |
 | 2026/5/11 | [OpenCode 对接实践：从独立进程到共享 Runtime 的架构演进](https://docs.hagicode.com/blog/2026-05-11-opencode-integration/) |
-| 2026/5/9 | [AI 成本效益的量化评估](https://docs.hagicode.com/blog/2026-05-09-ai-cost-efficiency-calculation/) |
-| 2026/5/9 | [Steamworks 多语言元数据管理：从手动维护到结构化工作流](https://docs.hagicode.com/blog/2026-05-09-steamworks-multilingual-metadata-management/) |
 
 ### English
 
 | Date | Title |
 |------|------|
+| 2026/6/18 | [How to Publish an Electron App to Microsoft Store: From MSIX Packaging to Store Submission](https://docs.hagicode.com/en-US/blog/2026-06-18-electron-app-publish-to-microsoft-store/) |
+| 2026/6/18 | [How to Use Upptime to Build Your Own Status Page for Free](https://docs.hagicode.com/en-US/blog/2026-06-18-how-to-use-upptime-for-free-status-page/) |
 | 2026/6/17 | [How Electron Calls Windows Native APIs](https://docs.hagicode.com/en-US/blog/2026-06-17-electron-windows-native-api-integration/) |
 | 2026/6/16 | [How Electron Desktop Apps Integrate Microsoft Store Subscription and Perpetual Licenses](https://docs.hagicode.com/en-US/blog/2026-06-16-electron-msstore-subscription-license/) |
 | 2026/6/10 | [How to integrate and use impeccable](https://docs.hagicode.com/en-US/blog/2026-06-10-how-to-integrate-and-use-impeccable/) |
@@ -125,8 +127,6 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 | 2026/5/20 | [Automated Practice for Publishing Windows Apps to Microsoft Store](https://docs.hagicode.com/en-US/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
 | 2026/5/19 | [User Custom Configuration Management Best Practices](https://docs.hagicode.com/en-US/blog/2026-05-19-user-custom-configuration-management/) |
 | 2026/5/11 | [OpenCode Integration Practice: Architectural Evolution from Standalone Process to Shared Runtime](https://docs.hagicode.com/en-US/blog/2026-05-11-opencode-integration/) |
-| 2026/5/9 | [Quantitative Assessment of AI Cost Efficiency](https://docs.hagicode.com/en-US/blog/2026-05-09-ai-cost-efficiency-calculation/) |
-| 2026/5/9 | [Steamworks Multilingual Metadata Management: From Manual Maintenance to Structured Workflows](https://docs.hagicode.com/en-US/blog/2026-05-09-steamworks-multilingual-metadata-management/) |
 <!-- blog-posts-end -->
 
 ## Support
