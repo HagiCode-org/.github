@@ -102,6 +102,8 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 
 | 日期 | 标题 |
 |------|------|
+| 2026/6/20 | [HagiCode 中 AI 提交使用的提示词：设计思路与实现拆解](https://docs.hagicode.com/blog/2026-06-20-hagicode-ai-commit-prompt-design/) |
+| 2026/6/20 | [MonoSpecs 是什么：为什么说它是对 OpenSpec 的进一步升级和扩展](https://docs.hagicode.com/blog/2026-06-20-monospecs-openspec-upgrade-and-extension/) |
 | 2026/6/19 | [Pi Agent 对接实现：消息解析、重试与取消](https://docs.hagicode.com/blog/2026-06-19-pi-agent-integration-message-parsing-retry-cancel/) |
 | 2026/6/19 | [对接 Reasonix 1.x 跑通 DeepSeek V4：ACP 模型选择器接入实战](https://docs.hagicode.com/blog/2026-06-19-reasonix-1x-deepseek-v4-acp-integration/) |
 | 2026/6/18 | [Electron 应用如何上架微软商店：从 MSIX 打包到商店提交](https://docs.hagicode.com/blog/2026-06-18-electron-app-publish-to-microsoft-store/) |
@@ -110,13 +112,13 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 | 2026/6/16 | [Electron 桌面应用如何接入 Microsoft Store 订阅与永久许可证](https://docs.hagicode.com/blog/2026-06-16-electron-msstore-subscription-license/) |
 | 2026/6/10 | [如何集成和使用 impeccable](https://docs.hagicode.com/blog/2026-06-10-how-to-integrate-and-use-impeccable/) |
 | 2026/6/9 | [从零开始：如何将 Reasonix CLI 集成到 HagiCode 系统中](https://docs.hagicode.com/blog/2026-06-09-integrating-reasonix-cli-into-hagicode/) |
-| 2026/6/8 | [将 Pi Agent 接入 HagiCode 的实践之路](https://docs.hagicode.com/blog/2026-06-08-integrating-pi-agent-into-hagicode/) |
-| 2026/5/20 | [Windows 应用自动上架 Microsoft Store 的自动化实践](https://docs.hagicode.com/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
 
 ### English
 
 | Date | Title |
 |------|------|
+| 2026/6/20 | [Prompts Used for AI Commits in HagiCode: Design Philosophy and Implementation Breakdown](https://docs.hagicode.com/en-US/blog/2026-06-20-hagicode-ai-commit-prompt-design/) |
+| 2026/6/20 | [What is MonoSpecs: Why It's a Further Upgrade and Extension of OpenSpec](https://docs.hagicode.com/en-US/blog/2026-06-20-monospecs-openspec-upgrade-and-extension/) |
 | 2026/6/19 | [Pi Agent Integration Implementation: Message Parsing, Retry, and Cancellation](https://docs.hagicode.com/en-US/blog/2026-06-19-pi-agent-integration-message-parsing-retry-cancel/) |
 | 2026/6/19 | [Integrating Reasonix 1.x with DeepSeek V4: ACP Model Selector Integration in Practice](https://docs.hagicode.com/en-US/blog/2026-06-19-reasonix-1x-deepseek-v4-acp-integration/) |
 | 2026/6/18 | [How to Publish an Electron App to Microsoft Store: From MSIX Packaging to Store Submission](https://docs.hagicode.com/en-US/blog/2026-06-18-electron-app-publish-to-microsoft-store/) |
@@ -125,8 +127,6 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 | 2026/6/16 | [How Electron Desktop Apps Integrate Microsoft Store Subscription and Perpetual Licenses](https://docs.hagicode.com/en-US/blog/2026-06-16-electron-msstore-subscription-license/) |
 | 2026/6/10 | [How to integrate and use impeccable](https://docs.hagicode.com/en-US/blog/2026-06-10-how-to-integrate-and-use-impeccable/) |
 | 2026/6/9 | [From Zero: How to Integrate Reasonix CLI into HagiCode System](https://docs.hagicode.com/en-US/blog/2026-06-09-integrating-reasonix-cli-into-hagicode/) |
-| 2026/6/8 | [The Practice of Integrating Pi Agent into HagiCode](https://docs.hagicode.com/en-US/blog/2026-06-08-integrating-pi-agent-into-hagicode/) |
-| 2026/5/20 | [Automated Practice for Publishing Windows Apps to Microsoft Store](https://docs.hagicode.com/en-US/blog/2026-05-20-windows-app-automation-to-microsoft-store/) |
 <!-- blog-posts-end -->
 
 ## Support
