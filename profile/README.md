@@ -102,6 +102,7 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 
 | 日期 | 标题 |
 |------|------|
+| 2026/6/22 | [HagiCode 是怎么把 13 个 Agent CLI 接到一套系统里的](https://docs.hagicode.com/blog/2026-06-22-hagicode-13-agent-cli-integration-architecture/) |
 | 2026/6/21 | [用 Orleans 搞定 AI 编程工作台的后台分布式难题](https://docs.hagicode.com/blog/2026-06-21-orleans-hagicode-backend-system/) |
 | 2026/6/20 | [HagiCode 中 AI 提交使用的提示词：设计思路与实现拆解](https://docs.hagicode.com/blog/2026-06-20-hagicode-ai-commit-prompt-design/) |
 | 2026/6/20 | [MonoSpecs 是什么：为什么说它是对 OpenSpec 的进一步升级和扩展](https://docs.hagicode.com/blog/2026-06-20-monospecs-openspec-upgrade-and-extension/) |
@@ -111,12 +112,12 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 | 2026/6/18 | [如何使用 Upptime 免费搭建自己的状态站点](https://docs.hagicode.com/blog/2026-06-18-how-to-use-upptime-for-free-status-page/) |
 | 2026/6/17 | [Electron 如何调用 Windows 原生 API](https://docs.hagicode.com/blog/2026-06-17-electron-windows-native-api-integration/) |
 | 2026/6/16 | [Electron 桌面应用如何接入 Microsoft Store 订阅与永久许可证](https://docs.hagicode.com/blog/2026-06-16-electron-msstore-subscription-license/) |
-| 2026/6/10 | [如何集成和使用 impeccable](https://docs.hagicode.com/blog/2026-06-10-how-to-integrate-and-use-impeccable/) |
 
 ### English
 
 | Date | Title |
 |------|------|
+| 2026/6/22 | [HagiCode 是怎么把 13 个 Agent CLI 接到一套系统里的](https://docs.hagicode.com/en-US/blog/2026-06-22-hagicode-13-agent-cli-integration-architecture/) |
 | 2026/6/21 | [Solving Backend Distributed Challenges for AI Programming Workbench with Orleans](https://docs.hagicode.com/en-US/blog/2026-06-21-orleans-hagicode-backend-system/) |
 | 2026/6/20 | [Prompts Used for AI Commits in HagiCode: Design Philosophy and Implementation Breakdown](https://docs.hagicode.com/en-US/blog/2026-06-20-hagicode-ai-commit-prompt-design/) |
 | 2026/6/20 | [What is MonoSpecs: Why It's a Further Upgrade and Extension of OpenSpec](https://docs.hagicode.com/en-US/blog/2026-06-20-monospecs-openspec-upgrade-and-extension/) |
@@ -126,7 +127,6 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 | 2026/6/18 | [How to Use Upptime to Build Your Own Status Page for Free](https://docs.hagicode.com/en-US/blog/2026-06-18-how-to-use-upptime-for-free-status-page/) |
 | 2026/6/17 | [How Electron Calls Windows Native APIs](https://docs.hagicode.com/en-US/blog/2026-06-17-electron-windows-native-api-integration/) |
 | 2026/6/16 | [How Electron Desktop Apps Integrate Microsoft Store Subscription and Perpetual Licenses](https://docs.hagicode.com/en-US/blog/2026-06-16-electron-msstore-subscription-license/) |
-| 2026/6/10 | [How to integrate and use impeccable](https://docs.hagicode.com/en-US/blog/2026-06-10-how-to-integrate-and-use-impeccable/) |
 <!-- blog-posts-end -->
 
 ## Support
