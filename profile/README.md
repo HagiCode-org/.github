@@ -102,6 +102,8 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 
 | 日期 | 标题 |
 |------|------|
+| 2026/7/3 | [让所有 Agent 都会 /goal：HagiCode 持续工作预设的兼容扩展设计](https://docs.hagicode.com/blog/2026-07-03-goal-preset-agent-compatible-prompt-variants/) |
+| 2026/6/27 | [如何用 last30days 来完成基于社交网络的 AI 调研需求](https://docs.hagicode.com/blog/2026-02-11-last30days-social-ai-research/) |
 | 2026/6/23 | [让每个命令都能精准路由：HagiCode Preset Task 的多技能支持实战](https://docs.hagicode.com/blog/2026-06-23-hagicode-preset-task-multiple-skills-support/) |
 | 2026/6/22 | [HagiCode 是怎么把 13 个 Agent CLI 接到一套系统里的](https://docs.hagicode.com/blog/2026-06-22-hagicode-13-agent-cli-integration-architecture/) |
 | 2026/6/21 | [用 Orleans 搞定 AI 编程工作台的后台分布式难题](https://docs.hagicode.com/blog/2026-06-21-orleans-hagicode-backend-system/) |
@@ -110,13 +112,13 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 | 2026/6/19 | [Pi Agent 对接实现：消息解析、重试与取消](https://docs.hagicode.com/blog/2026-06-19-pi-agent-integration-message-parsing-retry-cancel/) |
 | 2026/6/19 | [对接 Reasonix 1.x 跑通 DeepSeek V4：ACP 模型选择器接入实战](https://docs.hagicode.com/blog/2026-06-19-reasonix-1x-deepseek-v4-acp-integration/) |
 | 2026/6/18 | [Electron 应用如何上架微软商店：从 MSIX 打包到商店提交](https://docs.hagicode.com/blog/2026-06-18-electron-app-publish-to-microsoft-store/) |
-| 2026/6/18 | [如何使用 Upptime 免费搭建自己的状态站点](https://docs.hagicode.com/blog/2026-06-18-how-to-use-upptime-for-free-status-page/) |
-| 2026/6/17 | [Electron 如何调用 Windows 原生 API](https://docs.hagicode.com/blog/2026-06-17-electron-windows-native-api-integration/) |
 
 ### English
 
 | Date | Title |
 |------|------|
+| 2026/7/3 | [让所有 Agent 都会 /goal：HagiCode 持续工作预设的兼容扩展设计](https://docs.hagicode.com/en-US/blog/2026-07-03-goal-preset-agent-compatible-prompt-variants/) |
+| 2026/6/27 | [How to Use last30days for Social Network-Based AI Research Needs](https://docs.hagicode.com/en-US/blog/2026-02-11-last30days-social-ai-research/) |
 | 2026/6/23 | [Precise Routing for Every Command: HagiCode Preset Task Multi-Skill Support in Practice](https://docs.hagicode.com/en-US/blog/2026-06-23-hagicode-preset-task-multiple-skills-support/) |
 | 2026/6/22 | [How HagiCode integrated 13 Agent CLIs into a single system](https://docs.hagicode.com/en-US/blog/2026-06-22-hagicode-13-agent-cli-integration-architecture/) |
 | 2026/6/21 | [Solving Backend Distributed Challenges for AI Programming Workbench with Orleans](https://docs.hagicode.com/en-US/blog/2026-06-21-orleans-hagicode-backend-system/) |
@@ -125,8 +127,6 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 | 2026/6/19 | [Pi Agent Integration Implementation: Message Parsing, Retry, and Cancellation](https://docs.hagicode.com/en-US/blog/2026-06-19-pi-agent-integration-message-parsing-retry-cancel/) |
 | 2026/6/19 | [Integrating Reasonix 1.x with DeepSeek V4: ACP Model Selector Integration in Practice](https://docs.hagicode.com/en-US/blog/2026-06-19-reasonix-1x-deepseek-v4-acp-integration/) |
 | 2026/6/18 | [How to Publish an Electron App to Microsoft Store: From MSIX Packaging to Store Submission](https://docs.hagicode.com/en-US/blog/2026-06-18-electron-app-publish-to-microsoft-store/) |
-| 2026/6/18 | [How to Use Upptime to Build Your Own Status Page for Free](https://docs.hagicode.com/en-US/blog/2026-06-18-how-to-use-upptime-for-free-status-page/) |
-| 2026/6/17 | [How Electron Calls Windows Native APIs](https://docs.hagicode.com/en-US/blog/2026-06-17-electron-windows-native-api-integration/) |
 <!-- blog-posts-end -->
 
 ## Support
