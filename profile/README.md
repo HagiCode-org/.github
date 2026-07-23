@@ -102,6 +102,7 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 
 | 日期 | 标题 |
 |------|------|
+| 2026/7/4 | [我们如何使用 impeccable 优化前端界面设计与实现稳定性](https://docs.hagicode.com/blog/2026-07-04-goal-preset-agent-compatible-prompt-variants/) |
 | 2026/7/3 | [让所有 Agent 都会 /goal：HagiCode 持续工作预设的兼容扩展设计](https://docs.hagicode.com/blog/2026-07-03-goal-preset-agent-compatible-prompt-variants/) |
 | 2026/6/27 | [如何用 last30days 来完成基于社交网络的 AI 调研需求](https://docs.hagicode.com/blog/2026-02-11-last30days-social-ai-research/) |
 | 2026/6/23 | [让每个命令都能精准路由：HagiCode Preset Task 的多技能支持实战](https://docs.hagicode.com/blog/2026-06-23-hagicode-preset-task-multiple-skills-support/) |
@@ -111,12 +112,12 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 | 2026/6/20 | [MonoSpecs 是什么：为什么说它是对 OpenSpec 的进一步升级和扩展](https://docs.hagicode.com/blog/2026-06-20-monospecs-openspec-upgrade-and-extension/) |
 | 2026/6/19 | [Pi Agent 对接实现：消息解析、重试与取消](https://docs.hagicode.com/blog/2026-06-19-pi-agent-integration-message-parsing-retry-cancel/) |
 | 2026/6/19 | [对接 Reasonix 1.x 跑通 DeepSeek V4：ACP 模型选择器接入实战](https://docs.hagicode.com/blog/2026-06-19-reasonix-1x-deepseek-v4-acp-integration/) |
-| 2026/6/18 | [Electron 应用如何上架微软商店：从 MSIX 打包到商店提交](https://docs.hagicode.com/blog/2026-06-18-electron-app-publish-to-microsoft-store/) |
 
 ### English
 
 | Date | Title |
 |------|------|
+| 2026/7/4 | [我们如何使用 impeccable 优化前端界面设计与实现稳定性](https://docs.hagicode.com/en-US/blog/2026-07-04-goal-preset-agent-compatible-prompt-variants/) |
 | 2026/7/3 | [让所有 Agent 都会 /goal：HagiCode 持续工作预设的兼容扩展设计](https://docs.hagicode.com/en-US/blog/2026-07-03-goal-preset-agent-compatible-prompt-variants/) |
 | 2026/6/27 | [How to Use last30days for Social Network-Based AI Research Needs](https://docs.hagicode.com/en-US/blog/2026-02-11-last30days-social-ai-research/) |
 | 2026/6/23 | [Precise Routing for Every Command: HagiCode Preset Task Multi-Skill Support in Practice](https://docs.hagicode.com/en-US/blog/2026-06-23-hagicode-preset-task-multiple-skills-support/) |
@@ -126,7 +127,6 @@ Use Microsoft Store for the current desktop entry point. Plus and DLC details no
 | 2026/6/20 | [What is MonoSpecs: Why It's a Further Upgrade and Extension of OpenSpec](https://docs.hagicode.com/en-US/blog/2026-06-20-monospecs-openspec-upgrade-and-extension/) |
 | 2026/6/19 | [Pi Agent Integration Implementation: Message Parsing, Retry, and Cancellation](https://docs.hagicode.com/en-US/blog/2026-06-19-pi-agent-integration-message-parsing-retry-cancel/) |
 | 2026/6/19 | [Integrating Reasonix 1.x with DeepSeek V4: ACP Model Selector Integration in Practice](https://docs.hagicode.com/en-US/blog/2026-06-19-reasonix-1x-deepseek-v4-acp-integration/) |
-| 2026/6/18 | [How to Publish an Electron App to Microsoft Store: From MSIX Packaging to Store Submission](https://docs.hagicode.com/en-US/blog/2026-06-18-electron-app-publish-to-microsoft-store/) |
 <!-- blog-posts-end -->
 
 ## Support
