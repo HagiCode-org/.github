@@ -12,20 +12,20 @@ import {
 
 test('resolveRSSUrl defaults to the zh-CN docs blog RSS feed', () => {
   assert.equal(resolveRSSUrl({}), DEFAULT_RSS_URL);
-  assert.equal(DEFAULT_RSS_URL, 'https://docs.hagicode.com/blog/rss.zh-CN.xml');
+  assert.equal(DEFAULT_RSS_URL, 'https://docs.hagicode.com/blog/rss.xml');
 });
 
 test('resolveRSSUrl supports a language-specific HAGICODE_BLOG_RSS_URL override', () => {
   assert.equal(
-    resolveRSSUrl({ HAGICODE_BLOG_RSS_URL: 'https://docs.hagicode.com/blog/rss.zh-CN.xml?source=override' }),
-    'https://docs.hagicode.com/blog/rss.zh-CN.xml?source=override',
+    resolveRSSUrl({ HAGICODE_BLOG_RSS_URL: 'https://docs.hagicode.com/blog/rss.xml?source=override' }),
+    'https://docs.hagicode.com/blog/rss.xml?source=override',
   );
 });
 
 test('resolveRSSUrl keeps RSS_URL as a compatibility override', () => {
   assert.equal(
-    resolveRSSUrl({ RSS_URL: 'https://docs.hagicode.com/blog/rss.zh-CN.xml' }),
-    'https://docs.hagicode.com/blog/rss.zh-CN.xml',
+    resolveRSSUrl({ RSS_URL: 'https://docs.hagicode.com/blog/rss.xml' }),
+    'https://docs.hagicode.com/blog/rss.xml',
   );
 });
 
@@ -67,13 +67,13 @@ test('resolveRSSFeeds defaults to zh-CN and English docs blog feeds', () => {
 
 test('resolveRSSFeeds supports separate zh and en overrides', () => {
   assert.deepEqual(resolveRSSFeeds({
-    HAGICODE_BLOG_RSS_URL_ZH: 'https://docs.hagicode.com/blog/rss.zh-CN.xml?lang=zh',
-    HAGICODE_BLOG_RSS_URL_EN: 'https://docs.hagicode.com/blog/rss.en-US.xml?lang=en',
+    HAGICODE_BLOG_RSS_URL_ZH: 'https://docs.hagicode.com/blog/rss.xml?lang=zh',
+    HAGICODE_BLOG_RSS_URL_EN: 'https://docs.hagicode.com/en-US/blog/rss.xml?lang=en',
   }), [
     {
       key: 'zh-CN',
       heading: '中文',
-      rssUrl: 'https://docs.hagicode.com/blog/rss.zh-CN.xml?lang=zh',
+      rssUrl: 'https://docs.hagicode.com/blog/rss.xml?lang=zh',
       tableLabels: {
         date: '日期',
         title: '标题',
@@ -82,7 +82,7 @@ test('resolveRSSFeeds supports separate zh and en overrides', () => {
     {
       key: 'en',
       heading: 'English',
-      rssUrl: 'https://docs.hagicode.com/blog/rss.en-US.xml?lang=en',
+      rssUrl: 'https://docs.hagicode.com/en-US/blog/rss.xml?lang=en',
       tableLabels: {
         date: 'Date',
         title: 'Title',
