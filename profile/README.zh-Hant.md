@@ -15,15 +15,11 @@
   <a href="./README.ru-RU.md">Русский</a>
 </p>
 
-<p><strong>HagiCode 是一款把 AI 程式編碼工具、遊戲化回饋系統與完整開發工作區整合到同一平台的產品。</strong></p>
+<p><strong>HagiCode 讓 AI 修改程式碼時不遺失上下文：先讀懂儲存庫，再劃清範圍，最後以可追蹤的方式執行。</strong></p>
 
-<p>它將 AI 帶入完整的軟體開發流程，從儲存庫理解、提案設計到實作、提交、知識沉澱與回饋閉環。</p>
+<p>面向專案開發的 AI 工作台。它能接入你已有的 Agent CLI 與模型，不需要更換編輯器。</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.51-blue)
-![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.57-orange)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Agent CLI](https://img.shields.io/badge/Agent%20CLI-11%20supported-1f6feb)
 [![npm @hagicode/cli](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=%40hagicode%2Fcli)](https://www.npmjs.com/package/@hagicode/cli)
 [![npm @hagicode/hagi18n](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=%40hagicode%2Fhagi18n)](https://www.npmjs.com/package/@hagicode/hagi18n)
 [![npm @hagicode/hagiscript](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=%40hagicode%2Fhagiscript)](https://www.npmjs.com/package/@hagicode/hagiscript)
@@ -35,11 +31,9 @@
 
 <a href="https://hagicode.com/">官網</a>
 ·
+<a href="https://docs.hagicode.com/zh-Hant/installation/">安裝指南</a>
+·
 <a href="https://docs.hagicode.com/zh-Hant/product-overview/">產品概覽</a>
-·
-<a href="https://hagicode.com/desktop/">桌面版</a>
-·
-<a href="https://hagicode.com/container/">容器版</a>
 ·
 <a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW">Microsoft Store</a>
 ·
@@ -48,54 +42,77 @@
 <br />
 <br />
 
-<img src="./assets/workspace-overview.png" alt="HagiCode 工作區總覽，展示會話、提交說明與頂層操作入口。" width="100%" />
+<img src="./assets/workspace-overview.png" alt="HagiCode 工作台，顯示工作階段清單、提交說明與頂部操作入口。" width="100%" />
 
 </div>
 
 ---
 
-## Microsoft Store And Add-ons
+## 一眼看懂
 
-一眼看懂基礎應用、Bundle 方案與 DLC 之間的關係。
+- **主流 Agent CLI**，同一個工作台，如 Claude Code、Codex、GitHub Copilot、OpenCode 等，完整清單見[支援範圍](https://docs.hagicode.com/zh-Hant/related-software-installation/ai-agent-cli/)。
+- **Windows、macOS、Linux 皆可使用**，可選桌面版或自行託管的容器。
+- **基礎功能免費。** Desktop、Container、Microsoft Store 是三種取得方式，不是三檔付費版本。
+- **預設唯讀。** 一般工作階段只分析程式碼，需要修改時再切換到編輯模式。
+
+## 三步開始
+
+| 步驟 | 做什麼 | 入口 |
+| --- | --- | --- |
+| 1. 安裝 | Windows 使用 Microsoft Store；macOS / Linux，或無法使用商店的 Windows 使用 Desktop；伺服器、NAS、團隊部署使用 Docker Compose。 | [安裝指南](https://docs.hagicode.com/zh-Hant/installation/) · [Microsoft Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) · [桌面版](https://hagicode.com/desktop/) · [容器版](https://hagicode.com/container/) |
+| 2. 初始化 | 完成首次啟動精靈，並建立至少一個專案。 | [初始化精靈](https://docs.hagicode.com/zh-Hant/quick-start/wizard-setup/) |
+| 3. 開始工作階段 | 先用唯讀的一般工作階段理解專案，再決定是否進入編輯或提案流程。 | [一般工作階段](https://docs.hagicode.com/zh-Hant/quick-start/conversation-session/) · [提案工作階段](https://docs.hagicode.com/zh-Hant/quick-start/proposal-session/) |
+
+> **安裝 Desktop 之前：** Microsoft Store 與 Desktop 需要你的電腦已安裝 **Node.js 24 或更新版本** 與 **Git**；Docker Compose 方式的主機兩者都不需要。詳見[安裝指南](https://docs.hagicode.com/zh-Hant/installation/)。
+
+## 一次開發任務怎麼走
+
+1. **先理解**：在唯讀的一般工作階段中分析現有程式碼。
+2. **再定範圍**：複雜變更在提案工作階段中選擇專案與儲存庫，先對齊目標、任務與驗證方式，再動手修改。
+3. **追蹤結果**：在工作台回看工作階段與執行狀態，並用 AI Compose Commit 整理提交。
+4. **留下上下文**：提案與提交記錄可供回顧，跨儲存庫協作交給 MonoSpecs 管理。
 
 <p align="center">
-  <img src="./assets/workspace-overview.png" alt="HagiCode desktop workspace preview." width="100%" />
+  <img src="./assets/create-proposal.png" alt="新增提案抽屜：選擇專案，將儲存庫標為參考或可編輯，並預覽合併後的需求。" width="49%" />
+  <img src="./assets/proposal-workflow.png" alt="提案工作階段，顯示從建立、審閱到執行、封存的工作流程階段。" width="49%" />
 </p>
 
-| 預覽 | 產品 | 角色 | 操作 |
-| --- | --- | --- | --- |
-| <img src="./assets/workspace-overview.png" alt="HagiCode desktop workspace preview" width="180" /> | **HagiCode for Windows** | Current public entry point for the desktop app. The Steam main application entry has been retired. | [Open Microsoft Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) · [Desktop downloads](https://hagicode.com/desktop/) · [Steam status FAQ](https://docs.hagicode.com/faq/steam-distribution-status/) |
-| <img src="./assets/steam/hagicode-plus-store-capsule.png" alt="Hagicode Plus bundle artwork" width="180" /> | **Hagicode Plus** | Bundle and upgrade guidance remains available through the docs site. | [Read Hagicode Plus docs](https://docs.hagicode.com/bundles/hagicode-plus/) |
-| <img src="./assets/steam/turbo-engine-store-capsule.png" alt="Turbo Engine DLC artwork" width="180" /> | **Turbo Engine DLC** | DLC guidance for higher concurrency and customization remains available through the docs site. | [Read Turbo Engine DLC docs](https://docs.hagicode.com/dlc/turbo-engine-dlc/) |
+不必每次都走提案流程：只想了解程式碼或處理簡單問題時，從一般工作階段開始即可。
 
 ## 為什麼選擇 HagiCode
 
-- **提案驅動的 AI 程式編碼**：`OpenSpec` 將範圍、任務、影響分析、驗證與執行維持在同一條鏈路中，而不是讓複雜工作退化成盲改。
-- **靈活的 Agent 與模型路由**：主流 Agent CLI 與 `OmniRoute` 讓團隊可以分別選擇互動層與模型層。
-- **完整的開發工作區**：`MonoSpecs`、`Skills`、`Vault`、`AI Compose Commit` 與 `code-server` 把多倉協作、知識沉澱與收尾步驟都留在同一系統。
-- **具備真實訊號的遊戲化回饋**：成就、日報、效率倍率與 token 吞吐量，讓長時間 AI 協作更容易閱讀與管理。
+- **提案驅動的 AI 編碼**：`OpenSpec` 把範圍、任務、影響分析、驗證與執行串成一條鏈路，而不是讓複雜工作退化成盲改。
+- **自帶 Agent CLI 與模型**：`OmniRoute` 把 CLI 的選擇與模型、訂閱層分開，路由模型與端點時不必綁定在某一套預設組合上。
+- **完整的開發工作區**：`MonoSpecs` 管理多儲存庫範圍，`Skills` 提供可安裝的擴充，`Vault` 沉澱可重複使用的知識，`AI Compose Commit` 與 `code-server` 讓收尾也在同一處完成。
+- **帶有真實訊號的遊戲化回饋**：成就、日報、效率倍率與 token 吞吐量，讓長期 AI 協作更容易讀懂。這是工作台體驗的一部分，不想用可以忽略。
 
 <p align="center">
-  <img src="./assets/gamified-feedback.png" alt="成就檢視，展示每日進度、長期里程碑與遊戲化回饋介面。" width="100%" />
+  <img src="./assets/omniroute-routing.png" alt="OmniRoute 設定頁，顯示路由設定、端點控制與執行狀態。" width="49%" />
+  <img src="./assets/skills-gallery.png" alt="Skills 圖庫，顯示可搜尋、可安裝的技能與來源篩選。" width="49%" />
 </p>
 
-## 快速連結
+<p align="center">
+  <img src="./assets/gamified-feedback.png" alt="成就檢視，顯示每日進度、長期里程碑與遊戲化回饋介面。" width="100%" />
+</p>
 
-- [官網](https://hagicode.com/)
-- [產品概覽](https://docs.hagicode.com/zh-Hant/product-overview/)
-- [桌面版](https://hagicode.com/desktop/)
-- [容器版](https://hagicode.com/container/)
-- [Microsoft Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) for the current Windows desktop entry point
-- [Steam status FAQ](https://docs.hagicode.com/faq/steam-distribution-status/) for why the Steam main application is no longer the primary channel
-- [部落格](https://docs.hagicode.com/zh-Hant/blog/)
-- [快速開始指南](https://docs.hagicode.com/zh-Hant/quick-start/conversation-session/)
+## 適合誰
+
+- **適合**：同時維護多個儲存庫、希望複雜改動先規劃再執行的開發者與團隊；已經在用 Claude Code、Codex 等 Agent CLI，想把它們放進同一個工作台的人。
+- **不是必需品**：如果你只需要在編輯器裡補全幾行程式碼，現有工具已經足夠。
+
+## 加值內容
+
+Plus 與 DLC 的詳情在文件站。Steam 主應用程式已退役，詳見 [Steam 發行狀態](https://docs.hagicode.com/faq/steam-distribution-status/)。
+
+- [Hagicode Plus](https://docs.hagicode.com/bundles/hagicode-plus/) — 套裝與升級指引
+- [Turbo Engine DLC](https://docs.hagicode.com/dlc/turbo-engine-dlc/) — 更高的提案並行上限，以及文件主題、自訂署名、品牌與頭像（Microsoft Store 一次性購買）
 
 ## 精選專案
 
-- **[site](https://github.com/HagiCode-org/site)** - 官方行銷網站與公開 GitHub 落地倉庫
-- **[desktop](https://github.com/HagiCode-org/desktop)** - 面向本地優先 HagiCode 工作流的桌面客戶端
-- **[container](https://github.com/HagiCode-org/container)** - 面向團隊與伺服器環境的自託管部署方案
-- **[docs](https://github.com/HagiCode-org/docs)** - 提供標準產品概覽與指南的文件站點
+- **[site](https://github.com/HagiCode-org/site)** - 官方行銷網站與公開 GitHub 落地儲存庫
+- **[desktop](https://github.com/HagiCode-org/desktop)** - 面向本地優先 HagiCode 工作流程的桌面用戶端
+- **[container](https://github.com/HagiCode-org/container)** - 面向團隊與伺服器環境的自行託管部署方案
+- **[docs](https://github.com/HagiCode-org/docs)** - 提供規範產品概覽與指南的文件站點
 
 ## 最新部落格文章
 

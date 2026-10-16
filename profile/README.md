@@ -15,13 +15,12 @@
   <a href="./README.ru-RU.md">Русский</a>
 </p>
 
-<p><strong>HagiCode is a product that combines an AI coding tool, a gamified feedback system, and a full development workspace into one platform.</strong></p>
+<p><strong>HagiCode keeps AI from losing context while it changes your code: understand the repository first, set the scope, then execute with a trail you can review.</strong></p>
 
-<p>It brings AI into the full software development process, from repository understanding and proposals to implementation, commits, knowledge capture, and feedback.</p>
+<p>An AI workbench for project development. It plugs into the Agent CLIs and models you already use, so you don't have to change editors.</p>
 
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.91-blue)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Agent CLI](https://img.shields.io/badge/Agent%20CLI-11%20supported-1f6feb)
 [![npm @hagicode/cli](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=%40hagicode%2Fcli)](https://www.npmjs.com/package/@hagicode/cli)
 [![npm @hagicode/hagi18n](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=%40hagicode%2Fhagi18n)](https://www.npmjs.com/package/@hagicode/hagi18n)
 [![npm @hagicode/hagiscript](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=%40hagicode%2Fhagiscript)](https://www.npmjs.com/package/@hagicode/hagiscript)
@@ -33,11 +32,9 @@
 
 <a href="https://hagicode.com/">Website</a>
 ·
+<a href="https://docs.hagicode.com/en-US/installation/">Install</a>
+·
 <a href="https://docs.hagicode.com/en-US/product-overview/">Product Overview</a>
-·
-<a href="https://hagicode.com/desktop/">Desktop</a>
-·
-<a href="https://hagicode.com/container/">Container</a>
 ·
 <a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW">Microsoft Store</a>
 ·
@@ -46,47 +43,70 @@
 <br />
 <br />
 
-<img src="./assets/workspace-overview.png" alt="HagiCode workspace overview showing sessions, commit notes, and top-level actions." width="100%" />
+<img src="./assets/workspace-overview.png" alt="HagiCode workspace showing the session list, commit notes, and top-level actions." width="100%" />
 
 </div>
 
 ---
 
-## Microsoft Store And Add-ons
+## At a glance
 
-Use Microsoft Store for the current desktop entry point. Plus and DLC details now point to the docs site while the retired Steam main application status is explained in the FAQ.
+- **Mainstream Agent CLIs** in one workbench, such as Claude Code, Codex, GitHub Copilot, OpenCode, and more. See the [supported list](https://docs.hagicode.com/en-US/related-software-installation/ai-agent-cli/).
+- **Windows, macOS, and Linux**, as a desktop app or a self-hosted container.
+- **Free core features.** Desktop, Container, and Microsoft Store are three ways to get HagiCode, not three paid tiers.
+- **Read-only by default.** A normal session only reads your code; switch to edit mode when you want changes.
+
+## Get started in 3 steps
+
+| Step | What to do | Where |
+| --- | --- | --- |
+| 1. Install | Windows: Microsoft Store. macOS / Linux, or Windows without the Store: Desktop. Servers, NAS, teams: Docker Compose. | [Installation guide](https://docs.hagicode.com/en-US/installation/) · [Microsoft Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) · [Desktop](https://hagicode.com/desktop/) · [Container](https://hagicode.com/container/) |
+| 2. Set up | Finish the first-run wizard and create at least one project. | [Wizard setup](https://docs.hagicode.com/en-US/quick-start/wizard-setup/) |
+| 3. Start a session | Begin with a read-only normal session to understand the project, then move to edit mode or a proposal. | [Normal session](https://docs.hagicode.com/en-US/quick-start/conversation-session/) · [Proposal session](https://docs.hagicode.com/en-US/quick-start/proposal-session/) |
+
+> **Before you install Desktop:** Microsoft Store and Desktop need **Node.js 24 or later** and **Git** on your machine. Docker Compose needs neither on the host. Details are in the [installation guide](https://docs.hagicode.com/en-US/installation/).
+
+## How a development task flows
+
+1. **Understand first.** Analyze existing code in a read-only normal session.
+2. **Set the scope.** For complex changes, pick the project and repositories in a proposal session, then agree on goals, tasks, and validation before anything is edited.
+3. **Track the result.** Review sessions and execution state in the workbench, and let AI Compose Commit organize the commits.
+4. **Keep the context.** Proposals and commit records stay available for later, and MonoSpecs coordinates changes across repositories.
 
 <p align="center">
-  <img src="./assets/workspace-overview.png" alt="HagiCode desktop workspace preview." width="100%" />
+  <img src="./assets/create-proposal.png" alt="New proposal drawer: choose the project, mark repositories as reference or editable, and preview the combined request." width="49%" />
+  <img src="./assets/proposal-workflow.png" alt="Proposal session showing workflow stages from creation and review to execution and archive." width="49%" />
 </p>
 
-| Preview | Product | Role | CTA |
-| --- | --- | --- | --- |
-| <img src="./assets/workspace-overview.png" alt="HagiCode desktop workspace preview" width="180" /> | **HagiCode for Windows** | Current public entry point for the desktop app. The Steam main application entry has been retired. | [Open Microsoft Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) · [Desktop downloads](https://hagicode.com/desktop/) · [Steam status FAQ](https://docs.hagicode.com/faq/steam-distribution-status/) |
-| <img src="./assets/steam/hagicode-plus-store-capsule.png" alt="Hagicode Plus bundle artwork" width="180" /> | **Hagicode Plus** | Bundle and upgrade guidance remains available through the docs site. | [Read Hagicode Plus docs](https://docs.hagicode.com/bundles/hagicode-plus/) |
-| <img src="./assets/steam/turbo-engine-store-capsule.png" alt="Turbo Engine DLC artwork" width="180" /> | **Turbo Engine DLC** | DLC guidance for higher concurrency and customization remains available through the docs site. | [Read Turbo Engine DLC docs](https://docs.hagicode.com/dlc/turbo-engine-dlc/) |
+You don't need a proposal every time. For a quick question about the code, start with a normal session.
 
 ## Why HagiCode
 
 - **Proposal-driven AI coding**: `OpenSpec` keeps scope, tasks, impact analysis, validation, and execution connected instead of turning complex work into blind edits.
-- **Flexible agent and model routing**: mainstream Agent CLIs and `OmniRoute` let teams choose the interaction layer and the model layer independently.
-- **A full development workspace**: `MonoSpecs`, `Skills`, `Vault`, `AI Compose Commit`, and `code-server` keep multi-repository work, knowledge capture, and finishing steps inside one system.
-- **Gamified feedback with real signals**: achievements, daily reports, efficiency multipliers, and token throughput make long-running AI work easier to read and manage.
+- **Bring your own Agent CLI and model**: `OmniRoute` keeps the CLI choice separate from the model and subscription layer, so you can route models and endpoints without being tied to one default stack.
+- **A full development workspace**: `MonoSpecs` for multi-repository scope, `Skills` for installable extensions, `Vault` for reusable knowledge, `AI Compose Commit` and `code-server` for finishing the job in the same place.
+- **Gamified feedback with real signals**: achievements, daily reports, efficiency multipliers, and token throughput make long-running AI work easier to read. It is part of the workbench, and you can ignore it.
 
 <p align="center">
-  <img src="./assets/gamified-feedback.png" alt="Achievement view showing daily progress, long-term milestones, and gamified feedback surfaces." width="100%" />
+  <img src="./assets/omniroute-routing.png" alt="OmniRoute settings page with routing configuration, endpoint controls, and runtime status." width="49%" />
+  <img src="./assets/skills-gallery.png" alt="Skills gallery with searchable, installable skills and source filters." width="49%" />
 </p>
 
-## Quick Links
+<p align="center">
+  <img src="./assets/gamified-feedback.png" alt="Achievement view showing daily progress, long-term milestones, and gamified feedback." width="100%" />
+</p>
 
-- [Website](https://hagicode.com/)
-- [Product Overview](https://docs.hagicode.com/en-US/product-overview/)
-- [Desktop](https://hagicode.com/desktop/)
-- [Container](https://hagicode.com/container/)
-- [Microsoft Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) for the current Windows desktop entry point
-- [Steam status FAQ](https://docs.hagicode.com/faq/steam-distribution-status/) for why the Steam main application is no longer the primary channel
-- [Blog](https://docs.hagicode.com/en-US/blog/)
-- [Quick Start Guide](https://docs.hagicode.com/en-US/quick-start/conversation-session/)
+## Who it's for
+
+- **A good fit:** developers and teams who maintain several repositories and want complex changes planned before they run, or who already use Claude Code, Codex, or another Agent CLI and want them in one workbench.
+- **Not required:** if you only want a few lines of completion in your editor, your current tools are enough.
+
+## Add-ons
+
+Plus and DLC details live on the docs site. The Steam main application has been retired; see the [Steam status FAQ](https://docs.hagicode.com/faq/steam-distribution-status/).
+
+- [Hagicode Plus](https://docs.hagicode.com/bundles/hagicode-plus/) — bundle and upgrade guidance
+- [Turbo Engine DLC](https://docs.hagicode.com/dlc/turbo-engine-dlc/) — higher proposal concurrency, plus document themes, custom signature, branding, and avatars (Microsoft Store, one-time purchase)
 
 ## Featured Projects
 
