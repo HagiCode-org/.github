@@ -95,6 +95,24 @@
   <img src="./assets/gamified-feedback.png" alt="成就视图，展示每日进度、长期里程碑和游戏化反馈界面。" width="100%" />
 </p>
 
+## 集成组件
+
+HagiCode 所依托或接入的工具。大多数是可选的，需要时再开启。设置里的“集成”标签页集中放了 Git、GitHub、OmniRoute、TokenMonitor 和 Code Server。
+
+| 领域 | 组件 | 在 HagiCode 里做什么 |
+| --- | --- | --- |
+| **Agent 与模型** | [Agent CLI](https://docs.hagicode.com/zh-CN/related-software-installation/ai-agent-cli/) | Claude Code、Codex、GitHub Copilot、OpenCode 等直接在工作台里运行。 |
+|  | [OmniRoute](https://docs.hagicode.com/zh-CN/related-software-installation/omniroute/) | 共享的模型网关。设置端点，并选择哪些 Agent CLI 使用它的模型目录。 |
+| **规范与范围** | [OpenSpec](https://docs.hagicode.com/zh-CN/related-software-installation/openspec/intro-openspec/) | 提案驱动的工作流，把范围、任务、验证和执行连成一条链路。 |
+|  | [MonoSpecs](https://docs.hagicode.com/zh-CN/guides/monospecs/) | 管理多个仓库之间的关系与变更范围。 |
+| **代码与版本控制** | [Git](https://docs.hagicode.com/zh-CN/user-guide/settings/#git) | Git Profile 为 AI 提交指定明确的作者；可选地监控活跃项目的 Git 状态。 |
+|  | [GitHub](https://docs.hagicode.com/zh-CN/user-guide/settings/#github) | 复用本机的 `gh` 登录会话来同步会话、导入 GitHub 数据；令牌只保留在内存中。 |
+|  | [code-server](https://docs.hagicode.com/zh-CN/user-guide/settings/#code-server) | 浏览器中的编辑入口，不离开工作台就能完成修改。设置页以只读方式显示它的配置和运行状态。 |
+| **知识与扩展** | [Vault](https://docs.hagicode.com/zh-CN/user-guide/vault/) | 汇集参考仓库、文件夹和笔记，供后续工作复用。 |
+|  | [Skills 与 HagiTask](https://docs.hagicode.com/zh-CN/guides/skills/) | 浏览技能画廊并安装技能，或从社区画廊安装 HagiTask 预设。 |
+| **输入与反馈** | [TokenMonitor](https://docs.hagicode.com/zh-CN/user-guide/settings/#tokenmonitor) | 在状态栏显示 TokenMonitor 桌面应用统计的今日 token 用量和费用；填写 HostHub 地址和密钥可获得近实时更新。 |
+|  | [豆包语音输入](https://docs.hagicode.com/zh-CN/guides/voice-recognition/doubao/) | 通过豆包语音识别，用语音输入提案、批注和会话消息。 |
+
 ## 适合谁
 
 - **适合**：同时维护多个仓库、希望复杂改动先规划再执行的开发者和团队；已经在用 Claude Code、Codex 等 Agent CLI，想把它们放进同一个工作台的人。
@@ -123,26 +141,6 @@ Plus 与 DLC 的详情在文档站。Steam 主应用已退役，详见 [Steam �
 | [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | 审计、同步和管理多语言资源。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/imgbin`](https://www.npmjs.com/package/@hagicode/imgbin) | 生成、标注并索引图片资源。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | 初始化并维护受管理的 Agent 技能仓库。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
-
-## 最新博客文章
-
-<details>
-<summary>展开查看最新 10 篇文章</summary>
-
-| 日期 | 标题 |
-|------|------|
-| 2026/4/18 | [如何实现 Claude Code 和 Codex 等 Agent CLI 的自动重试](https://docs.hagicode.com/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/17 | [SQLite 分片方案实战：三种分片策略的深度对比](https://docs.hagicode.com/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
-| 2026/4/16 | [如何用 GitHub Actions 实现 Steam 自动化发布](https://docs.hagicode.com/blog/2026-04-16-steam-release-automation-github-actions/) |
-| 2026/4/15 | [如何利用廉价的云服务器搭建加速下载的分发站](https://docs.hagicode.com/blog/2026-04-15-low-cost-cloud-server-download-distribution-station/) |
-| 2026/4/14 | [Hermes Agent 集成实践：从协议到生产](https://docs.hagicode.com/blog/2026-04-14-hermes-agent-integration-practice/) |
-| 2026/4/13 | [如何安装和使用 Hermes：从本地 CLI 到 Feishu 接入快速上手](https://docs.hagicode.com/blog/2026-04-13-how-to-install-and-use-hermes/) |
-| 2026/4/13 | [VSCode 与 code-server：浏览器端代码编辑方案选型](https://docs.hagicode.com/blog/2026-04-13-vscode-web-integration-browser-editing/) |
-| 2026/4/12 | [在浏览器中快速编辑代码：VSCode Web 集成实践](https://docs.hagicode.com/blog/2026-04-12-vscode-web-integration-browser-editing/) |
-| 2026/4/11 | [边框灯光环绕动画特效实现指南](https://docs.hagicode.com/blog/2026-04-11-border-light-animation-effect/) |
-| 2026/4/10 | [用 Vault 系统构建 AI 时代的跨项目知识库](https://docs.hagicode.com/blog/2026-04-10-vault-system-ai-knowledge-base/) |
-
-</details>
 
 ## 支持
 

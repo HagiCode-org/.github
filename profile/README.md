@@ -97,6 +97,24 @@ You don't need a proposal every time. For a quick question about the code, start
   <img src="./assets/gamified-feedback.png" alt="Achievement view showing daily progress, long-term milestones, and gamified feedback." width="100%" />
 </p>
 
+## Integrated components
+
+Tools HagiCode builds on or connects to. Most are optional and can be turned on when you need them. The Settings → Integration tab holds Git, GitHub, OmniRoute, TokenMonitor, and Code Server.
+
+| Area | Component | What it does in HagiCode |
+| --- | --- | --- |
+| **Agents and models** | [Agent CLIs](https://docs.hagicode.com/en-US/related-software-installation/ai-agent-cli/) | Claude Code, Codex, GitHub Copilot, OpenCode, and more run inside the workbench. |
+|  | [OmniRoute](https://docs.hagicode.com/en-US/related-software-installation/omniroute/) | Shared model gateway. Set an endpoint and choose which Agent CLIs use its model catalog. |
+| **Specs and scope** | [OpenSpec](https://docs.hagicode.com/en-US/related-software-installation/openspec/intro-openspec/) | Proposal-driven workflow that connects scope, tasks, validation, and execution. |
+|  | [MonoSpecs](https://docs.hagicode.com/en-US/guides/monospecs/) | Manages repository relationships and change scope across several repositories. |
+| **Code and version control** | [Git](https://docs.hagicode.com/en-US/user-guide/settings/#git) | Git Profiles give AI commits an explicit author. Optional status monitoring for active projects. |
+|  | [GitHub](https://docs.hagicode.com/en-US/user-guide/settings/#github) | Reuses your local `gh` session to sync sessions and import GitHub data. The token stays in memory only. |
+|  | [code-server](https://docs.hagicode.com/en-US/user-guide/settings/#code-server) | Browser editing entry, so you can finish a change without leaving the workbench. Settings shows its configuration and status, read-only. |
+| **Knowledge and extensions** | [Vault](https://docs.hagicode.com/en-US/user-guide/vault/) | Collects reference repositories, folders, and notes for reuse in later work. |
+|  | [Skills & HagiTask](https://docs.hagicode.com/en-US/guides/skills/) | Browse the skills gallery and install skills, or install HagiTask presets from the community gallery. |
+| **Input and feedback** | [TokenMonitor](https://docs.hagicode.com/en-US/user-guide/settings/#tokenmonitor) | Shows today's token usage and cost from the TokenMonitor desktop app in the status bar. Add a HostHub address and secret for near-real-time updates. |
+|  | [Doubao voice input](https://docs.hagicode.com/en-US/guides/voice-recognition/doubao/) | Dictate proposals, comments, and session messages with Doubao (豆包) speech recognition. |
+
 ## Who it's for
 
 - **A good fit:** developers and teams who maintain several repositories and want complex changes planned before they run, or who already use Claude Code, Codex, or another Agent CLI and want them in one workbench.
@@ -125,45 +143,6 @@ Plus and DLC details live on the docs site. The Steam main application has been 
 | [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | Audit, sync, and manage locale resources. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/imgbin`](https://www.npmjs.com/package/@hagicode/imgbin) | Generate, annotate, and index image assets. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | Bootstrap and maintain managed agent skills repositories. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
-
-## Latest Blog Posts
-
-<details>
-<summary>Show the 10 latest posts, in 中文 and English</summary>
-
-<!-- blog-posts-start -->
-### 中文
-
-| 日期 | 标题 |
-|------|------|
-| 2026/7/4 | [我们如何使用 impeccable 优化前端界面设计与实现稳定性](https://docs.hagicode.com/blog/2026-07-04-goal-preset-agent-compatible-prompt-variants/) |
-| 2026/7/3 | [让所有 Agent 都会 /goal：HagiCode 持续工作预设的兼容扩展设计](https://docs.hagicode.com/blog/2026-07-03-goal-preset-agent-compatible-prompt-variants/) |
-| 2026/6/27 | [如何用 last30days 来完成基于社交网络的 AI 调研需求](https://docs.hagicode.com/blog/2026-02-11-last30days-social-ai-research/) |
-| 2026/6/23 | [让每个命令都能精准路由：HagiCode Preset Task 的多技能支持实战](https://docs.hagicode.com/blog/2026-06-23-hagicode-preset-task-multiple-skills-support/) |
-| 2026/6/22 | [HagiCode 是怎么把 13 个 Agent CLI 接到一套系统里的](https://docs.hagicode.com/blog/2026-06-22-hagicode-13-agent-cli-integration-architecture/) |
-| 2026/6/21 | [用 Orleans 搞定 AI 编程工作台的后台分布式难题](https://docs.hagicode.com/blog/2026-06-21-orleans-hagicode-backend-system/) |
-| 2026/6/20 | [HagiCode 中 AI 提交使用的提示词：设计思路与实现拆解](https://docs.hagicode.com/blog/2026-06-20-hagicode-ai-commit-prompt-design/) |
-| 2026/6/20 | [MonoSpecs 是什么：为什么说它是对 OpenSpec 的进一步升级和扩展](https://docs.hagicode.com/blog/2026-06-20-monospecs-openspec-upgrade-and-extension/) |
-| 2026/6/19 | [Pi Agent 对接实现：消息解析、重试与取消](https://docs.hagicode.com/blog/2026-06-19-pi-agent-integration-message-parsing-retry-cancel/) |
-| 2026/6/19 | [对接 Reasonix 1.x 跑通 DeepSeek V4：ACP 模型选择器接入实战](https://docs.hagicode.com/blog/2026-06-19-reasonix-1x-deepseek-v4-acp-integration/) |
-
-### English
-
-| Date | Title |
-|------|------|
-| 2026/7/4 | [我们如何使用 impeccable 优化前端界面设计与实现稳定性](https://docs.hagicode.com/en-US/blog/2026-07-04-goal-preset-agent-compatible-prompt-variants/) |
-| 2026/7/3 | [让所有 Agent 都会 /goal：HagiCode 持续工作预设的兼容扩展设计](https://docs.hagicode.com/en-US/blog/2026-07-03-goal-preset-agent-compatible-prompt-variants/) |
-| 2026/6/27 | [How to Use last30days for Social Network-Based AI Research Needs](https://docs.hagicode.com/en-US/blog/2026-02-11-last30days-social-ai-research/) |
-| 2026/6/23 | [Precise Routing for Every Command: HagiCode Preset Task Multi-Skill Support in Practice](https://docs.hagicode.com/en-US/blog/2026-06-23-hagicode-preset-task-multiple-skills-support/) |
-| 2026/6/22 | [How HagiCode integrated 13 Agent CLIs into a single system](https://docs.hagicode.com/en-US/blog/2026-06-22-hagicode-13-agent-cli-integration-architecture/) |
-| 2026/6/21 | [Solving Backend Distributed Challenges for AI Programming Workbench with Orleans](https://docs.hagicode.com/en-US/blog/2026-06-21-orleans-hagicode-backend-system/) |
-| 2026/6/20 | [Prompts Used for AI Commits in HagiCode: Design Philosophy and Implementation Breakdown](https://docs.hagicode.com/en-US/blog/2026-06-20-hagicode-ai-commit-prompt-design/) |
-| 2026/6/20 | [What is MonoSpecs: Why It's a Further Upgrade and Extension of OpenSpec](https://docs.hagicode.com/en-US/blog/2026-06-20-monospecs-openspec-upgrade-and-extension/) |
-| 2026/6/19 | [Pi Agent Integration Implementation: Message Parsing, Retry, and Cancellation](https://docs.hagicode.com/en-US/blog/2026-06-19-pi-agent-integration-message-parsing-retry-cancel/) |
-| 2026/6/19 | [Integrating Reasonix 1.x with DeepSeek V4: ACP Model Selector Integration in Practice](https://docs.hagicode.com/en-US/blog/2026-06-19-reasonix-1x-deepseek-v4-acp-integration/) |
-<!-- blog-posts-end -->
-
-</details>
 
 ## Support
 

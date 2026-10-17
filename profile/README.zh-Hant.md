@@ -19,27 +19,22 @@
 
 <p>面向專案開發的 AI 工作台。它能接入你已有的 Agent CLI 與模型，不需要更換編輯器。</p>
 
-[![npm @hagicode/cli](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=%40hagicode%2Fcli)](https://www.npmjs.com/package/@hagicode/cli)
-[![npm @hagicode/hagi18n](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=%40hagicode%2Fhagi18n)](https://www.npmjs.com/package/@hagicode/hagi18n)
-[![npm @hagicode/hagiscript](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=%40hagicode%2Fhagiscript)](https://www.npmjs.com/package/@hagicode/hagiscript)
-[![npm @hagicode/imgbin](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=%40hagicode%2Fimgbin)](https://www.npmjs.com/package/@hagicode/imgbin)
-[![npm @hagicode/skillsbase](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=%40hagicode%2Fskillsbase)](https://www.npmjs.com/package/@hagicode/skillsbase)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-flow-zh-Hant-dark.svg" />
+  <img src="./assets/hero-flow-zh-Hant-light.svg" alt="HagiCode 把你現有的 Agent CLI（Claude Code、Codex、GitHub Copilot、OpenCode 等）接入四階段工作台：先理解、再定範圍、後執行、可回看；OmniRoute 負責路由模型與端點。" width="740" />
+</picture>
 
-<br />
-<br />
-
-<a href="https://hagicode.com/">官網</a>
-·
-<a href="https://docs.hagicode.com/zh-Hant/installation/">安裝指南</a>
-·
-<a href="https://docs.hagicode.com/zh-Hant/product-overview/">產品概覽</a>
-·
-<a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW">Microsoft Store</a>
-·
-<a href="https://docs.hagicode.com/zh-Hant/blog/">部落格</a>
-
-<br />
-<br />
+<p>
+  <a href="https://docs.hagicode.com/zh-Hant/installation/"><strong>安裝指南</strong></a>
+  ·
+  <a href="https://docs.hagicode.com/zh-Hant/product-overview/">產品概覽</a>
+  ·
+  <a href="https://hagicode.com/">官網</a>
+  ·
+  <a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW">Microsoft Store</a>
+  ·
+  <a href="https://docs.hagicode.com/zh-Hant/blog/">部落格</a>
+</p>
 
 <img src="./assets/workspace-overview.png" alt="HagiCode 工作台，顯示工作階段清單、提交說明與頂部操作入口。" width="100%" />
 
@@ -54,25 +49,31 @@
 - **基礎功能免費。** Desktop、Container、Microsoft Store 是三種取得方式，不是三檔付費版本。
 - **預設唯讀。** 一般工作階段只分析程式碼，需要修改時再切換到編輯模式。
 
-## 三步開始
+## 開始使用
 
-| 步驟 | 做什麼 | 入口 |
-| --- | --- | --- |
-| 1. 安裝 | Windows 使用 Microsoft Store；macOS / Linux，或無法使用商店的 Windows 使用 Desktop；伺服器、NAS、團隊部署使用 Docker Compose。 | [安裝指南](https://docs.hagicode.com/zh-Hant/installation/) · [Microsoft Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) · [桌面版](https://hagicode.com/desktop/) · [容器版](https://hagicode.com/container/) |
-| 2. 初始化 | 完成首次啟動精靈，並建立至少一個專案。 | [初始化精靈](https://docs.hagicode.com/zh-Hant/quick-start/wizard-setup/) |
-| 3. 開始工作階段 | 先用唯讀的一般工作階段理解專案，再決定是否進入編輯或提案流程。 | [一般工作階段](https://docs.hagicode.com/zh-Hant/quick-start/conversation-session/) · [提案工作階段](https://docs.hagicode.com/zh-Hant/quick-start/proposal-session/) |
+**1. 選擇執行方式。**
 
-> **安裝 Desktop 之前：** Microsoft Store 與 Desktop 需要你的電腦已安裝 **Node.js 24 或更新版本** 與 **Git**；Docker Compose 方式的主機兩者都不需要。詳見[安裝指南](https://docs.hagicode.com/zh-Hant/installation/)。
+| 你的環境 | 選擇 | 本機需要 | |
+| --- | --- | --- | --- |
+| Windows | **Microsoft Store** | Node.js 24+ 和 Git | [前往取得](https://apps.microsoft.com/detail/9N3PM0N3SVDW) |
+| macOS、Linux，或無法使用商店的 Windows | **Desktop 桌面版** | Node.js 24+ 和 Git | [下載](https://hagicode.com/desktop/) |
+| 伺服器、NAS 或團隊 | **Container 容器版**（Docker Compose） | Docker，無需 Node.js 和 Git | [部署](https://hagicode.com/container/) |
+
+詳細步驟見[安裝指南](https://docs.hagicode.com/zh-Hant/installation/)。
+
+**2. 初始化。** 完成[首次啟動精靈](https://docs.hagicode.com/zh-Hant/quick-start/wizard-setup/)，並建立至少一個專案。
+
+**3. 開始工作階段。** 先用唯讀的[一般工作階段](https://docs.hagicode.com/zh-Hant/quick-start/conversation-session/)理解專案；準備好修改程式碼時，再切換到編輯模式，或開啟[提案工作階段](https://docs.hagicode.com/zh-Hant/quick-start/proposal-session/)。
 
 ## 一次開發任務怎麼走
 
 1. **先理解**：在唯讀的一般工作階段中分析現有程式碼。
-2. **再定範圍**：複雜變更在提案工作階段中選擇專案與儲存庫，先對齊目標、任務與驗證方式，再動手修改。
-3. **追蹤結果**：在工作台回看工作階段與執行狀態，並用 AI Compose Commit 整理提交。
-4. **留下上下文**：提案與提交記錄可供回顧，跨儲存庫協作交給 MonoSpecs 管理。
+2. **再定範圍**：複雜變更在提案工作階段中選擇專案和儲存庫，先對齊目標、任務與驗證方式，再動手修改。
+3. **後執行**：切換到編輯模式，按已對齊的目標、任務與驗證方式推進。
+4. **回看並留下上下文**：在工作台檢查工作階段與執行狀態，用 AI Compose Commit 整理提交；提案與提交紀錄可供回顧，跨儲存庫協作交給 MonoSpecs 管理。
 
 <p align="center">
-  <img src="./assets/create-proposal.png" alt="新增提案抽屜：選擇專案，將儲存庫標為參考或可編輯，並預覽合併後的需求。" width="49%" />
+  <img src="./assets/create-proposal.png" alt="新增提案抽屜：選擇專案，把儲存庫標為參考或可編輯，並預覽合併後的需求。" width="49%" />
   <img src="./assets/proposal-workflow.png" alt="提案工作階段，顯示從建立、審閱到執行、封存的工作流程階段。" width="49%" />
 </p>
 
@@ -81,7 +82,7 @@
 ## 為什麼選擇 HagiCode
 
 - **提案驅動的 AI 編碼**：`OpenSpec` 把範圍、任務、影響分析、驗證與執行串成一條鏈路，而不是讓複雜工作退化成盲改。
-- **自帶 Agent CLI 與模型**：`OmniRoute` 把 CLI 的選擇與模型、訂閱層分開，路由模型與端點時不必綁定在某一套預設組合上。
+- **自帶 Agent CLI 與模型**：`OmniRoute` 把 CLI 的選擇與模型、訂閱層分開，路由模型和端點時不必綁定在某一套預設組合上。
 - **完整的開發工作區**：`MonoSpecs` 管理多儲存庫範圍，`Skills` 提供可安裝的擴充，`Vault` 沉澱可重複使用的知識，`AI Compose Commit` 與 `code-server` 讓收尾也在同一處完成。
 - **帶有真實訊號的遊戲化回饋**：成就、日報、效率倍率與 token 吞吐量，讓長期 AI 協作更容易讀懂。這是工作台體驗的一部分，不想用可以忽略。
 
@@ -91,20 +92,38 @@
 </p>
 
 <p align="center">
-  <img src="./assets/gamified-feedback.png" alt="成就檢視，顯示每日進度、長期里程碑與遊戲化回饋介面。" width="100%" />
+  <img src="./assets/gamified-feedback.png" alt="成就檢視，顯示每日進度、長期里程碑和遊戲化回饋介面。" width="100%" />
 </p>
+
+## 整合元件
+
+HagiCode 所依託或接入的工具。大多數是選用的，需要時再開啟。設定裡的「整合」分頁集中放了 Git、GitHub、OmniRoute、TokenMonitor 和 Code Server。
+
+| 領域 | 元件 | 在 HagiCode 裡做什麼 |
+| --- | --- | --- |
+| **Agent 與模型** | [Agent CLI](https://docs.hagicode.com/zh-Hant/related-software-installation/ai-agent-cli/) | Claude Code、Codex、GitHub Copilot、OpenCode 等直接在工作台裡執行。 |
+|  | [OmniRoute](https://docs.hagicode.com/zh-Hant/related-software-installation/omniroute/) | 共用的模型閘道。設定端點，並選擇哪些 Agent CLI 使用它的模型目錄。 |
+| **規格與範圍** | [OpenSpec](https://docs.hagicode.com/zh-Hant/related-software-installation/openspec/intro-openspec/) | 提案驅動的工作流程，把範圍、任務、驗證和執行串成一條鏈路。 |
+|  | [MonoSpecs](https://docs.hagicode.com/zh-Hant/guides/monospecs/) | 管理多個儲存庫之間的關係與變更範圍。 |
+| **程式碼與版本控制** | [Git](https://docs.hagicode.com/zh-Hant/user-guide/settings/#git) | Git Profile 為 AI 提交指定明確的作者；可選擇性地監控活躍專案的 Git 狀態。 |
+|  | [GitHub](https://docs.hagicode.com/zh-Hant/user-guide/settings/#github) | 重複使用本機的 `gh` 登入工作階段來同步工作階段、匯入 GitHub 資料；權杖只保留在記憶體中。 |
+|  | [code-server](https://docs.hagicode.com/zh-Hant/user-guide/settings/#code-server) | 瀏覽器中的編輯入口，不離開工作台就能完成修改。設定頁以唯讀方式顯示它的設定和執行狀態。 |
+| **知識與擴充** | [Vault](https://docs.hagicode.com/zh-Hant/user-guide/vault/) | 匯集參考儲存庫、資料夾和筆記，供後續工作重複使用。 |
+|  | [Skills 與 HagiTask](https://docs.hagicode.com/zh-Hant/guides/skills/) | 瀏覽技能圖庫並安裝技能，或從社群圖庫安裝 HagiTask 預設。 |
+| **輸入與回饋** | [TokenMonitor](https://docs.hagicode.com/zh-Hant/user-guide/settings/#tokenmonitor) | 在狀態列顯示 TokenMonitor 桌面應用程式統計的今日 token 用量和費用；填寫 HostHub 位址和密鑰可獲得近即時更新。 |
+|  | [豆包語音輸入](https://docs.hagicode.com/zh-Hant/guides/voice-recognition/doubao/) | 透過豆包語音辨識，用語音輸入提案、註解和工作階段訊息。 |
 
 ## 適合誰
 
-- **適合**：同時維護多個儲存庫、希望複雜改動先規劃再執行的開發者與團隊；已經在用 Claude Code、Codex 等 Agent CLI，想把它們放進同一個工作台的人。
-- **不是必需品**：如果你只需要在編輯器裡補全幾行程式碼，現有工具已經足夠。
+- **適合**：同時維護多個儲存庫、希望複雜改動先規劃再執行的開發者和團隊；已經在用 Claude Code、Codex 等 Agent CLI，想把它們放進同一個工作台的人。
+- **不是必需品**：如果你只需要在編輯器裡補全幾行程式碼，現有工具已經夠用。
 
 ## 加值內容
 
 Plus 與 DLC 的詳情在文件站。Steam 主應用程式已退役，詳見 [Steam 發行狀態](https://docs.hagicode.com/faq/steam-distribution-status/)。
 
 - [Hagicode Plus](https://docs.hagicode.com/bundles/hagicode-plus/) — 套裝與升級指引
-- [Turbo Engine DLC](https://docs.hagicode.com/dlc/turbo-engine-dlc/) — 更高的提案並行上限，以及文件主題、自訂署名、品牌與頭像（Microsoft Store 一次性購買）
+- [Turbo Engine DLC](https://docs.hagicode.com/dlc/turbo-engine-dlc/) — 更高的提案並行上限，以及文件主題、自訂署名、品牌和頭像（Microsoft Store 一次性購買）
 
 ## 精選專案
 
@@ -113,20 +132,15 @@ Plus 與 DLC 的詳情在文件站。Steam 主應用程式已退役，詳見 [St
 - **[container](https://github.com/HagiCode-org/container)** - 面向團隊與伺服器環境的自行託管部署方案
 - **[docs](https://github.com/HagiCode-org/docs)** - 提供規範產品概覽與指南的文件站點
 
-## 最新部落格文章
+## 命令列工具
 
-| 日期 | 標題 |
-|------|------|
-| 2026/4/18 | [How to Implement Automatic Retry for Agent CLIs Like Claude Code and Codex](https://docs.hagicode.com/zh-Hant/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/17 | [SQLite Sharding in Practice: An In-Depth Comparison of Three Sharding Strategies](https://docs.hagicode.com/zh-Hant/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
-| 2026/4/16 | [How to Automate Steam Releases with GitHub Actions](https://docs.hagicode.com/zh-Hant/blog/2026-04-16-steam-release-automation-github-actions/) |
-| 2026/4/15 | [How to Build a Fast Download Distribution Station with Low-Cost Cloud Servers](https://docs.hagicode.com/zh-Hant/blog/2026-04-15-low-cost-cloud-server-download-distribution-station/) |
-| 2026/4/14 | [Hermes Agent Integration Practice: From Protocol to Production](https://docs.hagicode.com/zh-Hant/blog/2026-04-14-hermes-agent-integration-practice/) |
-| 2026/4/13 | [How to Install and Use Hermes: A Quick Start from the Local CLI to Feishu Integration](https://docs.hagicode.com/zh-Hant/blog/2026-04-13-how-to-install-and-use-hermes/) |
-| 2026/4/13 | [VSCode and code-server: Choosing a Browser-Based Code Editing Solution](https://docs.hagicode.com/zh-Hant/blog/2026-04-13-vscode-web-integration-browser-editing/) |
-| 2026/4/12 | [Fast Code Editing in the Browser: VSCode Web Integration in Practice](https://docs.hagicode.com/zh-Hant/blog/2026-04-12-vscode-web-integration-browser-editing/) |
-| 2026/4/11 | [Guide to Creating a Border Light Sweep Animation Effect](https://docs.hagicode.com/zh-Hant/blog/2026-04-11-border-light-animation-effect/) |
-| 2026/4/10 | [Building a Cross-Project Knowledge Base for the AI Era with the Vault System](https://docs.hagicode.com/zh-Hant/blog/2026-04-10-vault-system-ai-knowledge-base/) |
+| 套件 | 用途 | npm |
+| --- | --- | --- |
+| [`@hagicode/cli`](https://www.npmjs.com/package/@hagicode/cli) | 在終端機管理專案、提案、Vault、對話與 AutoTask。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagiscript`](https://www.npmjs.com/package/@hagicode/hagiscript) | Hagiscript 語言工具與執行環境管理。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | 稽核、同步和管理多語系資源。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/imgbin`](https://www.npmjs.com/package/@hagicode/imgbin) | 產生、標註並索引圖片資源。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | 初始化並維護受管理的 Agent 技能儲存庫。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
 
 ## 支援
 
@@ -134,6 +148,6 @@ Plus 與 DLC 的詳情在文件站。Steam 主應用程式已退役，詳見 [St
 - [部落格](https://docs.hagicode.com/zh-Hant/blog/)
 - [GitHub 組織](https://github.com/HagiCode-org)
 - [問題回報](https://github.com/HagiCode-org/site/issues)
-- [AI 替代率計算器](https://cost.hagicode.com)
+- [AI 替代率計算機](https://cost.hagicode.com)
 
-準備好繼續探索完整產品故事了嗎？從 [hagicode.com](https://hagicode.com/) 開始，選擇最適合你工作流的入口。
+準備好繼續了解完整產品故事了嗎？從 [hagicode.com](https://hagicode.com/) 開始，選擇最適合你工作流程的入口。

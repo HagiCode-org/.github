@@ -15,108 +15,139 @@
   <a href="./README.ru-RU.md">Русский</a>
 </p>
 
-<p><strong>HagiCode réunit un outil de codage IA, un système de feedback gamifié et un espace de travail de développement complet dans une seule plateforme.</strong></p>
+<p><strong>HagiCode évite que l'IA perde le contexte pendant qu'elle modifie votre code : comprendre d'abord le dépôt, fixer le périmètre, puis exécuter en laissant une trace que vous pouvez relire.</strong></p>
 
-<p>De la compréhension du dépôt et des propositions jusqu'à l'implémentation, aux commits, à la capitalisation des connaissances et au feedback, HagiCode introduit l'IA dans l'ensemble du processus logiciel.</p>
+<p>Un atelier IA pour le développement de projets. Il se branche sur les Agent CLI et les modèles que vous utilisez déjà, sans changer d'éditeur.</p>
 
-![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.51-blue)
-![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
-![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.57-orange)
-![Agent CLI](https://img.shields.io/badge/Agent%20CLI-11%20supported-1f6feb)
-[![npm @hagicode/cli](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=%40hagicode%2Fcli)](https://www.npmjs.com/package/@hagicode/cli)
-[![npm @hagicode/hagi18n](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=%40hagicode%2Fhagi18n)](https://www.npmjs.com/package/@hagicode/hagi18n)
-[![npm @hagicode/hagiscript](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=%40hagicode%2Fhagiscript)](https://www.npmjs.com/package/@hagicode/hagiscript)
-[![npm @hagicode/imgbin](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=%40hagicode%2Fimgbin)](https://www.npmjs.com/package/@hagicode/imgbin)
-[![npm @hagicode/skillsbase](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=%40hagicode%2Fskillsbase)](https://www.npmjs.com/package/@hagicode/skillsbase)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-flow-fr-FR-dark.svg" />
+  <img src="./assets/hero-flow-fr-FR-light.svg" alt="HagiCode relie vos Agent CLI (Claude Code, Codex, GitHub Copilot, OpenCode et d'autres) à un atelier en quatre étapes : comprendre, cadrer, exécuter, revoir. OmniRoute achemine vos modèles et vos endpoints." width="740" />
+</picture>
 
-<br />
-<br />
+<p>
+  <a href="https://docs.hagicode.com/fr-FR/installation/"><strong>Guide d'installation</strong></a>
+  ·
+  <a href="https://docs.hagicode.com/fr-FR/product-overview/">Présentation du produit</a>
+  ·
+  <a href="https://hagicode.com/">Site web</a>
+  ·
+  <a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW">Microsoft Store</a>
+  ·
+  <a href="https://docs.hagicode.com/fr-FR/blog/">Blog</a>
+</p>
 
-<a href="https://hagicode.com/">Site web</a>
-·
-<a href="https://docs.hagicode.com/fr-FR/product-overview/">Vue d'ensemble du produit</a>
-·
-<a href="https://hagicode.com/desktop/">Desktop</a>
-·
-<a href="https://hagicode.com/container/">Container</a>
-·
-<a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW">Microsoft Store</a>
-·
-<a href="https://docs.hagicode.com/fr-FR/blog/">Blog</a>
-
-<br />
-<br />
-
-<img src="./assets/workspace-overview.png" alt="Vue d'ensemble de l'espace de travail HagiCode montrant les sessions, les notes de commit et les actions principales." width="100%" />
+<img src="./assets/workspace-overview.png" alt="Espace de travail HagiCode avec la liste des sessions, les notes de commit et les actions principales." width="100%" />
 
 </div>
 
 ---
 
-## Microsoft Store And Add-ons
+## En un coup d'œil
 
-Visualisez en un coup d'oeil l'application de base, le parcours du Bundle et la relation avec le DLC.
+- **Les principaux Agent CLI** dans un seul atelier : Claude Code, Codex, GitHub Copilot, OpenCode, et d'autres. Voir la [liste des outils pris en charge](https://docs.hagicode.com/fr-FR/related-software-installation/ai-agent-cli/).
+- **Windows, macOS et Linux**, en application de bureau ou en conteneur auto-hébergé.
+- **Fonctions principales gratuites.** Desktop, Container et Microsoft Store sont trois façons d'obtenir HagiCode, pas trois offres payantes.
+- **Lecture seule par défaut.** Une session normale ne fait que lire votre code ; passez en mode édition quand vous voulez des modifications.
+
+## Pour commencer
+
+**1. Choisissez où l'exécuter.**
+
+| Vous travaillez sur | Choisissez | Requis sur la machine | |
+| --- | --- | --- | --- |
+| Windows | **Microsoft Store** | Node.js 24+ et Git | [Obtenir](https://apps.microsoft.com/detail/9N3PM0N3SVDW) |
+| macOS, Linux, ou Windows sans le Store | **Desktop** | Node.js 24+ et Git | [Télécharger](https://hagicode.com/desktop/) |
+| Un serveur, un NAS ou une équipe | **Container** (Docker Compose) | Docker. Ni Node.js ni Git requis | [Déployer](https://hagicode.com/container/) |
+
+Les instructions détaillées se trouvent dans le [guide d'installation](https://docs.hagicode.com/fr-FR/installation/).
+
+**2. Configurer.** Terminez l'[assistant de premier lancement](https://docs.hagicode.com/fr-FR/quick-start/wizard-setup/) et créez au moins un projet.
+
+**3. Démarrer une session.** Ouvrez d'abord une [session normale](https://docs.hagicode.com/fr-FR/quick-start/conversation-session/) en lecture seule pour comprendre le projet. Quand vous êtes prêt à modifier le code, passez en mode édition ou lancez une [session de proposition](https://docs.hagicode.com/fr-FR/quick-start/proposal-session/).
+
+## Le déroulement d'une tâche de développement
+
+1. **Comprendre d'abord.** Analysez le code existant dans une session normale en lecture seule.
+2. **Fixer le périmètre.** Pour un changement complexe, choisissez le projet et les dépôts dans une session de proposition, puis mettez-vous d'accord sur les objectifs, les tâches et la validation avant toute modification.
+3. **Exécuter.** Passez en mode édition et avancez selon les objectifs, les tâches et la validation convenus.
+4. **Revoir et garder le contexte.** Vérifiez les sessions et l'état d'exécution dans l'atelier, et laissez AI Compose Commit organiser les commits. Les propositions et l'historique des commits restent disponibles, et MonoSpecs coordonne les changements entre plusieurs dépôts.
 
 <p align="center">
-  <img src="./assets/workspace-overview.png" alt="HagiCode desktop workspace preview." width="100%" />
+  <img src="./assets/create-proposal.png" alt="Panneau de nouvelle proposition : choisir le projet, marquer les dépôts en référence ou modifiables, et prévisualiser la demande combinée." width="49%" />
+  <img src="./assets/proposal-workflow.png" alt="Session de proposition montrant les étapes du workflow, de la création et de la revue jusqu'à l'exécution et l'archivage." width="49%" />
 </p>
 
-| Aperçu | Produit | Rôle | Action |
-| --- | --- | --- | --- |
-| <img src="./assets/workspace-overview.png" alt="HagiCode desktop workspace preview" width="180" /> | **HagiCode for Windows** | Current public entry point for the desktop app. The Steam main application entry has been retired. | [Open Microsoft Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) · [Desktop downloads](https://hagicode.com/desktop/) · [Steam status FAQ](https://docs.hagicode.com/faq/steam-distribution-status/) |
-| <img src="./assets/steam/hagicode-plus-store-capsule.png" alt="Hagicode Plus bundle artwork" width="180" /> | **Hagicode Plus** | Bundle and upgrade guidance remains available through the docs site. | [Read Hagicode Plus docs](https://docs.hagicode.com/bundles/hagicode-plus/) |
-| <img src="./assets/steam/turbo-engine-store-capsule.png" alt="Turbo Engine DLC artwork" width="180" /> | **Turbo Engine DLC** | DLC guidance for higher concurrency and customization remains available through the docs site. | [Read Turbo Engine DLC docs](https://docs.hagicode.com/dlc/turbo-engine-dlc/) |
+Pas besoin d'une proposition à chaque fois. Pour une question rapide sur le code, commencez par une session normale.
 
 ## Pourquoi HagiCode
 
-- **Codage IA piloté par proposition** : `OpenSpec` relie périmètre, tâches, analyse d'impact, validation et exécution au lieu de transformer les travaux complexes en modifications à l'aveugle.
-- **Routage flexible des agents et des modèles** : les Agent CLI grand public et `OmniRoute` permettent aux équipes de choisir séparément la couche d'interaction et la couche de modèle.
-- **Un espace de travail de développement complet** : `MonoSpecs`, `Skills`, `Vault`, `AI Compose Commit` et `code-server` réunissent travail multi-dépôts, capitalisation des connaissances et étapes de finalisation dans un même système.
-- **Un feedback gamifié basé sur de vrais signaux** : succès, rapports quotidiens, multiplicateurs d'efficacité et débit de tokens rendent le travail IA de longue durée plus lisible et plus simple à piloter.
+- **Du code IA piloté par des propositions** : `OpenSpec` relie périmètre, tâches, analyse d'impact, validation et exécution, au lieu de laisser un travail complexe se réduire à des modifications à l'aveugle.
+- **Votre Agent CLI et votre modèle** : `OmniRoute` sépare le choix du CLI de la couche des modèles et des abonnements, pour acheminer modèles et endpoints sans être lié à une combinaison par défaut.
+- **Un espace de développement complet** : `MonoSpecs` pour le périmètre multi-dépôts, `Skills` pour les extensions installables, `Vault` pour la connaissance réutilisable, `AI Compose Commit` et `code-server` pour tout terminer au même endroit.
+- **Un retour ludique fondé sur de vrais signaux** : succès, rapports quotidiens, multiplicateurs d'efficacité et débit de tokens rendent le travail long avec l'IA plus lisible. Cela fait partie de l'atelier, et vous pouvez l'ignorer.
 
 <p align="center">
-  <img src="./assets/gamified-feedback.png" alt="Vue des succès montrant la progression quotidienne, les jalons de long terme et les surfaces de feedback gamifiées." width="100%" />
+  <img src="./assets/omniroute-routing.png" alt="Page de réglages OmniRoute avec la configuration du routage, le contrôle des endpoints et l'état d'exécution." width="49%" />
+  <img src="./assets/skills-gallery.png" alt="Galerie Skills avec des skills recherchables et installables, et des filtres de source." width="49%" />
 </p>
 
-## Liens rapides
+<p align="center">
+  <img src="./assets/gamified-feedback.png" alt="Vue des succès montrant la progression quotidienne, les jalons à long terme et le retour ludique." width="100%" />
+</p>
 
-- [Site web](https://hagicode.com/)
-- [Vue d'ensemble du produit](https://docs.hagicode.com/fr-FR/product-overview/)
-- [Desktop](https://hagicode.com/desktop/)
-- [Container](https://hagicode.com/container/)
-- [Microsoft Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) for the current Windows desktop entry point
-- [Steam status FAQ](https://docs.hagicode.com/faq/steam-distribution-status/) for why the Steam main application is no longer the primary channel
-- [Blog](https://docs.hagicode.com/fr-FR/blog/)
-- [Guide de démarrage rapide](https://docs.hagicode.com/fr-FR/quick-start/conversation-session/)
+## Composants intégrés
 
-## Projets mis en avant
+Les outils sur lesquels HagiCode s'appuie ou auxquels il se connecte. La plupart sont facultatifs et s'activent au besoin. L'onglet Paramètres → Intégration regroupe Git, GitHub, OmniRoute, TokenMonitor et Code Server.
 
-- **[site](https://github.com/HagiCode-org/site)** - Site marketing officiel et dépôt GitHub public de présentation
-- **[desktop](https://github.com/HagiCode-org/desktop)** - Client desktop pour les workflows HagiCode en local-first
-- **[container](https://github.com/HagiCode-org/container)** - Voie de déploiement auto-hébergée pour les équipes et les environnements serveur
-- **[docs](https://github.com/HagiCode-org/docs)** - Site de documentation avec la vue produit canonique et les guides
+| Domaine | Composant | Rôle dans HagiCode |
+| --- | --- | --- |
+| **Agents et modèles** | [Agent CLI](https://docs.hagicode.com/fr-FR/related-software-installation/ai-agent-cli/) | Claude Code, Codex, GitHub Copilot, OpenCode et d'autres s'exécutent dans l'atelier. |
+|  | [OmniRoute](https://docs.hagicode.com/fr-FR/related-software-installation/omniroute/) | Passerelle de modèles partagée. Définissez un endpoint et choisissez quels Agent CLI utilisent son catalogue de modèles. |
+| **Spécifications et périmètre** | [OpenSpec](https://docs.hagicode.com/fr-FR/related-software-installation/openspec/intro-openspec/) | Workflow piloté par des propositions qui relie périmètre, tâches, validation et exécution. |
+|  | [MonoSpecs](https://docs.hagicode.com/fr-FR/guides/monospecs/) | Gère les relations entre dépôts et le périmètre des changements sur plusieurs dépôts. |
+| **Code et gestion de versions** | [Git](https://docs.hagicode.com/fr-FR/user-guide/settings/#git) | Les profils Git donnent un auteur explicite aux commits IA. Surveillance de l'état des projets actifs en option. |
+|  | [GitHub](https://docs.hagicode.com/fr-FR/user-guide/settings/#github) | Réutilise votre session `gh` locale pour synchroniser les sessions et importer des données GitHub. Le jeton reste uniquement en mémoire. |
+|  | [code-server](https://docs.hagicode.com/fr-FR/user-guide/settings/#code-server) | Point d'entrée d'édition dans le navigateur, pour terminer une modification sans quitter l'atelier. Les paramètres affichent sa configuration et son état, en lecture seule. |
+| **Connaissances et extensions** | [Vault](https://docs.hagicode.com/fr-FR/user-guide/vault/) | Rassemble dépôts de référence, dossiers et notes pour les réutiliser dans les travaux suivants. |
+|  | [Skills et HagiTask](https://docs.hagicode.com/fr-FR/guides/skills/) | Parcourez la galerie de skills et installez-en, ou installez des préréglages HagiTask depuis la galerie communautaire. |
+| **Saisie et retours** | [TokenMonitor](https://docs.hagicode.com/fr-FR/user-guide/settings/#tokenmonitor) | Affiche dans la barre d'état la consommation de tokens et le coût du jour issus de l'application de bureau TokenMonitor. Ajoutez l'adresse et le secret HostHub pour une mise à jour quasi temps réel. |
+|  | [Saisie vocale Doubao](https://docs.hagicode.com/fr-FR/guides/voice-recognition/doubao/) | Dictez propositions, commentaires et messages de session grâce à la reconnaissance vocale Doubao (豆包). |
 
-## Derniers articles du blog
+## Pour qui
 
-| Date | Titre |
-|------|------|
-| 2026/4/18 | [Comment implémenter la réessai automatique pour les CLIs Agent comme Claude Code et Codex](https://docs.hagicode.com/fr-FR/blog/2026-02-11-agent-cli-automatic-retry/) |
-| 2026/4/17 | [SQLite Sharding in Practice: An In-Depth Comparison of Three Sharding Strategies](https://docs.hagicode.com/fr-FR/blog/2026-04-17-sqlite-sharding-strategies-comparison/) |
-| 2026/4/16 | [Comment automatiser les publications Steam avec GitHub Actions](https://docs.hagicode.com/fr-FR/blog/2026-04-16-steam-release-automation-github-actions/) |
-| 2026/4/15 | [Comment to Build a Fast Download Distribution Station with Low-Cost Cloud Servers](https://docs.hagicode.com/fr-FR/blog/2026-04-15-low-cost-cloud-server-download-distribution-station/) |
-| 2026/4/14 | [Pratique d'intégration de Hermes Agent : du protocole à la production](https://docs.hagicode.com/fr-FR/blog/2026-04-14-hermes-agent-integration-practice/) |
-| 2026/4/13 | [Comment installer et utiliser Hermes : du démarrage rapide avec le CLI local jusqu'à l'intégration Feishu](https://docs.hagicode.com/fr-FR/blog/2026-04-13-how-to-install-and-use-hermes/) |
-| 2026/4/13 | [VSCode and code-server: Choosing a Browser-Based Code Editing Solution](https://docs.hagicode.com/fr-FR/blog/2026-04-13-vscode-web-integration-browser-editing/) |
-| 2026/4/12 | [Intégration VSCode-Web : édition dans le navigateur avec l'expérience VSCode](https://docs.hagicode.com/fr-FR/blog/2026-04-12-vscode-web-integration-browser-editing/) |
-| 2026/4/11 | [Guide to Creating a Border Light Sweep Animation Effect](https://docs.hagicode.com/fr-FR/blog/2026-04-11-border-light-animation-effect/) |
-| 2026/4/10 | [Construire une base de connaissances inter-projets pour l'ère de l'IA avec le système Vault](https://docs.hagicode.com/fr-FR/blog/2026-04-10-vault-system-ai-knowledge-base/) |
+- **Un bon choix** : les développeurs et les équipes qui gèrent plusieurs dépôts et veulent planifier les changements complexes avant de les exécuter, ou qui utilisent déjà Claude Code, Codex ou un autre Agent CLI et veulent les réunir dans un seul atelier.
+- **Pas indispensable** : si vous voulez seulement quelques lignes de complétion dans votre éditeur, vos outils actuels suffisent.
+
+## Extensions
+
+Les détails de Plus et des DLC sont sur le site de documentation. L'application principale Steam a été retirée ; voir la [FAQ sur l'état de Steam](https://docs.hagicode.com/faq/steam-distribution-status/).
+
+- [Hagicode Plus](https://docs.hagicode.com/bundles/hagicode-plus/) — offre groupée et conseils de mise à niveau
+- [Turbo Engine DLC](https://docs.hagicode.com/dlc/turbo-engine-dlc/) — plus de propositions en parallèle, ainsi que des thèmes de documents, une signature personnalisée, le branding et des avatars (Microsoft Store, achat unique)
+
+## Projets en vedette
+
+- **[site](https://github.com/HagiCode-org/site)** - Site marketing officiel et dépôt GitHub public d'accueil
+- **[desktop](https://github.com/HagiCode-org/desktop)** - Client de bureau pour les workflows HagiCode local-first
+- **[container](https://github.com/HagiCode-org/container)** - Déploiement auto-hébergé pour les équipes et les environnements serveur
+- **[docs](https://github.com/HagiCode-org/docs)** - Site de documentation avec la présentation de référence du produit et les guides
+
+## Outils en ligne de commande
+
+| Paquet | Rôle | npm |
+| --- | --- | --- |
+| [`@hagicode/cli`](https://www.npmjs.com/package/@hagicode/cli) | Gérer projets, propositions, vaults, chat et AutoTask depuis le terminal. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagiscript`](https://www.npmjs.com/package/@hagicode/hagiscript) | Outils du langage Hagiscript et gestion du runtime. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | Auditer, synchroniser et gérer les ressources de langue. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/imgbin`](https://www.npmjs.com/package/@hagicode/imgbin) | Générer, annoter et indexer des ressources d'image. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | Initialiser et maintenir des dépôts de skills d'agent gérés. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
 
 ## Support
 
 - [Documentation](https://docs.hagicode.com/fr-FR/)
 - [Blog](https://docs.hagicode.com/fr-FR/blog/)
-- [GitHub Organization](https://github.com/HagiCode-org)
+- [Organisation GitHub](https://github.com/HagiCode-org)
 - [Issues](https://github.com/HagiCode-org/site/issues)
-- [AI Replacement Calculator](https://cost.hagicode.com)
+- [Calculateur de remplacement par l'IA](https://cost.hagicode.com)
 
-Prêt à explorer toute l'histoire du produit ? Commencez sur [hagicode.com](https://hagicode.com/) et choisissez le parcours qui correspond à votre workflow.
+Prêt à découvrir toute l'histoire du produit ? Commencez sur [hagicode.com](https://hagicode.com/) et choisissez le chemin qui correspond à votre workflow.
