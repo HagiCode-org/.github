@@ -22,7 +22,6 @@
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.51-blue)
 ![Desktop Beta](https://img.shields.io/badge/Desktop%20Beta-v0.1.11-beta.1-orange)
 ![Server Beta](https://img.shields.io/badge/Server%20Beta-0.1.0-beta.57-orange)
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Agent CLI](https://img.shields.io/badge/Agent%20CLI-11%20supported-1f6feb)
 [![npm @hagicode/cli](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=%40hagicode%2Fcli)](https://www.npmjs.com/package/@hagicode/cli)
 [![npm @hagicode/hagi18n](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=%40hagicode%2Fhagi18n)](https://www.npmjs.com/package/@hagicode/hagi18n)
