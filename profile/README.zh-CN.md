@@ -19,28 +19,22 @@
 
 <p>面向项目开发的 AI 工作台。它接入你已有的 Agent CLI 和模型，不需要换编辑器。</p>
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-[![npm @hagicode/cli](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=%40hagicode%2Fcli)](https://www.npmjs.com/package/@hagicode/cli)
-[![npm @hagicode/hagi18n](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=%40hagicode%2Fhagi18n)](https://www.npmjs.com/package/@hagicode/hagi18n)
-[![npm @hagicode/hagiscript](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=%40hagicode%2Fhagiscript)](https://www.npmjs.com/package/@hagicode/hagiscript)
-[![npm @hagicode/imgbin](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=%40hagicode%2Fimgbin)](https://www.npmjs.com/package/@hagicode/imgbin)
-[![npm @hagicode/skillsbase](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=%40hagicode%2Fskillsbase)](https://www.npmjs.com/package/@hagicode/skillsbase)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-flow-zh-CN-dark.svg" />
+  <img src="./assets/hero-flow-zh-CN-light.svg" alt="HagiCode 把你已有的 Agent CLI（Claude Code、Codex、GitHub Copilot、OpenCode 等）接入四阶段工作台：先理解、再定范围、后执行、可回看；OmniRoute 负责路由模型与端点。" width="740" />
+</picture>
 
-<br />
-<br />
-
-<a href="https://hagicode.com/">官网</a>
-·
-<a href="https://docs.hagicode.com/installation/">安装指南</a>
-·
-<a href="https://docs.hagicode.com/product-overview/">产品概览</a>
-·
-<a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW">Microsoft Store</a>
-·
-<a href="https://docs.hagicode.com/blog/">博客</a>
-
-<br />
-<br />
+<p>
+  <a href="https://docs.hagicode.com/installation/"><strong>安装指南</strong></a>
+  ·
+  <a href="https://docs.hagicode.com/product-overview/">产品概览</a>
+  ·
+  <a href="https://hagicode.com/">官网</a>
+  ·
+  <a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW">Microsoft Store</a>
+  ·
+  <a href="https://docs.hagicode.com/blog/">博客</a>
+</p>
 
 <img src="./assets/workspace-overview.png" alt="HagiCode 工作台，展示会话列表、提交说明与顶部操作入口。" width="100%" />
 
@@ -55,22 +49,28 @@
 - **基础功能免费。** Desktop、Container、Microsoft Store 是三种获取方式，不是三档付费版本。
 - **默认只读。** 普通会话只分析代码，需要修改时再切换到编辑模式。
 
-## 三步开始
+## 开始使用
 
-| 步骤 | 做什么 | 入口 |
-| --- | --- | --- |
-| 1. 安装 | Windows 用 Microsoft Store；macOS / Linux，或无法使用商店的 Windows 用 Desktop；服务器、NAS、团队部署用 Docker Compose。 | [安装指南](https://docs.hagicode.com/installation/) · [Microsoft Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) · [桌面版](https://hagicode.com/desktop/) · [容器版](https://hagicode.com/container/) |
-| 2. 初始化 | 完成首次启动向导，并创建至少一个项目。 | [初始化向导](https://docs.hagicode.com/quick-start/wizard-setup/) |
-| 3. 开始会话 | 先用只读的普通会话理解项目，再决定是否进入编辑或提案流程。 | [普通会话](https://docs.hagicode.com/quick-start/conversation-session/) · [提案会话](https://docs.hagicode.com/quick-start/proposal-session/) |
+**1. 选择运行方式。**
 
-> **安装 Desktop 之前：** Microsoft Store 与 Desktop 需要你的电脑上已安装 **Node.js 24 或更高版本** 和 **Git**；Docker Compose 方式宿主机两者都不需要。详见[安装指南](https://docs.hagicode.com/installation/)。
+| 你的环境 | 选择 | 本机需要 | |
+| --- | --- | --- | --- |
+| Windows | **Microsoft Store** | Node.js 24+ 和 Git | [前往获取](https://apps.microsoft.com/detail/9N3PM0N3SVDW) |
+| macOS、Linux，或无法使用商店的 Windows | **Desktop 桌面版** | Node.js 24+ 和 Git | [下载](https://hagicode.com/desktop/) |
+| 服务器、NAS 或团队 | **Container 容器版**（Docker Compose） | Docker，无需 Node.js 和 Git | [部署](https://hagicode.com/container/) |
+
+详细步骤见[安装指南](https://docs.hagicode.com/installation/)。
+
+**2. 初始化。** 完成[首次启动向导](https://docs.hagicode.com/quick-start/wizard-setup/)，并创建至少一个项目。
+
+**3. 开始会话。** 先用只读的[普通会话](https://docs.hagicode.com/quick-start/conversation-session/)理解项目；准备好修改代码时，再切换到编辑模式，或开启[提案会话](https://docs.hagicode.com/quick-start/proposal-session/)。
 
 ## 一次开发任务怎么走
 
 1. **先理解**：在只读的普通会话中分析现有代码。
 2. **再定范围**：复杂变更在提案会话中选择项目和仓库，先对齐目标、任务与验证方式，再动手修改。
-3. **跟踪结果**：在工作台回看会话与执行状态，用 AI Compose Commit 整理提交。
-4. **留下上下文**：提案与提交记录可供回顾，跨仓库协作交给 MonoSpecs 管理。
+3. **后执行**：切换到编辑模式，按已对齐的目标、任务与验证方式推进。
+4. **回看并留下上下文**：在工作台检查会话与执行状态，用 AI Compose Commit 整理提交；提案与提交记录可供回顾，跨仓库协作交给 MonoSpecs 管理。
 
 <p align="center">
   <img src="./assets/create-proposal.png" alt="新建提案抽屉：选择项目，把仓库标为参考或可编辑，并预览合并后的需求。" width="49%" />
@@ -114,7 +114,20 @@ Plus 与 DLC 的详情在文档站。Steam 主应用已退役，详见 [Steam �
 - **[container](https://github.com/HagiCode-org/container)** - 面向团队与服务器环境的自托管部署方案
 - **[docs](https://github.com/HagiCode-org/docs)** - 提供规范产品概览与指南的文档站点
 
+## 命令行工具
+
+| 软件包 | 用途 | npm |
+| --- | --- | --- |
+| [`@hagicode/cli`](https://www.npmjs.com/package/@hagicode/cli) | 在终端管理项目、提案、Vault、对话与 AutoTask。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagiscript`](https://www.npmjs.com/package/@hagicode/hagiscript) | Hagiscript 语言工具与运行时管理。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | 审计、同步和管理多语言资源。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/imgbin`](https://www.npmjs.com/package/@hagicode/imgbin) | 生成、标注并索引图片资源。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | 初始化并维护受管理的 Agent 技能仓库。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
+
 ## 最新博客文章
+
+<details>
+<summary>展开查看最新 10 篇文章</summary>
 
 | 日期 | 标题 |
 |------|------|
@@ -128,6 +141,8 @@ Plus 与 DLC 的详情在文档站。Steam 主应用已退役，详见 [Steam �
 | 2026/4/12 | [在浏览器中快速编辑代码：VSCode Web 集成实践](https://docs.hagicode.com/blog/2026-04-12-vscode-web-integration-browser-editing/) |
 | 2026/4/11 | [边框灯光环绕动画特效实现指南](https://docs.hagicode.com/blog/2026-04-11-border-light-animation-effect/) |
 | 2026/4/10 | [用 Vault 系统构建 AI 时代的跨项目知识库](https://docs.hagicode.com/blog/2026-04-10-vault-system-ai-knowledge-base/) |
+
+</details>
 
 ## 支持
 

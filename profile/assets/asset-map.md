@@ -41,3 +41,9 @@ This directory stores the screenshots copied from `repos/docs` and `repos/site`,
 ## steam/turbo-engine-store-capsule.png
 - Theme: Turbo Engine compact Steam lineup row
 - Source: `repos/index/src/assets/steam/turboEngine/hagicode-turbo-engine-promo-462x174.png`
+
+## hero-flow-{en,zh-CN}-{light,dark}.svg
+- Theme: Hero diagram (Agent CLIs → HagiCode four-stage workbench → OmniRoute models)
+- Source: Authored for this README, no upstream file. Edit the SVGs directly; keep the light and dark variants in sync per language.
+- Used by: `README.md` (en) and `README.zh-CN.md` (zh-CN) through a `<picture>` that switches on `prefers-color-scheme`.
+- Notes: Text is live SVG text (system font stack). The stage-ring pulse is CSS animation and is disabled under `prefers-reduced-motion`. Brand colors follow the site tokens (`repos/site` light `#0080FF` / dark `#00D4FF`).

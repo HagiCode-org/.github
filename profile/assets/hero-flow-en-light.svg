@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 360" width="740" height="360" role="img" aria-labelledby="t d">
+  <title id="t">HagiCode workflow: your Agent CLIs, the HagiCode workbench, your models</title>
+  <desc id="d">Agent CLIs such as Claude Code, Codex, GitHub Copilot and OpenCode plug into the HagiCode workbench. A task moves through four stages: understand, scope, execute, review. OmniRoute routes models and endpoints.</desc>
+  <style>
+    text{font-family:-apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif}
+    .h{font-size:17px;font-weight:600;fill:#475569}
+    .t{font-size:17px;font-weight:600;fill:#0F172A}
+    .s{font-size:21px;font-weight:700;fill:#0F172A}
+    .d{font-size:16.5px;fill:#475569}
+    .n{font-size:15px;font-weight:700;fill:#FFFFFF}
+    .ring{opacity:0;transform-box:fill-box;transform-origin:center;animation:pulse 7s cubic-bezier(.22,1,.36,1) infinite}
+    @keyframes pulse{0%{opacity:.85;transform:scale(1)}16%{opacity:0;transform:scale(2.1)}100%{opacity:0;transform:scale(2.1)}}
+    @media (prefers-reduced-motion:reduce){.ring{animation:none}}
+  </style>
+  <rect width="740" height="360" rx="16" fill="#F5F5F7"/>
+
+  <text x="20" y="54" class="h">Your Agent CLIs</text>
+  <rect x="20" y="78" width="152" height="42" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/><text x="34" y="105" class="t">Claude Code</text>
+  <rect x="20" y="132" width="152" height="42" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/><text x="34" y="159" class="t">Codex</text>
+  <rect x="20" y="186" width="152" height="42" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/><text x="34" y="213" class="t">GitHub Copilot</text>
+  <rect x="20" y="240" width="152" height="42" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/><text x="34" y="267" class="t">OpenCode</text>
+  <text x="34" y="314" class="d">and more</text>
+  <path d="M180 180H214" stroke="#475569" stroke-width="2" stroke-linecap="round"/><path d="M208 173L218 180L208 187" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="226" y="20" width="312" height="320" rx="16" fill="#FFFFFF" stroke="#0080FF" stroke-width="2"/>
+  <text x="248" y="62" class="s" style="font-size:25px">HagiCode <tspan style="font-weight:500;fill:#475569;font-size:18px">workbench</tspan></text>
+  <path d="M262 106V292" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+  <circle class="ring" style="animation-delay:0.0s" cx="262" cy="106" r="14" fill="none" stroke="#0080FF" stroke-width="2.5"/>
+  <circle cx="262" cy="106" r="14" fill="#0060CC"/><text x="262" y="111.5" text-anchor="middle" class="n">1</text>
+  <text x="290" y="105" class="s">Understand</text><text x="290" y="126" class="d">Read-only session</text>
+  <circle class="ring" style="animation-delay:1.3s" cx="262" cy="168" r="14" fill="none" stroke="#0080FF" stroke-width="2.5"/>
+  <circle cx="262" cy="168" r="14" fill="#0060CC"/><text x="262" y="173.5" text-anchor="middle" class="n">2</text>
+  <text x="290" y="167" class="s">Scope</text><text x="290" y="188" class="d">Proposal: goals, tasks, checks</text>
+  <circle class="ring" style="animation-delay:2.6s" cx="262" cy="230" r="14" fill="none" stroke="#0080FF" stroke-width="2.5"/>
+  <circle cx="262" cy="230" r="14" fill="#0060CC"/><text x="262" y="235.5" text-anchor="middle" class="n">3</text>
+  <text x="290" y="229" class="s">Execute</text><text x="290" y="250" class="d">Edit mode, when you choose</text>
+  <circle class="ring" style="animation-delay:3.9s" cx="262" cy="292" r="14" fill="none" stroke="#0080FF" stroke-width="2.5"/>
+  <circle cx="262" cy="292" r="14" fill="#0060CC"/><text x="262" y="297.5" text-anchor="middle" class="n">4</text>
+  <text x="290" y="291" class="s">Review</text><text x="290" y="312" class="d">Session trail and AI commits</text>
+  <path d="M546 180H576" stroke="#475569" stroke-width="2" stroke-linecap="round"/><path d="M570 173L580 180L570 187" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="588" y="54" class="h">Your models</text>
+  <rect x="588" y="114" width="132" height="132" rx="12" fill="#FFFFFF" stroke="#6C5CE7" stroke-width="2"/>
+  <text x="602" y="148" class="t" style="font-size:16px;font-weight:700">OmniRoute</text>
+  <text x="602" y="176" class="d">Routes</text><text x="602" y="198" class="d">models and</text><text x="602" y="220" class="d">endpoints</text>
+</svg>

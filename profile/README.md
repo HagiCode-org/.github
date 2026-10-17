@@ -19,29 +19,24 @@
 
 <p>An AI workbench for project development. It plugs into the Agent CLIs and models you already use, so you don't have to change editors.</p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-flow-en-dark.svg" />
+  <img src="./assets/hero-flow-en-light.svg" alt="HagiCode connects your Agent CLIs (Claude Code, Codex, GitHub Copilot, OpenCode and more) to a four-stage workbench: Understand, Scope, Execute, Review. OmniRoute routes your models and endpoints." width="740" />
+</picture>
+
+<p>
+  <a href="https://docs.hagicode.com/en-US/installation/"><strong>Install</strong></a>
+  ·
+  <a href="https://docs.hagicode.com/en-US/product-overview/">Product Overview</a>
+  ·
+  <a href="https://hagicode.com/">Website</a>
+  ·
+  <a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW">Microsoft Store</a>
+  ·
+  <a href="https://docs.hagicode.com/en-US/blog/">Blog</a>
+</p>
+
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.91-blue)
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-[![npm @hagicode/cli](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=%40hagicode%2Fcli)](https://www.npmjs.com/package/@hagicode/cli)
-[![npm @hagicode/hagi18n](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=%40hagicode%2Fhagi18n)](https://www.npmjs.com/package/@hagicode/hagi18n)
-[![npm @hagicode/hagiscript](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=%40hagicode%2Fhagiscript)](https://www.npmjs.com/package/@hagicode/hagiscript)
-[![npm @hagicode/imgbin](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=%40hagicode%2Fimgbin)](https://www.npmjs.com/package/@hagicode/imgbin)
-[![npm @hagicode/skillsbase](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=%40hagicode%2Fskillsbase)](https://www.npmjs.com/package/@hagicode/skillsbase)
-
-<br />
-<br />
-
-<a href="https://hagicode.com/">Website</a>
-·
-<a href="https://docs.hagicode.com/en-US/installation/">Install</a>
-·
-<a href="https://docs.hagicode.com/en-US/product-overview/">Product Overview</a>
-·
-<a href="https://apps.microsoft.com/detail/9N3PM0N3SVDW">Microsoft Store</a>
-·
-<a href="https://docs.hagicode.com/en-US/blog/">Blog</a>
-
-<br />
-<br />
 
 <img src="./assets/workspace-overview.png" alt="HagiCode workspace showing the session list, commit notes, and top-level actions." width="100%" />
 
@@ -56,22 +51,28 @@
 - **Free core features.** Desktop, Container, and Microsoft Store are three ways to get HagiCode, not three paid tiers.
 - **Read-only by default.** A normal session only reads your code; switch to edit mode when you want changes.
 
-## Get started in 3 steps
+## Get started
 
-| Step | What to do | Where |
-| --- | --- | --- |
-| 1. Install | Windows: Microsoft Store. macOS / Linux, or Windows without the Store: Desktop. Servers, NAS, teams: Docker Compose. | [Installation guide](https://docs.hagicode.com/en-US/installation/) · [Microsoft Store](https://apps.microsoft.com/detail/9N3PM0N3SVDW) · [Desktop](https://hagicode.com/desktop/) · [Container](https://hagicode.com/container/) |
-| 2. Set up | Finish the first-run wizard and create at least one project. | [Wizard setup](https://docs.hagicode.com/en-US/quick-start/wizard-setup/) |
-| 3. Start a session | Begin with a read-only normal session to understand the project, then move to edit mode or a proposal. | [Normal session](https://docs.hagicode.com/en-US/quick-start/conversation-session/) · [Proposal session](https://docs.hagicode.com/en-US/quick-start/proposal-session/) |
+**1. Pick where it runs.**
 
-> **Before you install Desktop:** Microsoft Store and Desktop need **Node.js 24 or later** and **Git** on your machine. Docker Compose needs neither on the host. Details are in the [installation guide](https://docs.hagicode.com/en-US/installation/).
+| You work on | Choose | Needs on the host | |
+| --- | --- | --- | --- |
+| Windows | **Microsoft Store** | Node.js 24+ and Git | [Get it](https://apps.microsoft.com/detail/9N3PM0N3SVDW) |
+| macOS, Linux, or Windows without the Store | **Desktop** | Node.js 24+ and Git | [Download](https://hagicode.com/desktop/) |
+| A server, NAS, or a team | **Container** (Docker Compose) | Docker. No Node.js or Git needed. | [Deploy](https://hagicode.com/container/) |
+
+Step-by-step instructions are in the [installation guide](https://docs.hagicode.com/en-US/installation/).
+
+**2. Set up.** Finish the [first-run wizard](https://docs.hagicode.com/en-US/quick-start/wizard-setup/) and create at least one project.
+
+**3. Start a session.** Open a read-only [normal session](https://docs.hagicode.com/en-US/quick-start/conversation-session/) to understand the project. When you're ready to change code, switch to edit mode or start a [proposal session](https://docs.hagicode.com/en-US/quick-start/proposal-session/).
 
 ## How a development task flows
 
 1. **Understand first.** Analyze existing code in a read-only normal session.
 2. **Set the scope.** For complex changes, pick the project and repositories in a proposal session, then agree on goals, tasks, and validation before anything is edited.
-3. **Track the result.** Review sessions and execution state in the workbench, and let AI Compose Commit organize the commits.
-4. **Keep the context.** Proposals and commit records stay available for later, and MonoSpecs coordinates changes across repositories.
+3. **Execute.** Switch to edit mode and work against the goals, tasks, and validation you agreed.
+4. **Review and keep the context.** Check sessions and execution state in the workbench, and let AI Compose Commit organize the commits. Proposals and commit records stay available for later, and MonoSpecs coordinates changes across repositories.
 
 <p align="center">
   <img src="./assets/create-proposal.png" alt="New proposal drawer: choose the project, mark repositories as reference or editable, and preview the combined request." width="49%" />
@@ -115,7 +116,20 @@ Plus and DLC details live on the docs site. The Steam main application has been 
 - **[container](https://github.com/HagiCode-org/container)** - Self-hosted deployment path for teams and server environments
 - **[docs](https://github.com/HagiCode-org/docs)** - Documentation site with the canonical product overview and guides
 
+## Command-line tools
+
+| Package | What it does | npm |
+| --- | --- | --- |
+| [`@hagicode/cli`](https://www.npmjs.com/package/@hagicode/cli) | Manage projects, proposals, vaults, chat, and AutoTask from the terminal. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagiscript`](https://www.npmjs.com/package/@hagicode/hagiscript) | Hagiscript language tooling and runtime management. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | Audit, sync, and manage locale resources. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/imgbin`](https://www.npmjs.com/package/@hagicode/imgbin) | Generate, annotate, and index image assets. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | Bootstrap and maintain managed agent skills repositories. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
+
 ## Latest Blog Posts
+
+<details>
+<summary>Show the 10 latest posts, in 中文 and English</summary>
 
 <!-- blog-posts-start -->
 ### 中文
@@ -148,6 +162,8 @@ Plus and DLC details live on the docs site. The Steam main application has been 
 | 2026/6/19 | [Pi Agent Integration Implementation: Message Parsing, Retry, and Cancellation](https://docs.hagicode.com/en-US/blog/2026-06-19-pi-agent-integration-message-parsing-retry-cancel/) |
 | 2026/6/19 | [Integrating Reasonix 1.x with DeepSeek V4: ACP Model Selector Integration in Practice](https://docs.hagicode.com/en-US/blog/2026-06-19-reasonix-1x-deepseek-v4-acp-integration/) |
 <!-- blog-posts-end -->
+
+</details>
 
 ## Support
 
