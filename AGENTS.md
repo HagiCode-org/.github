@@ -23,9 +23,12 @@ The `.github` submodule contains GitHub organization-wide configuration and publ
 ## Project Structure
 
 ```
-├── profile/              # Organization profile configuration
+├── profile/              # Organization profile (README.md plus README.<locale>.md per locale)
+│   └── assets/           # Images and hero-flow SVGs; asset-map.md records each asset's source
 └── README.md            # Documentation
 ```
+
+Profile screenshots are copied from `repos/docs` and `repos/site`; record any new asset's source in `profile/assets/asset-map.md` and keep all locale READMEs in step.
 
 ## Agent Behavior
 
@@ -67,7 +70,5 @@ AI assistants should NOT suggest:
 
 ## References
 
-- **Root AGENTS.md**: `/AGENTS.md` at monorepo root
-- **Monorepo CLAUDE.md**: See root directory for monorepo-wide conventions
 - **OpenSpec Workflow**: Proposal-driven development happens at monorepo root level (`/openspec/`)
 - **GitHub Docs**: https://docs.github.com
