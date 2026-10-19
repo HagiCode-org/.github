@@ -28,7 +28,11 @@ The `.github` submodule contains GitHub organization-wide configuration and publ
 └── README.md            # Documentation
 ```
 
-Profile screenshots are copied from `repos/docs` and `repos/site`; record any new asset's source in `profile/assets/asset-map.md` and keep all locale READMEs in step.
+Profile screenshots are copied from `repos/docs` and `repos/site`; record any new asset's source in `profile/assets/asset-map.md` and keep all locale READMEs in step. The profile has 10 locales: en (`README.md`), zh-CN, zh-Hant, ja-JP, ko-KR, de-DE, fr-FR, es-ES, pt-BR, ru-RU; each has matching `hero-flow-<locale>-{light,dark}.svg` assets.
+
+The Steam artwork in `profile/assets/steam/` is kept for reference only and is no longer referenced by the READMEs (see `asset-map.md`).
+
+The repository currently has no workflows, `package.json` or scripts: the scheduled blog RSS / version-badge sync was removed, so profile content (including badges and blog links) is maintained by hand. `node_modules/` is gitignored leftover, not a dependency to rely on.
 
 ## Agent Behavior
 
