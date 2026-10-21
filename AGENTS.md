@@ -9,7 +9,6 @@ The `.github` submodule contains GitHub organization-wide configuration and publ
 
 - GitHub organization profile
 - Repository templates
-- Organization-level workflows
 - Public GitHub resources
 - Community health files
 
