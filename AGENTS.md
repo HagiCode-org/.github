@@ -37,16 +37,7 @@ The repository currently has no workflows, `package.json` or scripts: the schedu
 
 When working in the .github submodule:
 
-1. **GitHub-specific**: This is for GitHub platform configuration only
-2. **Organization-level**: Changes affect the entire HagiCode organization
-3. **YAML/Markdown**: Content is primarily YAML and Markdown
-4. **No code execution**: No executable code or applications
-
-### Common Tasks
-- Update organization profile
-- Modify repository templates
-- Configure organization settings
-- Update community health files
+1. **Organization-level**: Changes affect the entire HagiCode organization
 
 ## Specific Conventions
 
