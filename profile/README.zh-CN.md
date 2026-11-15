@@ -21,7 +21,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-flow-zh-CN-dark.svg" />
-  <img src="./assets/hero-flow-zh-CN-light.svg" alt="HagiCode 把你已有的 Agent CLI（Claude Code、Codex、GitHub Copilot、OpenCode 等）接入四阶段工作台：先理解、再定范围、后执行、可回看；OmniRoute 负责路由模型与端点。" width="740" />
+  <img src="./assets/hero-flow-zh-CN-light.svg" alt="HagiCode 把你已有的 Agent CLI（Claude Code、Codex、GitHub Copilot、OpenCode 等）接入四阶段工作台：先理解、再定范围、后执行、可回看。" width="740" />
 </picture>
 
 <p>
@@ -82,12 +82,11 @@
 ## 为什么选择 HagiCode
 
 - **提案驱动的 AI 编码**：`OpenSpec` 把范围、任务、影响分析、验证与执行连成一条链路，而不是让复杂工作退化成盲改。
-- **自带 Agent CLI 与模型**：`OmniRoute` 把 CLI 的选择与模型、订阅层分开，路由模型和端点时不必绑定在某一套默认组合上。
+- **自带 Agent CLI 与模型**：CLI 与模型分开选择，不必绑定在某一套默认组合上。
 - **完整的开发工作区**：`MonoSpecs` 管理多仓范围，`Skills` 提供可安装的扩展，`Vault` 沉淀可复用知识，`AI Compose Commit` 与 `code-server` 让收尾也在同一处完成。
 - **带有真实信号的游戏化反馈**：成就、日报、效率倍率与 token 吞吐量，让长期 AI 协作更容易读懂。这是工作台体验的一部分，不想用可以忽略。
 
 <p align="center">
-  <img src="./assets/omniroute-routing.png" alt="OmniRoute 设置页，展示路由配置、端点控制与运行状态。" width="49%" />
   <img src="./assets/skills-gallery.png" alt="Skills 画廊，展示可搜索、可安装的技能与来源筛选。" width="49%" />
 </p>
 
@@ -97,12 +96,11 @@
 
 ## 集成组件
 
-HagiCode 所依托或接入的工具。大多数是可选的，需要时再开启。设置里的“集成”标签页集中放了 Git、GitHub、OmniRoute、TokenMonitor 和 Code Server。
+HagiCode 所依托或接入的工具。大多数是可选的，需要时再开启。设置里的“集成”标签页集中放了 Git、GitHub、TokenMonitor 和 Code Server。
 
 | 领域 | 组件 | 在 HagiCode 里做什么 |
 | --- | --- | --- |
 | **Agent 与模型** | [Agent CLI](https://docs.hagicode.com/zh-CN/related-software-installation/ai-agent-cli/) | Claude Code、Codex、GitHub Copilot、OpenCode 等直接在工作台里运行。 |
-|  | [OmniRoute](https://docs.hagicode.com/zh-CN/related-software-installation/omniroute/) | 共享的模型网关。设置端点，并选择哪些 Agent CLI 使用它的模型目录。 |
 | **规范与范围** | [OpenSpec](https://docs.hagicode.com/zh-CN/related-software-installation/openspec/intro-openspec/) | 提案驱动的工作流，把范围、任务、验证和执行连成一条链路。 |
 |  | [MonoSpecs](https://docs.hagicode.com/zh-CN/guides/monospecs/) | 管理多个仓库之间的关系与变更范围。 |
 | **代码与版本控制** | [Git](https://docs.hagicode.com/zh-CN/user-guide/settings/#git) | Git Profile 为 AI 提交指定明确的作者；可选地监控活跃项目的 Git 状态。 |

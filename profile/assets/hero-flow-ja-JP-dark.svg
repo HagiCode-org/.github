@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 360" width="740" height="360" role="img" aria-labelledby="t d">
   <title id="t">HagiCode のワークフロー：お使いの Agent CLI、HagiCode ワークベンチ、お使いのモデル</title>
-  <desc id="d">Claude Code、Codex、GitHub Copilot、OpenCode などの Agent CLI が HagiCode ワークベンチにつながります。タスクは理解、範囲決定、実行、振り返りの 4 段階を進みます。OmniRoute がモデルとエンドポイントをルーティングします。</desc>
+  <desc id="d">Claude Code、Codex、GitHub Copilot、OpenCode などの Agent CLI が HagiCode ワークベンチにつながります。タスクは理解、範囲決定、実行、振り返りの 4 段階を進みます。</desc>
   <style>
     text{font-family:-apple-system, "Segoe UI", "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", "Noto Sans", sans-serif}
     .h{font-size:17px;font-weight:600;fill:#CBD5E1}
@@ -41,6 +41,6 @@
 
   <text x="588" y="54" class="h">お使いのモデル</text>
   <rect x="588" y="114" width="132" height="132" rx="12" fill="#151E32" stroke="#A78BFA" stroke-width="2"/>
-  <text x="602" y="148" class="t" style="font-size:16px;font-weight:700">OmniRoute</text>
+  <text x="602" y="148" class="t" style="font-size:16px;font-weight:700">プロバイダー</text>
   <text x="602" y="176" class="d">モデルと</text><text x="602" y="198" class="d">接続先の</text><text x="602" y="220" class="d">ルーティング</text>
 </svg>

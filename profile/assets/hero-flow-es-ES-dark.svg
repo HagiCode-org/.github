@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 360" width="740" height="360" role="img" aria-labelledby="t d">
   <title id="t">Flujo de HagiCode: tus Agent CLI, el espacio de trabajo de HagiCode, tus modelos</title>
-  <desc id="d">Agent CLI como Claude Code, Codex, GitHub Copilot y OpenCode se conectan al espacio de trabajo de HagiCode. Una tarea pasa por cuatro fases: entender, acotar, ejecutar, revisar. OmniRoute enruta modelos y endpoints.</desc>
+  <desc id="d">Agent CLI como Claude Code, Codex, GitHub Copilot y OpenCode se conectan al espacio de trabajo de HagiCode. Una tarea pasa por cuatro fases: entender, acotar, ejecutar, revisar.</desc>
   <style>
     text{font-family:-apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif}
     .h{font-size:17px;font-weight:600;fill:#CBD5E1}
@@ -41,6 +41,6 @@
 
   <text x="588" y="54" class="h">Tus modelos</text>
   <rect x="588" y="114" width="132" height="132" rx="12" fill="#151E32" stroke="#A78BFA" stroke-width="2"/>
-  <text x="602" y="148" class="t" style="font-size:16px;font-weight:700">OmniRoute</text>
+  <text x="602" y="148" class="t" style="font-size:16px;font-weight:700">Proveedores</text>
   <text x="602" y="176" class="d">Enruta</text><text x="602" y="198" class="d">modelos y</text><text x="602" y="220" class="d">endpoints</text>
 </svg>

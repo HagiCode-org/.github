@@ -21,7 +21,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-flow-ja-JP-dark.svg" />
-  <img src="./assets/hero-flow-ja-JP-light.svg" alt="HagiCode は、使い慣れた Agent CLI（Claude Code、Codex、GitHub Copilot、OpenCode など）を 4 段階のワークベンチにつなぎます。理解、範囲決定、実行、振り返り。モデルとエンドポイントのルーティングは OmniRoute が担当します。" width="740" />
+  <img src="./assets/hero-flow-ja-JP-light.svg" alt="HagiCode は、使い慣れた Agent CLI（Claude Code、Codex、GitHub Copilot、OpenCode など）を 4 段階のワークベンチにつなぎます。理解、範囲決定、実行、振り返り。" width="740" />
 </picture>
 
 <p>
@@ -82,12 +82,11 @@
 ## HagiCode を選ぶ理由
 
 - **提案駆動の AI コーディング**：`OpenSpec` が範囲、タスク、影響分析、検証、実行をひとつにつなぎ、複雑な作業が場当たり的な変更になるのを防ぎます。
-- **Agent CLI とモデルを自由に選べる**：`OmniRoute` が CLI の選択とモデル・サブスクリプションの層を切り離すので、特定の組み合わせに縛られずにモデルとエンドポイントをルーティングできます。
+- **Agent CLI とモデルを自由に選べる**：CLI とモデルを別々に選べるので、特定の組み合わせに縛られません。
 - **開発に必要なものが揃ったワークスペース**：複数リポジトリの範囲管理に `MonoSpecs`、拡張機能に `Skills`、再利用できる知識に `Vault`、仕上げに `AI Compose Commit` と `code-server`。すべて同じ場所で完結します。
 - **実際のシグナルに基づくゲーミフィケーション**：実績、日報、効率倍率、トークンスループットで、長時間の AI 作業が把握しやすくなります。ワークベンチの一部で、不要なら無視できます。
 
 <p align="center">
-  <img src="./assets/omniroute-routing.png" alt="OmniRoute の設定ページ。ルーティング設定、エンドポイント制御、実行状態を表示しています。" width="49%" />
   <img src="./assets/skills-gallery.png" alt="Skills ギャラリー。検索とインストールができるスキルと、ソースの絞り込みを表示しています。" width="49%" />
 </p>
 
@@ -97,12 +96,11 @@
 
 ## 統合コンポーネント
 
-HagiCode が土台にしている、または接続しているツールです。多くは任意で、必要になったときに有効にできます。設定の「統合」タブに Git、GitHub、OmniRoute、TokenMonitor、Code Server がまとまっています。
+HagiCode が土台にしている、または接続しているツールです。多くは任意で、必要になったときに有効にできます。設定の「統合」タブに Git、GitHub、TokenMonitor、Code Server がまとまっています。
 
 | 分野 | コンポーネント | HagiCode での役割 |
 | --- | --- | --- |
 | **エージェントとモデル** | [Agent CLI](https://docs.hagicode.com/ja-JP/related-software-installation/ai-agent-cli/) | Claude Code、Codex、GitHub Copilot、OpenCode などをワークベンチ内で実行します。 |
-|  | [OmniRoute](https://docs.hagicode.com/ja-JP/related-software-installation/omniroute/) | 共有のモデルゲートウェイ。エンドポイントを設定し、どの Agent CLI がそのモデルカタログを使うかを選びます。 |
 | **仕様と範囲** | [OpenSpec](https://docs.hagicode.com/ja-JP/related-software-installation/openspec/intro-openspec/) | 範囲、タスク、検証、実行をつなぐ、提案駆動のワークフロー。 |
 |  | [MonoSpecs](https://docs.hagicode.com/ja-JP/guides/monospecs/) | 複数リポジトリにまたがるリポジトリ間の関係と変更範囲を管理します。 |
 | **コードとバージョン管理** | [Git](https://docs.hagicode.com/ja-JP/user-guide/settings/#git) | Git Profile で AI コミットの作成者を明示できます。アクティブなプロジェクトの状態監視は任意です。 |

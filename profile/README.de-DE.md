@@ -21,7 +21,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-flow-de-DE-dark.svg" />
-  <img src="./assets/hero-flow-de-DE-light.svg" alt="HagiCode verbindet deine Agent-CLIs (Claude Code, Codex, GitHub Copilot, OpenCode und mehr) mit einer Workbench in vier Phasen: Verstehen, Umfang festlegen, Ausführen, Prüfen. OmniRoute routet deine Modelle und Endpunkte." width="740" />
+  <img src="./assets/hero-flow-de-DE-light.svg" alt="HagiCode verbindet deine Agent-CLIs (Claude Code, Codex, GitHub Copilot, OpenCode und mehr) mit einer Workbench in vier Phasen: Verstehen, Umfang festlegen, Ausführen, Prüfen." width="740" />
 </picture>
 
 <p>
@@ -82,12 +82,11 @@ Du brauchst nicht jedes Mal einen Vorschlag. Für eine schnelle Frage zum Code s
 ## Warum HagiCode
 
 - **Vorschlagsgetriebenes KI-Coding**: `OpenSpec` verbindet Umfang, Aufgaben, Auswirkungsanalyse, Validierung und Ausführung, statt komplexe Arbeit in blinde Änderungen abgleiten zu lassen.
-- **Eigene Agent-CLI und eigenes Modell**: `OmniRoute` trennt die Wahl der CLI von der Modell- und Abonnementebene, sodass du Modelle und Endpunkte routen kannst, ohne an eine Standardkombination gebunden zu sein.
+- **Eigene Agent-CLI und eigenes Modell**: CLI und Modell lassen sich getrennt voneinander wählen, sodass du nicht an eine Standardkombination gebunden bist.
 - **Ein vollständiger Entwicklungsarbeitsplatz**: `MonoSpecs` für den Umfang über mehrere Repositories, `Skills` als installierbare Erweiterungen, `Vault` für wiederverwendbares Wissen, `AI Compose Commit` und `code-server`, um die Arbeit am selben Ort abzuschließen.
 - **Spielerisches Feedback mit echten Signalen**: Erfolge, Tagesberichte, Effizienz-Multiplikatoren und Token-Durchsatz machen lange KI-Arbeit leichter lesbar. Es gehört zur Workbench, und du kannst es ignorieren.
 
 <p align="center">
-  <img src="./assets/omniroute-routing.png" alt="OmniRoute-Einstellungsseite mit Routing-Konfiguration, Endpunkt-Steuerung und Laufzeitstatus." width="49%" />
   <img src="./assets/skills-gallery.png" alt="Skills-Galerie mit durchsuchbaren, installierbaren Skills und Quellfiltern." width="49%" />
 </p>
 
@@ -97,12 +96,11 @@ Du brauchst nicht jedes Mal einen Vorschlag. Für eine schnelle Frage zum Code s
 
 ## Integrierte Komponenten
 
-Werkzeuge, auf denen HagiCode aufbaut oder mit denen es sich verbindet. Die meisten sind optional und lassen sich bei Bedarf einschalten. Im Tab Einstellungen → Integration findest du Git, GitHub, OmniRoute, TokenMonitor und Code Server.
+Werkzeuge, auf denen HagiCode aufbaut oder mit denen es sich verbindet. Die meisten sind optional und lassen sich bei Bedarf einschalten. Im Tab Einstellungen → Integration findest du Git, GitHub, TokenMonitor und Code Server.
 
 | Bereich | Komponente | Aufgabe in HagiCode |
 | --- | --- | --- |
 | **Agenten und Modelle** | [Agent-CLIs](https://docs.hagicode.com/de-DE/related-software-installation/ai-agent-cli/) | Claude Code, Codex, GitHub Copilot, OpenCode und weitere laufen direkt in der Workbench. |
-|  | [OmniRoute](https://docs.hagicode.com/de-DE/related-software-installation/omniroute/) | Gemeinsames Modell-Gateway. Lege einen Endpunkt fest und wähle, welche Agent-CLIs seinen Modellkatalog nutzen. |
 | **Spezifikation und Umfang** | [OpenSpec](https://docs.hagicode.com/de-DE/related-software-installation/openspec/intro-openspec/) | Vorschlagsgetriebener Workflow, der Umfang, Aufgaben, Validierung und Ausführung verbindet. |
 |  | [MonoSpecs](https://docs.hagicode.com/de-DE/guides/monospecs/) | Verwaltet Beziehungen zwischen Repositories und den Änderungsumfang über mehrere Repositories hinweg. |
 | **Code und Versionskontrolle** | [Git](https://docs.hagicode.com/de-DE/user-guide/settings/#git) | Git-Profile geben KI-Commits einen eindeutigen Autor. Optionale Statusüberwachung aktiver Projekte. |

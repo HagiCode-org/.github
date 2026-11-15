@@ -21,7 +21,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-flow-ko-KR-dark.svg" />
-  <img src="./assets/hero-flow-ko-KR-light.svg" alt="HagiCode는 사용 중인 Agent CLI(Claude Code, Codex, GitHub Copilot, OpenCode 등)를 4단계 워크벤치에 연결합니다. 이해, 범위 설정, 실행, 검토. 모델과 엔드포인트 라우팅은 OmniRoute가 맡습니다." width="740" />
+  <img src="./assets/hero-flow-ko-KR-light.svg" alt="HagiCode는 사용 중인 Agent CLI(Claude Code, Codex, GitHub Copilot, OpenCode 등)를 4단계 워크벤치에 연결합니다. 이해, 범위 설정, 실행, 검토." width="740" />
 </picture>
 
 <p>
@@ -82,12 +82,11 @@
 ## 왜 HagiCode인가
 
 - **제안 기반 AI 코딩**: `OpenSpec`이 범위, 작업, 영향 분석, 검증, 실행을 하나로 이어, 복잡한 작업이 무작정 고치는 일로 변하지 않게 합니다.
-- **Agent CLI와 모델을 직접 선택**: `OmniRoute`가 CLI 선택과 모델·구독 계층을 분리하므로, 특정 기본 조합에 묶이지 않고 모델과 엔드포인트를 라우팅할 수 있습니다.
+- **Agent CLI와 모델을 직접 선택**: CLI와 모델을 따로 고를 수 있어, 특정 기본 조합에 묶이지 않습니다.
 - **완전한 개발 워크스페이스**: 여러 저장소의 범위는 `MonoSpecs`, 확장은 `Skills`, 재사용 가능한 지식은 `Vault`, 마무리는 `AI Compose Commit`과 `code-server`로 같은 곳에서 끝낼 수 있습니다.
 - **실제 신호에 기반한 게임화 피드백**: 업적, 일일 리포트, 효율 배율, 토큰 처리량으로 오래 걸리는 AI 작업을 더 쉽게 파악할 수 있습니다. 워크벤치의 일부이며, 원하지 않으면 무시해도 됩니다.
 
 <p align="center">
-  <img src="./assets/omniroute-routing.png" alt="OmniRoute 설정 페이지: 라우팅 구성, 엔드포인트 제어, 실행 상태를 보여 줍니다." width="49%" />
   <img src="./assets/skills-gallery.png" alt="검색하고 설치할 수 있는 스킬과 소스 필터가 있는 Skills 갤러리." width="49%" />
 </p>
 
@@ -97,12 +96,11 @@
 
 ## 통합 구성 요소
 
-HagiCode가 기반으로 삼거나 연결하는 도구입니다. 대부분 선택 사항이며 필요할 때 켤 수 있습니다. 설정의 「통합」 탭에 Git, GitHub, OmniRoute, TokenMonitor, Code Server가 모여 있습니다.
+HagiCode가 기반으로 삼거나 연결하는 도구입니다. 대부분 선택 사항이며 필요할 때 켤 수 있습니다. 설정의 「통합」 탭에 Git, GitHub, TokenMonitor, Code Server가 모여 있습니다.
 
 | 영역 | 구성 요소 | HagiCode에서 하는 일 |
 | --- | --- | --- |
 | **에이전트와 모델** | [Agent CLI](https://docs.hagicode.com/ko-KR/related-software-installation/ai-agent-cli/) | Claude Code, Codex, GitHub Copilot, OpenCode 등을 워크벤치 안에서 실행합니다. |
-|  | [OmniRoute](https://docs.hagicode.com/ko-KR/related-software-installation/omniroute/) | 공유 모델 게이트웨이입니다. 엔드포인트를 설정하고 어떤 Agent CLI가 모델 카탈로그를 쓸지 고릅니다. |
 | **사양과 범위** | [OpenSpec](https://docs.hagicode.com/ko-KR/related-software-installation/openspec/intro-openspec/) | 범위, 작업, 검증, 실행을 하나로 잇는 제안 기반 워크플로입니다. |
 |  | [MonoSpecs](https://docs.hagicode.com/ko-KR/guides/monospecs/) | 여러 저장소 사이의 관계와 변경 범위를 관리합니다. |
 | **코드와 버전 관리** | [Git](https://docs.hagicode.com/ko-KR/user-guide/settings/#git) | Git Profile로 AI 커밋의 작성자를 명확히 지정합니다. 활성 프로젝트의 상태 모니터링은 선택 사항입니다. |

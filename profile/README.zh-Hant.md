@@ -21,7 +21,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-flow-zh-Hant-dark.svg" />
-  <img src="./assets/hero-flow-zh-Hant-light.svg" alt="HagiCode 把你現有的 Agent CLI（Claude Code、Codex、GitHub Copilot、OpenCode 等）接入四階段工作台：先理解、再定範圍、後執行、可回看；OmniRoute 負責路由模型與端點。" width="740" />
+  <img src="./assets/hero-flow-zh-Hant-light.svg" alt="HagiCode 把你現有的 Agent CLI（Claude Code、Codex、GitHub Copilot、OpenCode 等）接入四階段工作台：先理解、再定範圍、後執行、可回看。" width="740" />
 </picture>
 
 <p>
@@ -82,12 +82,11 @@
 ## 為什麼選擇 HagiCode
 
 - **提案驅動的 AI 編碼**：`OpenSpec` 把範圍、任務、影響分析、驗證與執行串成一條鏈路，而不是讓複雜工作退化成盲改。
-- **自帶 Agent CLI 與模型**：`OmniRoute` 把 CLI 的選擇與模型、訂閱層分開，路由模型和端點時不必綁定在某一套預設組合上。
+- **自帶 Agent CLI 與模型**：CLI 與模型分開選擇，不必綁定在某一套預設組合上。
 - **完整的開發工作區**：`MonoSpecs` 管理多儲存庫範圍，`Skills` 提供可安裝的擴充，`Vault` 沉澱可重複使用的知識，`AI Compose Commit` 與 `code-server` 讓收尾也在同一處完成。
 - **帶有真實訊號的遊戲化回饋**：成就、日報、效率倍率與 token 吞吐量，讓長期 AI 協作更容易讀懂。這是工作台體驗的一部分，不想用可以忽略。
 
 <p align="center">
-  <img src="./assets/omniroute-routing.png" alt="OmniRoute 設定頁，顯示路由設定、端點控制與執行狀態。" width="49%" />
   <img src="./assets/skills-gallery.png" alt="Skills 圖庫，顯示可搜尋、可安裝的技能與來源篩選。" width="49%" />
 </p>
 
@@ -97,12 +96,11 @@
 
 ## 整合元件
 
-HagiCode 所依託或接入的工具。大多數是選用的，需要時再開啟。設定裡的「整合」分頁集中放了 Git、GitHub、OmniRoute、TokenMonitor 和 Code Server。
+HagiCode 所依託或接入的工具。大多數是選用的，需要時再開啟。設定裡的「整合」分頁集中放了 Git、GitHub、TokenMonitor 和 Code Server。
 
 | 領域 | 元件 | 在 HagiCode 裡做什麼 |
 | --- | --- | --- |
 | **Agent 與模型** | [Agent CLI](https://docs.hagicode.com/zh-Hant/related-software-installation/ai-agent-cli/) | Claude Code、Codex、GitHub Copilot、OpenCode 等直接在工作台裡執行。 |
-|  | [OmniRoute](https://docs.hagicode.com/zh-Hant/related-software-installation/omniroute/) | 共用的模型閘道。設定端點，並選擇哪些 Agent CLI 使用它的模型目錄。 |
 | **規格與範圍** | [OpenSpec](https://docs.hagicode.com/zh-Hant/related-software-installation/openspec/intro-openspec/) | 提案驅動的工作流程，把範圍、任務、驗證和執行串成一條鏈路。 |
 |  | [MonoSpecs](https://docs.hagicode.com/zh-Hant/guides/monospecs/) | 管理多個儲存庫之間的關係與變更範圍。 |
 | **程式碼與版本控制** | [Git](https://docs.hagicode.com/zh-Hant/user-guide/settings/#git) | Git Profile 為 AI 提交指定明確的作者；可選擇性地監控活躍專案的 Git 狀態。 |

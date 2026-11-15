@@ -21,7 +21,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-flow-es-ES-dark.svg" />
-  <img src="./assets/hero-flow-es-ES-light.svg" alt="HagiCode conecta tus Agent CLI (Claude Code, Codex, GitHub Copilot, OpenCode y más) con un espacio de trabajo en cuatro fases: entender, acotar, ejecutar, revisar. OmniRoute enruta tus modelos y endpoints." width="740" />
+  <img src="./assets/hero-flow-es-ES-light.svg" alt="HagiCode conecta tus Agent CLI (Claude Code, Codex, GitHub Copilot, OpenCode y más) con un espacio de trabajo en cuatro fases: entender, acotar, ejecutar, revisar." width="740" />
 </picture>
 
 <p>
@@ -82,12 +82,11 @@ No necesitas una propuesta cada vez. Para una pregunta rápida sobre el código,
 ## Por qué HagiCode
 
 - **Programación con IA guiada por propuestas**: `OpenSpec` conecta alcance, tareas, análisis de impacto, validación y ejecución, en lugar de dejar que el trabajo complejo se convierta en cambios a ciegas.
-- **Trae tu propio Agent CLI y modelo**: `OmniRoute` separa la elección del CLI de la capa de modelos y suscripciones, para que enrutes modelos y endpoints sin quedar atado a una combinación por defecto.
+- **Trae tu propio Agent CLI y modelo**: eliges el CLI y el modelo por separado, para no quedar atado a una combinación por defecto.
 - **Un entorno de desarrollo completo**: `MonoSpecs` para el alcance multirrepositorio, `Skills` para extensiones instalables, `Vault` para conocimiento reutilizable, `AI Compose Commit` y `code-server` para terminar el trabajo en el mismo lugar.
 - **Retroalimentación gamificada con señales reales**: logros, informes diarios, multiplicadores de eficiencia y rendimiento de tokens hacen más legible el trabajo largo con IA. Forma parte del entorno y puedes ignorarla.
 
 <p align="center">
-  <img src="./assets/omniroute-routing.png" alt="Página de ajustes de OmniRoute con la configuración de enrutamiento, el control de endpoints y el estado de ejecución." width="49%" />
   <img src="./assets/skills-gallery.png" alt="Galería de Skills con skills que se pueden buscar e instalar, y filtros por origen." width="49%" />
 </p>
 
@@ -97,12 +96,11 @@ No necesitas una propuesta cada vez. Para una pregunta rápida sobre el código,
 
 ## Componentes integrados
 
-Las herramientas en las que HagiCode se apoya o con las que se conecta. La mayoría son opcionales y se activan cuando las necesitas. La pestaña Ajustes → Integración reúne Git, GitHub, OmniRoute, TokenMonitor y Code Server.
+Las herramientas en las que HagiCode se apoya o con las que se conecta. La mayoría son opcionales y se activan cuando las necesitas. La pestaña Ajustes → Integración reúne Git, GitHub, TokenMonitor y Code Server.
 
 | Área | Componente | Qué hace en HagiCode |
 | --- | --- | --- |
 | **Agentes y modelos** | [Agent CLI](https://docs.hagicode.com/es-ES/related-software-installation/ai-agent-cli/) | Claude Code, Codex, GitHub Copilot, OpenCode y más se ejecutan dentro del espacio de trabajo. |
-|  | [OmniRoute](https://docs.hagicode.com/es-ES/related-software-installation/omniroute/) | Pasarela de modelos compartida. Define un endpoint y elige qué Agent CLI usan su catálogo de modelos. |
 | **Especificaciones y alcance** | [OpenSpec](https://docs.hagicode.com/es-ES/related-software-installation/openspec/intro-openspec/) | Flujo guiado por propuestas que conecta alcance, tareas, validación y ejecución. |
 |  | [MonoSpecs](https://docs.hagicode.com/es-ES/guides/monospecs/) | Gestiona las relaciones entre repositorios y el alcance de los cambios en varios repositorios. |
 | **Código y control de versiones** | [Git](https://docs.hagicode.com/es-ES/user-guide/settings/#git) | Los perfiles de Git dan un autor explícito a los commits con IA. Supervisión opcional del estado de los proyectos activos. |

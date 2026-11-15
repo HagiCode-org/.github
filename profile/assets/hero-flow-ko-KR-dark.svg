@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 360" width="740" height="360" role="img" aria-labelledby="t d">
   <title id="t">HagiCode 워크플로: 사용 중인 Agent CLI, HagiCode 워크벤치, 사용하는 모델</title>
-  <desc id="d">Claude Code, Codex, GitHub Copilot, OpenCode 같은 Agent CLI가 HagiCode 워크벤치에 연결됩니다. 작업은 이해, 범위 설정, 실행, 검토의 네 단계를 거칩니다. OmniRoute가 모델과 엔드포인트를 라우팅합니다.</desc>
+  <desc id="d">Claude Code, Codex, GitHub Copilot, OpenCode 같은 Agent CLI가 HagiCode 워크벤치에 연결됩니다. 작업은 이해, 범위 설정, 실행, 검토의 네 단계를 거칩니다.</desc>
   <style>
     text{font-family:-apple-system, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", "Noto Sans", sans-serif}
     .h{font-size:17px;font-weight:600;fill:#CBD5E1}
@@ -41,6 +41,6 @@
 
   <text x="588" y="54" class="h">사용하는 모델</text>
   <rect x="588" y="114" width="132" height="132" rx="12" fill="#151E32" stroke="#A78BFA" stroke-width="2"/>
-  <text x="602" y="148" class="t" style="font-size:16px;font-weight:700">OmniRoute</text>
+  <text x="602" y="148" class="t" style="font-size:16px;font-weight:700">제공자</text>
   <text x="602" y="176" class="d">모델과</text><text x="602" y="198" class="d">엔드포인트를</text><text x="602" y="220" class="d">라우팅</text>
 </svg>

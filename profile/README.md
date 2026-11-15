@@ -21,7 +21,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-flow-en-dark.svg" />
-  <img src="./assets/hero-flow-en-light.svg" alt="HagiCode connects your Agent CLIs (Claude Code, Codex, GitHub Copilot, OpenCode and more) to a four-stage workbench: Understand, Scope, Execute, Review. OmniRoute routes your models and endpoints." width="740" />
+  <img src="./assets/hero-flow-en-light.svg" alt="HagiCode connects your Agent CLIs (Claude Code, Codex, GitHub Copilot, OpenCode and more) to a four-stage workbench: Understand, Scope, Execute, Review." width="740" />
 </picture>
 
 <p>
@@ -84,12 +84,11 @@ You don't need a proposal every time. For a quick question about the code, start
 ## Why HagiCode
 
 - **Proposal-driven AI coding**: `OpenSpec` keeps scope, tasks, impact analysis, validation, and execution connected instead of turning complex work into blind edits.
-- **Bring your own Agent CLI and model**: `OmniRoute` keeps the CLI choice separate from the model and subscription layer, so you can route models and endpoints without being tied to one default stack.
+- **Bring your own Agent CLI and model**: choose the CLI and the model separately, so you are not tied to one default stack.
 - **A full development workspace**: `MonoSpecs` for multi-repository scope, `Skills` for installable extensions, `Vault` for reusable knowledge, `AI Compose Commit` and `code-server` for finishing the job in the same place.
 - **Gamified feedback with real signals**: achievements, daily reports, efficiency multipliers, and token throughput make long-running AI work easier to read. It is part of the workbench, and you can ignore it.
 
 <p align="center">
-  <img src="./assets/omniroute-routing.png" alt="OmniRoute settings page with routing configuration, endpoint controls, and runtime status." width="49%" />
   <img src="./assets/skills-gallery.png" alt="Skills gallery with searchable, installable skills and source filters." width="49%" />
 </p>
 
@@ -99,12 +98,11 @@ You don't need a proposal every time. For a quick question about the code, start
 
 ## Integrated components
 
-Tools HagiCode builds on or connects to. Most are optional and can be turned on when you need them. The Settings → Integration tab holds Git, GitHub, OmniRoute, TokenMonitor, and Code Server.
+Tools HagiCode builds on or connects to. Most are optional and can be turned on when you need them. The Settings → Integration tab holds Git, GitHub, TokenMonitor, and Code Server.
 
 | Area | Component | What it does in HagiCode |
 | --- | --- | --- |
 | **Agents and models** | [Agent CLIs](https://docs.hagicode.com/en-US/related-software-installation/ai-agent-cli/) | Claude Code, Codex, GitHub Copilot, OpenCode, and more run inside the workbench. |
-|  | [OmniRoute](https://docs.hagicode.com/en-US/related-software-installation/omniroute/) | Shared model gateway. Set an endpoint and choose which Agent CLIs use its model catalog. |
 | **Specs and scope** | [OpenSpec](https://docs.hagicode.com/en-US/related-software-installation/openspec/intro-openspec/) | Proposal-driven workflow that connects scope, tasks, validation, and execution. |
 |  | [MonoSpecs](https://docs.hagicode.com/en-US/guides/monospecs/) | Manages repository relationships and change scope across several repositories. |
 | **Code and version control** | [Git](https://docs.hagicode.com/en-US/user-guide/settings/#git) | Git Profiles give AI commits an explicit author. Optional status monitoring for active projects. |

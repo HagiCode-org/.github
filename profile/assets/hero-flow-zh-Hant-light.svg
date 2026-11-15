@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 360" width="740" height="360" role="img" aria-labelledby="t d">
   <title id="t">HagiCode 工作流程：你的 Agent CLI、HagiCode 工作台、你的模型</title>
-  <desc id="d">Claude Code、Codex、GitHub Copilot、OpenCode 等 Agent CLI 接入 HagiCode 工作台。一項任務依序經過四個階段：理解、劃定範圍、執行、回看。OmniRoute 負責路由模型與端點。</desc>
+  <desc id="d">Claude Code、Codex、GitHub Copilot、OpenCode 等 Agent CLI 接入 HagiCode 工作台。一項任務依序經過四個階段：理解、劃定範圍、執行、回看。</desc>
   <style>
     text{font-family:-apple-system, "Segoe UI", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", "Noto Sans", sans-serif}
     .h{font-size:17px;font-weight:600;fill:#475569}
@@ -41,6 +41,6 @@
 
   <text x="588" y="54" class="h">你的模型</text>
   <rect x="588" y="114" width="132" height="132" rx="12" fill="#FFFFFF" stroke="#6C5CE7" stroke-width="2"/>
-  <text x="602" y="148" class="t" style="font-size:16px;font-weight:700">OmniRoute</text>
+  <text x="602" y="148" class="t" style="font-size:16px;font-weight:700">服務商</text>
   <text x="602" y="176" class="d">路由模型</text><text x="602" y="198" class="d">與端點</text><text x="602" y="220" class="d"></text>
 </svg>

@@ -19,7 +19,7 @@ This directory stores the screenshots copied from `repos/docs` and `repos/site`,
 - Source: `repos/site/src/assets/img/readme-sync/open-spec-proposal-workflow.png`
 
 ## omniroute-routing.png
-- Theme: OmniRoute model and endpoint routing
+- Theme: Retired integration settings screenshot. No README references it, because the integration is no longer a supported HagiCode component. Kept as a historical asset, not deleted.
 - Source: `repos/site/src/assets/img/readme-sync/omniroute-routing.png`
 
 ## skills-gallery.png
@@ -43,7 +43,7 @@ This directory stores the screenshots copied from `repos/docs` and `repos/site`,
 - Source: `repos/index/src/assets/steam/turboEngine/hagicode-turbo-engine-promo-462x174.png`
 
 ## hero-flow-{locale}-{light,dark}.svg
-- Theme: Hero diagram (Agent CLIs → HagiCode four-stage workbench → OmniRoute models)
+- Theme: Hero diagram (Agent CLIs → HagiCode four-stage workbench → your models)
 - Source: Authored for this README, no upstream file. Edit the SVGs directly; keep the light and dark variants in sync per language.
 - Locales: en, zh-CN, zh-Hant, ja-JP, ko-KR, de-DE, fr-FR, es-ES, pt-BR, ru-RU (one light and one dark SVG each). The label text differs per language; the layout is identical.
 - Used by: the matching `README*.md` through a `<picture>` that switches on `prefers-color-scheme`.
