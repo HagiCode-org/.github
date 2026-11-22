@@ -137,7 +137,6 @@ Plus와 DLC의 자세한 내용은 문서 사이트에 있습니다. Steam 메�
 | [`@hagicode/cli`](https://www.npmjs.com/package/@hagicode/cli) | 터미널에서 프로젝트, 제안, Vault, 채팅, AutoTask를 관리합니다. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/hagiscript`](https://www.npmjs.com/package/@hagicode/hagiscript) | Hagiscript 언어 도구와 런타임 관리. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | 로캘 리소스를 감사, 동기화, 관리합니다. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
-| [`@hagicode/imgbin`](https://www.npmjs.com/package/@hagicode/imgbin) | 이미지 에셋을 생성, 주석 처리, 색인합니다. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | 관리형 에이전트 스킬 저장소를 초기화하고 유지합니다. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
 
 ## 지원

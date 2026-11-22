@@ -137,7 +137,6 @@ Os detalhes de Plus e DLC ficam no site de documentação. O aplicativo principa
 | [`@hagicode/cli`](https://www.npmjs.com/package/@hagicode/cli) | Gerencie projetos, propostas, vaults, chat e AutoTask pelo terminal. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/hagiscript`](https://www.npmjs.com/package/@hagicode/hagiscript) | Ferramentas da linguagem Hagiscript e gerenciamento do runtime. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | Audite, sincronize e gerencie recursos de idioma. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
-| [`@hagicode/imgbin`](https://www.npmjs.com/package/@hagicode/imgbin) | Gere, anote e indexe recursos de imagem. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | Inicialize e mantenha repositórios de skills de agente gerenciados. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
 
 ## Suporte

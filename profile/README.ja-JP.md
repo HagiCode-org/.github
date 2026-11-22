@@ -137,7 +137,6 @@ Plus と DLC の詳細はドキュメントサイトにあります。Steam の�
 | [`@hagicode/cli`](https://www.npmjs.com/package/@hagicode/cli) | ターミナルからプロジェクト、提案、Vault、チャット、AutoTask を管理。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fcli?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/hagiscript`](https://www.npmjs.com/package/@hagicode/hagiscript) | Hagiscript の言語ツールとランタイム管理。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | ロケールリソースの監査、同期、管理。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
-| [`@hagicode/imgbin`](https://www.npmjs.com/package/@hagicode/imgbin) | 画像アセットの生成、注釈付け、インデックス化。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fimgbin?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | 管理対象のエージェントスキルリポジトリの初期化と保守。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
 
 ## サポート
