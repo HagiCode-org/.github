@@ -180,7 +180,7 @@ Plus 與 DLC 的詳情在文件站。Steam 主應用程式已退役，詳見 [St
 - **[container](https://github.com/HagiCode-org/container)** - 面向團隊與伺服器環境的自行託管部署方案
 - **[docs](https://github.com/HagiCode-org/docs)** - 提供規範產品概覽與指南的文件站點
 
-## 命令列工具
+## npm 套件
 
 | 套件 | 用途 | npm |
 | --- | --- | --- |
@@ -188,6 +188,16 @@ Plus 與 DLC 的詳情在文件站。Steam 主應用程式已退役，詳見 [St
 | [`@hagicode/hagiscript`](https://www.npmjs.com/package/@hagicode/hagiscript) | Hagiscript 語言工具與執行環境管理。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | 稽核、同步和管理多語系資源。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | 初始化並維護受管理的 Agent 技能儲存庫。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagitask`](https://www.npmjs.com/package/@hagicode/hagitask) | 離線的 HagiTask 套件結構、驗證 API 與 CLI。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagitask?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagiscript-sdk`](https://www.npmjs.com/package/@hagicode/hagiscript-sdk) | Hagiscript 執行環境與伺服器管理 API 的 SDK。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript-sdk?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/steamworks.js`](https://www.npmjs.com/package/@hagicode/steamworks.js) | Steamworks SDK 的 Node.js 與 Electron 綁定:創意工坊、成就、統計、雲端、覆蓋層、網路。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fsteamworks.js?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/steamworks-js-cli`](https://www.npmjs.com/package/@hagicode/steamworks-js-cli) | 透過執行中的 Steam 用戶端,在終端機發布、更新與檢視創意工坊項目。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fsteamworks-js-cli?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagi-release-drafter`](https://www.npmjs.com/package/@hagicode/hagi-release-drafter) | 複合 GitHub Action,依 Conventional Commits 草擬下一個穩定版發布;從不自動發布。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi-release-drafter?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight`](https://www.npmjs.com/package/@hagicode/hagilight) | 用於 HagiCode 網站的 Astro 整合與元件。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-core`](https://www.npmjs.com/package/@hagicode/hagilight-core) | 供 HagiCode 的 Astro 與 Starlight 網站共用的 TypeScript 工具、元件與資源。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-core?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-starlight`](https://www.npmjs.com/package/@hagicode/hagilight-starlight) | 用於 HagiCode 文件的 Starlight 外掛與元件。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-starlight?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-docusaurus`](https://www.npmjs.com/package/@hagicode/hagilight-docusaurus) | HagiCode 網站功能的 Docusaurus 外掛:頁尾、分析、SEO、網站地圖、RSS。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-docusaurus?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-mermaid`](https://www.npmjs.com/package/@hagicode/hagilight-mermaid) | 與框架無關的 Mermaid 渲染,帶 HagiCode 風格,適用於 Astro、Starlight 與 Docusaurus 網站。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-mermaid?logo=npm&color=cb3837&label=npm) |
 
 ## 支援
 

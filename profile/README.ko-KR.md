@@ -180,7 +180,7 @@ Plus와 DLC의 자세한 내용은 문서 사이트에 있습니다. Steam 메�
 - **[container](https://github.com/HagiCode-org/container)** - 팀과 서버 환경을 위한 자체 호스팅 배포 방식
 - **[docs](https://github.com/HagiCode-org/docs)** - 제품 개요와 가이드의 기준이 되는 문서 사이트
 
-## 명령줄 도구
+## npm 패키지
 
 | 패키지 | 용도 | npm |
 | --- | --- | --- |
@@ -188,6 +188,16 @@ Plus와 DLC의 자세한 내용은 문서 사이트에 있습니다. Steam 메�
 | [`@hagicode/hagiscript`](https://www.npmjs.com/package/@hagicode/hagiscript) | Hagiscript 언어 도구와 런타임 관리. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | 로캘 리소스를 감사, 동기화, 관리합니다. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | 관리형 에이전트 스킬 저장소를 초기화하고 유지합니다. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagitask`](https://www.npmjs.com/package/@hagicode/hagitask) | 오프라인 HagiTask 패키지 스키마, 검증 API, CLI. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagitask?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagiscript-sdk`](https://www.npmjs.com/package/@hagicode/hagiscript-sdk) | Hagiscript 런타임 및 서버 관리 API용 SDK. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript-sdk?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/steamworks.js`](https://www.npmjs.com/package/@hagicode/steamworks.js) | Steamworks SDK용 Node.js 및 Electron 바인딩: Workshop, 업적, 통계, 클라우드, 오버레이, 네트워킹. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fsteamworks.js?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/steamworks-js-cli`](https://www.npmjs.com/package/@hagicode/steamworks-js-cli) | 실행 중인 Steam 클라이언트를 통해 터미널에서 Steam Workshop 항목을 게시, 업데이트, 조회합니다. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fsteamworks-js-cli?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagi-release-drafter`](https://www.npmjs.com/package/@hagicode/hagi-release-drafter) | Conventional Commits로 다음 안정 릴리스 초안을 작성하는 복합 GitHub Action. 절대 게시하지 않습니다. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi-release-drafter?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight`](https://www.npmjs.com/package/@hagicode/hagilight) | HagiCode 사이트용 Astro 통합 및 컴포넌트. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-core`](https://www.npmjs.com/package/@hagicode/hagilight-core) | HagiCode의 Astro 및 Starlight 사이트를 위한 공용 TypeScript 유틸리티, 컴포넌트, 에셋. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-core?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-starlight`](https://www.npmjs.com/package/@hagicode/hagilight-starlight) | HagiCode 문서용 Starlight 플러그인과 컴포넌트. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-starlight?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-docusaurus`](https://www.npmjs.com/package/@hagicode/hagilight-docusaurus) | HagiCode 사이트 기능용 Docusaurus 플러그인: 푸터, 분석, SEO, 사이트맵, RSS. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-docusaurus?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-mermaid`](https://www.npmjs.com/package/@hagicode/hagilight-mermaid) | HagiCode 스타일의 프레임워크 독립 Mermaid 렌더링. Astro, Starlight, Docusaurus 사이트용. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-mermaid?logo=npm&color=cb3837&label=npm) |
 
 ## 지원
 

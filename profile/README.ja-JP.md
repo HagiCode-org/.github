@@ -180,7 +180,7 @@ Plus と DLC の詳細はドキュメントサイトにあります。Steam の�
 - **[container](https://github.com/HagiCode-org/container)** - チームやサーバー環境向けのセルフホスト展開
 - **[docs](https://github.com/HagiCode-org/docs)** - 製品概要とガイドの正本となるドキュメントサイト
 
-## コマンドラインツール
+## npm パッケージ
 
 | パッケージ | 用途 | npm |
 | --- | --- | --- |
@@ -188,6 +188,16 @@ Plus と DLC の詳細はドキュメントサイトにあります。Steam の�
 | [`@hagicode/hagiscript`](https://www.npmjs.com/package/@hagicode/hagiscript) | Hagiscript の言語ツールとランタイム管理。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | ロケールリソースの監査、同期、管理。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | 管理対象のエージェントスキルリポジトリの初期化と保守。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagitask`](https://www.npmjs.com/package/@hagicode/hagitask) | オフラインの HagiTask パッケージスキーマ、検証 API、CLI。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagitask?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagiscript-sdk`](https://www.npmjs.com/package/@hagicode/hagiscript-sdk) | Hagiscript ランタイムとサーバー管理 API の SDK。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript-sdk?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/steamworks.js`](https://www.npmjs.com/package/@hagicode/steamworks.js) | Steamworks SDK の Node.js / Electron バインディング: Workshop、実績、統計、クラウド、オーバーレイ、ネットワーク。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fsteamworks.js?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/steamworks-js-cli`](https://www.npmjs.com/package/@hagicode/steamworks-js-cli) | 起動中の Steam クライアント経由で、Steam Workshop のアイテムをターミナルから公開・更新・確認。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fsteamworks-js-cli?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagi-release-drafter`](https://www.npmjs.com/package/@hagicode/hagi-release-drafter) | Conventional Commits から次の安定版リリースの下書きを作る複合 GitHub Action。公開はしません。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi-release-drafter?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight`](https://www.npmjs.com/package/@hagicode/hagilight) | HagiCode サイト向けの Astro インテグレーションとコンポーネント。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-core`](https://www.npmjs.com/package/@hagicode/hagilight-core) | HagiCode の Astro・Starlight サイト向けの共有 TypeScript ユーティリティ、コンポーネント、アセット。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-core?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-starlight`](https://www.npmjs.com/package/@hagicode/hagilight-starlight) | HagiCode ドキュメント向けの Starlight プラグインとコンポーネント。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-starlight?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-docusaurus`](https://www.npmjs.com/package/@hagicode/hagilight-docusaurus) | HagiCode サイト機能のための Docusaurus プラグイン: フッター、アナリティクス、SEO、サイトマップ、RSS。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-docusaurus?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-mermaid`](https://www.npmjs.com/package/@hagicode/hagilight-mermaid) | HagiCode の見た目で Mermaid を描画するフレームワーク非依存のパッケージ。Astro、Starlight、Docusaurus サイトに対応。 | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-mermaid?logo=npm&color=cb3837&label=npm) |
 
 ## サポート
 

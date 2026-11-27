@@ -180,7 +180,7 @@ Os detalhes de Plus e DLC ficam no site de documentação. O aplicativo principa
 - **[container](https://github.com/HagiCode-org/container)** - Implantação auto-hospedada para equipes e ambientes de servidor
 - **[docs](https://github.com/HagiCode-org/docs)** - Site de documentação com a visão geral de referência do produto e os guias
 
-## Ferramentas de linha de comando
+## Pacotes npm
 
 | Pacote | O que faz | npm |
 | --- | --- | --- |
@@ -188,6 +188,16 @@ Os detalhes de Plus e DLC ficam no site de documentação. O aplicativo principa
 | [`@hagicode/hagiscript`](https://www.npmjs.com/package/@hagicode/hagiscript) | Ferramentas da linguagem Hagiscript e gerenciamento do runtime. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | Audite, sincronize e gerencie recursos de idioma. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | Inicialize e mantenha repositórios de skills de agente gerenciados. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagitask`](https://www.npmjs.com/package/@hagicode/hagitask) | Esquemas offline de pacotes HagiTask, API de validação e CLI. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagitask?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagiscript-sdk`](https://www.npmjs.com/package/@hagicode/hagiscript-sdk) | SDK para as APIs de runtime e gerenciamento de servidor do Hagiscript. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript-sdk?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/steamworks.js`](https://www.npmjs.com/package/@hagicode/steamworks.js) | Bindings de Node.js e Electron para o SDK do Steamworks: Workshop, conquistas, estatísticas, nuvem, overlay e rede. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fsteamworks.js?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/steamworks-js-cli`](https://www.npmjs.com/package/@hagicode/steamworks-js-cli) | Publique, atualize e inspecione itens do Steam Workshop pelo terminal, através do cliente Steam em execução. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fsteamworks-js-cli?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagi-release-drafter`](https://www.npmjs.com/package/@hagicode/hagi-release-drafter) | Action composta do GitHub que redige a próxima versão estável a partir de Conventional Commits; nunca publica. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi-release-drafter?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight`](https://www.npmjs.com/package/@hagicode/hagilight) | Integrações e componentes Astro para sites do HagiCode. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-core`](https://www.npmjs.com/package/@hagicode/hagilight-core) | Utilitários TypeScript, componentes e recursos compartilhados para os sites Astro e Starlight do HagiCode. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-core?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-starlight`](https://www.npmjs.com/package/@hagicode/hagilight-starlight) | Plugin e componentes Starlight para a documentação do HagiCode. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-starlight?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-docusaurus`](https://www.npmjs.com/package/@hagicode/hagilight-docusaurus) | Plugin Docusaurus para recursos de site do HagiCode: rodapé, analytics, SEO, sitemap, RSS. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-docusaurus?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-mermaid`](https://www.npmjs.com/package/@hagicode/hagilight-mermaid) | Renderização de Mermaid independente de framework, com o visual do HagiCode, para sites Astro, Starlight e Docusaurus. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-mermaid?logo=npm&color=cb3837&label=npm) |
 
 ## Suporte
 

@@ -180,7 +180,7 @@ Vault хранит вместе репозитории-справочники и
 - **[container](https://github.com/HagiCode-org/container)** - Развёртывание на собственных серверах для команд и серверных сред
 - **[docs](https://github.com/HagiCode-org/docs)** - Сайт документации с эталонным обзором продукта и руководствами
 
-## Инструменты командной строки
+## Пакеты npm
 
 | Пакет | Назначение | npm |
 | --- | --- | --- |
@@ -188,6 +188,16 @@ Vault хранит вместе репозитории-справочники и
 | [`@hagicode/hagiscript`](https://www.npmjs.com/package/@hagicode/hagiscript) | Инструменты языка Hagiscript и управление средой выполнения. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/hagi18n`](https://www.npmjs.com/package/@hagicode/hagi18n) | Аудит, синхронизация и управление ресурсами локализации. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi18n?logo=npm&color=cb3837&label=npm) |
 | [`@hagicode/skillsbase`](https://www.npmjs.com/package/@hagicode/skillsbase) | Создание и сопровождение управляемых репозиториев навыков агента. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fskillsbase?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagitask`](https://www.npmjs.com/package/@hagicode/hagitask) | Офлайн-схемы пакетов HagiTask, API валидации и CLI. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagitask?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagiscript-sdk`](https://www.npmjs.com/package/@hagicode/hagiscript-sdk) | SDK для API среды выполнения и управления серверами Hagiscript. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagiscript-sdk?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/steamworks.js`](https://www.npmjs.com/package/@hagicode/steamworks.js) | Привязки Node.js и Electron к Steamworks SDK: Workshop, достижения, статистика, облако, оверлей, сеть. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fsteamworks.js?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/steamworks-js-cli`](https://www.npmjs.com/package/@hagicode/steamworks-js-cli) | Публикация, обновление и просмотр элементов Steam Workshop из терминала через запущенный клиент Steam. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fsteamworks-js-cli?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagi-release-drafter`](https://www.npmjs.com/package/@hagicode/hagi-release-drafter) | Составное действие GitHub, которое формирует черновик следующего стабильного релиза по Conventional Commits; никогда не публикует. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagi-release-drafter?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight`](https://www.npmjs.com/package/@hagicode/hagilight) | Интеграции и компоненты Astro для сайтов HagiCode. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-core`](https://www.npmjs.com/package/@hagicode/hagilight-core) | Общие утилиты TypeScript, компоненты и ресурсы для сайтов HagiCode на Astro и Starlight. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-core?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-starlight`](https://www.npmjs.com/package/@hagicode/hagilight-starlight) | Плагин и компоненты Starlight для документации HagiCode. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-starlight?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-docusaurus`](https://www.npmjs.com/package/@hagicode/hagilight-docusaurus) | Плагин Docusaurus для функций сайта HagiCode: подвал, аналитика, SEO, карта сайта, RSS. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-docusaurus?logo=npm&color=cb3837&label=npm) |
+| [`@hagicode/hagilight-mermaid`](https://www.npmjs.com/package/@hagicode/hagilight-mermaid) | Не зависящий от фреймворка рендеринг Mermaid в стиле HagiCode для сайтов Astro, Starlight и Docusaurus. | ![npm version](https://img.shields.io/npm/v/%40hagicode%2Fhagilight-mermaid?logo=npm&color=cb3837&label=npm) |
 
 ## Поддержка
 
