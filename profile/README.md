@@ -96,6 +96,56 @@ You don't need a proposal every time. For a quick question about the code, start
   <img src="./assets/gamified-feedback.png" alt="Achievement view showing daily progress, long-term milestones, and gamified feedback." width="100%" />
 </p>
 
+## Inside the workbench
+
+<p align="center">
+  <img src="./assets/art-repos-workbench.png" alt="Illustration: repository tiles flowing into one workbench window." width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/tour-session-board.png" alt="Session board with Proposal &amp; Review, Execution and Archived columns, each card showing its status." width="100%" />
+</p>
+
+Sessions sit on one board by stage. Each card shows where it is: drafted, executing, waiting for a reply, or completed.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/session-statuses-en-dark.svg" />
+  <img src="./assets/session-statuses-en-light.svg" alt="Diagram: a session moves from Drafted to Executing, then Execution Complete and Completed, with a loop between Executing and Waiting for Reply." width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-conversation-session.png" alt="Normal session: a question about the code, a file read shown in the transcript, and an answer with a suggested change." width="100%" />
+</p>
+
+A normal session answers questions about your code. Each file it reads appears in the transcript, so you can see where an answer came from.
+
+<p align="center">
+  <img src="./assets/tour-monospecs-git.png" alt="Project details, Git tab: three repositories selected and the Super Commit action at the top right." width="100%" />
+</p>
+
+Select several repositories in one project and run Super Commit across them from the Git tab.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/super-commit-en-dark.svg" />
+  <img src="./assets/super-commit-en-light.svg" alt="Diagram: the selected repositories go through one Super Commit action, and each repository gets its own commit." width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-agents-workspace.png" alt="Agents workspace with agents grouped under Claude Code and Codex, each showing its model." width="100%" />
+</p>
+
+Agents are grouped by Agent CLI, and each one shows the model it uses.
+
+<p align="center">
+  <img src="./assets/tour-vault-browser.png" alt="Vault browser with registered vaults on the left, a folder tree and a Markdown note on the right." width="100%" />
+</p>
+
+The Vault keeps reference repositories and notes together. You can browse their files from the workbench.
+
+<p align="center">
+  <img src="./assets/art-agent-hub.png" alt="Illustration: geometric badges orbiting one glowing hub." width="100%" />
+</p>
+
 ## Integrated components
 
 Tools HagiCode builds on or connects to. Most are optional and can be turned on when you need them. The Settings → Integration tab holds Git, GitHub, TokenMonitor, and Code Server.

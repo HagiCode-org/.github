@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 330" width="740" height="330" role="img" aria-labelledby="t d">
+  <title id="t">工作階段在看板上的流轉</title>
+  <desc id="d">已起草 / 執行中 / 執行完成 / 已完成, 等待回覆</desc>
+  <style>
+    text{font-family:-apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif}
+    .h{font-size:15px;font-weight:600;fill:#CBD5E1}
+    .s{font-size:21px;font-weight:700;fill:#F8FAFC}
+    .t{font-size:15px;font-weight:700;fill:#F8FAFC}
+    .d{font-size:13px;font-weight:500;fill:#CBD5E1}
+    .c{font-size:15px;font-weight:600;fill:#F8FAFC}
+    .b{font-size:15px;font-weight:700;fill:#030712}
+  </style>
+  <rect width="740" height="330" rx="16" fill="#0A0F1E"/>
+  <text x="26" y="46" class="s">工作階段在看板上的流轉</text>
+<rect x="26" y="80" width="148" height="96" rx="12" fill="#151E32" stroke="#94A3B8" stroke-width="2"/><text x="40" y="122.0" class="t">已起草</text><text x="40" y="142.0" class="d">提案與審閱</text>
+<path d="M178 128.0H194" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/><path d="M193 121.0L202 128.0L193 135.0" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="206" y="80" width="148" height="96" rx="12" fill="#151E32" stroke="#00D4FF" stroke-width="2"/><text x="220" y="122.0" class="t">執行中</text><text x="220" y="142.0" class="d">執行</text>
+<path d="M358 128.0H374" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/><path d="M373 121.0L382 128.0L373 135.0" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="386" y="80" width="148" height="96" rx="12" fill="#151E32" stroke="#34D399" stroke-width="2"/><text x="400" y="122.0" class="t">執行完成</text><text x="400" y="142.0" class="d">執行</text>
+<path d="M538 128.0H554" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/><path d="M553 121.0L562 128.0L553 135.0" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="566" y="80" width="148" height="96" rx="12" fill="#151E32" stroke="#94A3B8" stroke-width="2"/><text x="580" y="122.0" class="t">已完成</text><text x="580" y="142.0" class="d">歸檔</text>
+<rect x="206" y="212" width="148" height="96" rx="12" fill="#151E32" stroke="#FBBF24" stroke-width="2"/><text x="220" y="254.0" class="t">等待回覆</text><text x="220" y="274.0" class="d">執行</text>
+<path d="M280.0 182V206" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/><path d="M274.0 191L280.0 182L286.0 191" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M274.0 197L280.0 206L286.0 197" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

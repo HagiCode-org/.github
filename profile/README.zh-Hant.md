@@ -94,6 +94,56 @@
   <img src="./assets/gamified-feedback.png" alt="成就檢視，顯示每日進度、長期里程碑和遊戲化回饋介面。" width="100%" />
 </p>
 
+## 工作台一覽
+
+<p align="center">
+  <img src="./assets/art-repos-workbench.png" alt="插圖：多個儲存庫圖塊匯入同一個工作台視窗。" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/tour-session-board.png" alt="工作階段看板，依提案與審閱、執行、歸檔分欄，每張卡片顯示目前狀態。" width="100%" />
+</p>
+
+工作階段依階段排在同一塊看板上，卡片直接顯示所處狀態：已起草、執行中、等待回覆或已完成。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/session-statuses-zh-Hant-dark.svg" />
+  <img src="./assets/session-statuses-zh-Hant-light.svg" alt="示意圖：工作階段依序從已起草進入執行中，再到執行完成與已完成；執行中與等待回覆之間可以往返。" width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-conversation-session.png" alt="一般工作階段：提出程式碼問題，對話中顯示讀取的檔案，並給出建議的修改。" width="100%" />
+</p>
+
+一般工作階段用來回答程式碼相關的問題。它讀過的每個檔案都會出現在對話紀錄中，方便核對答案來源。
+
+<p align="center">
+  <img src="./assets/tour-monospecs-git.png" alt="專案詳情的 Git 分頁：已選取三個儲存庫，右上角是超級提交操作。" width="100%" />
+</p>
+
+在同一個專案中勾選多個儲存庫，然後在 Git 分頁中統一執行超級提交。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/super-commit-zh-Hant-dark.svg" />
+  <img src="./assets/super-commit-zh-Hant-light.svg" alt="示意圖：選取的儲存庫經過一次超級提交操作，每個儲存庫各自提交。" width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-agents-workspace.png" alt="Agent 工作區，Agent 依 Claude Code 與 Codex 分組，每個 Agent 顯示其模型。" width="100%" />
+</p>
+
+Agent 依所屬 Agent CLI 分組，每個 Agent 都會顯示它使用的模型。
+
+<p align="center">
+  <img src="./assets/tour-vault-browser.png" alt="Vault 瀏覽器，左側為已登錄的 Vault，右側為資料夾樹與 Markdown 筆記。" width="100%" />
+</p>
+
+Vault 把參考儲存庫與筆記放在一起，你可以在工作台中直接瀏覽其中的檔案。
+
+<p align="center">
+  <img src="./assets/art-agent-hub.png" alt="插圖：幾何徽章環繞一個發光的中心節點。" width="100%" />
+</p>
+
 ## 整合元件
 
 HagiCode 所依託或接入的工具。大多數是選用的，需要時再開啟。設定裡的「整合」分頁集中放了 Git、GitHub、TokenMonitor 和 Code Server。

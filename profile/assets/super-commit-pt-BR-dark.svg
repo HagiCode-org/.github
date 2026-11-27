@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 296" width="740" height="296" role="img" aria-labelledby="t d">
+  <title id="t">Super Commit em vários repositórios</title>
+  <desc id="d">Escolher repositórios, Super Commit, Commit em cada repositório</desc>
+  <style>
+    text{font-family:-apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif}
+    .h{font-size:15px;font-weight:600;fill:#CBD5E1}
+    .s{font-size:21px;font-weight:700;fill:#F8FAFC}
+    .t{font-size:15px;font-weight:700;fill:#F8FAFC}
+    .d{font-size:13px;font-weight:500;fill:#CBD5E1}
+    .c{font-size:15px;font-weight:600;fill:#F8FAFC}
+    .b{font-size:15px;font-weight:700;fill:#030712}
+  </style>
+  <rect width="740" height="296" rx="16" fill="#0A0F1E"/>
+  <text x="26" y="46" class="s">Super Commit em vários repositórios</text>
+<text x="26" y="84" class="h">Escolher repositórios</text>
+<rect x="26" y="118" width="200" height="44" rx="10" fill="#151E32" stroke="#334155" stroke-width="1.5"/><rect x="38" y="132.0" width="16" height="16" rx="4" fill="#00D4FF"/><path d="M42 140.5L45 143.5L50 137.0" fill="none" stroke="#030712" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="64" y="145.0" class="c">web</text>
+<rect x="26" y="172" width="200" height="44" rx="10" fill="#151E32" stroke="#334155" stroke-width="1.5"/><rect x="38" y="186.0" width="16" height="16" rx="4" fill="#00D4FF"/><path d="M42 194.5L45 197.5L50 191.0" fill="none" stroke="#030712" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="64" y="199.0" class="c">api</text>
+<rect x="26" y="226" width="200" height="44" rx="10" fill="#151E32" stroke="#334155" stroke-width="1.5"/><rect x="38" y="240.0" width="16" height="16" rx="4" fill="#00D4FF"/><path d="M42 248.5L45 251.5L50 245.0" fill="none" stroke="#030712" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="64" y="253.0" class="c">docs</text>
+<path d="M230 140C266 140 262 194.0 296 194.0" fill="none" stroke="#CBD5E1" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+<path d="M230 194C266 194 262 194.0 296 194.0" fill="none" stroke="#CBD5E1" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+<path d="M230 248C266 248 262 194.0 296 194.0" fill="none" stroke="#CBD5E1" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+<rect x="300" y="144" width="146" height="100" rx="16" fill="#00D4FF"/>
+<text x="373.0" y="200.0" text-anchor="middle" class="b" style="font-size:17px">Super Commit</text>
+<path d="M450 194.0H464" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+<path d="M455 187.0L464 194.0L455 201.0" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="500" y="84" class="h">Commit em cada</text>
+<text x="500" y="101" class="h">repositório</text>
+<rect x="500" y="118" width="214" height="44" rx="10" fill="#151E32" stroke="#334155" stroke-width="1.5"/><circle cx="520" cy="140.0" r="9" fill="#34D399"/><path d="M516 140.0L519 143.0L524 137.0" fill="none" stroke="#030712" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="538" y="145.0" class="c">web</text>
+<rect x="500" y="172" width="214" height="44" rx="10" fill="#151E32" stroke="#334155" stroke-width="1.5"/><circle cx="520" cy="194.0" r="9" fill="#34D399"/><path d="M516 194.0L519 197.0L524 191.0" fill="none" stroke="#030712" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="538" y="199.0" class="c">api</text>
+<rect x="500" y="226" width="214" height="44" rx="10" fill="#151E32" stroke="#334155" stroke-width="1.5"/><circle cx="520" cy="248.0" r="9" fill="#34D399"/><path d="M516 248.0L519 251.0L524 245.0" fill="none" stroke="#030712" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="538" y="253.0" class="c">docs</text>
+</svg>

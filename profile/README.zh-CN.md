@@ -94,6 +94,56 @@
   <img src="./assets/gamified-feedback.png" alt="成就视图，展示每日进度、长期里程碑和游戏化反馈界面。" width="100%" />
 </p>
 
+## 工作台一览
+
+<p align="center">
+  <img src="./assets/art-repos-workbench.png" alt="插图：多个仓库图块汇入同一个工作台窗口。" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/tour-session-board.png" alt="会话看板，按提案与审阅、执行、归档分列，每张卡片显示当前状态。" width="100%" />
+</p>
+
+会话按阶段排在同一块看板上，卡片直接显示所处状态：已起草、执行中、等待回复或已完成。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/session-statuses-zh-CN-dark.svg" />
+  <img src="./assets/session-statuses-zh-CN-light.svg" alt="示意图：会话依次从已起草进入执行中，再到执行完成和已完成；执行中与等待回复之间可以往返。" width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-conversation-session.png" alt="普通会话：提问代码问题，对话中显示读取的文件，并给出建议的修改。" width="100%" />
+</p>
+
+普通会话用来回答代码相关的问题。它读过的每个文件都会出现在对话记录中，便于核对答案的来源。
+
+<p align="center">
+  <img src="./assets/tour-monospecs-git.png" alt="项目详情的 Git 标签页：已选中三个仓库，右上角是超级提交操作。" width="100%" />
+</p>
+
+在同一个项目中勾选多个仓库，然后在 Git 标签页里对它们统一执行超级提交。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/super-commit-zh-CN-dark.svg" />
+  <img src="./assets/super-commit-zh-CN-light.svg" alt="示意图：选中的仓库经过一次超级提交操作，每个仓库各自提交。" width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-agents-workspace.png" alt="Agent 工作区，Agent 按 Claude Code 和 Codex 分组，每个 Agent 显示其模型。" width="100%" />
+</p>
+
+Agent 按所属 Agent CLI 分组，每个 Agent 都会显示它使用的模型。
+
+<p align="center">
+  <img src="./assets/tour-vault-browser.png" alt="Vault 浏览器，左侧为已注册的 Vault，右侧为文件夹树与 Markdown 笔记。" width="100%" />
+</p>
+
+Vault 把参考仓库和笔记放在一起，你可以直接在工作台里浏览其中的文件。
+
+<p align="center">
+  <img src="./assets/art-agent-hub.png" alt="插图：几何徽章环绕一个发光的中心节点。" width="100%" />
+</p>
+
 ## 集成组件
 
 HagiCode 所依托或接入的工具。大多数是可选的，需要时再开启。设置里的“集成”标签页集中放了 Git、GitHub、TokenMonitor 和 Code Server。

@@ -94,6 +94,56 @@ No necesitas una propuesta cada vez. Para una pregunta rápida sobre el código,
   <img src="./assets/gamified-feedback.png" alt="Vista de logros con el progreso diario, los hitos a largo plazo y la retroalimentación gamificada." width="100%" />
 </p>
 
+## Recorrido por el espacio de trabajo
+
+<p align="center">
+  <img src="./assets/art-repos-workbench.png" alt="Ilustración: fichas de repositorios que confluyen en una sola ventana del espacio de trabajo." width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/tour-session-board.png" alt="Tablero de sesiones con las columnas Propuesta y revisión, Ejecución y Archivado; cada tarjeta muestra su estado." width="100%" />
+</p>
+
+Las sesiones se organizan por etapa en un único tablero. Cada tarjeta indica si está en borrador, ejecutándose, esperando respuesta o completada.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/session-statuses-es-ES-dark.svg" />
+  <img src="./assets/session-statuses-es-ES-light.svg" alt="Diagrama: una sesión pasa de Borrador a Ejecutando, luego a Ejecución completada y Completado; hay un bucle entre Ejecutando y Esperando respuesta." width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-conversation-session.png" alt="Sesión normal: una pregunta sobre el código, una lectura de archivo visible en la transcripción y una respuesta con un cambio sugerido." width="100%" />
+</p>
+
+Una sesión normal responde preguntas sobre tu código. Cada archivo que lee aparece en la transcripción, así puedes comprobar de dónde sale una respuesta.
+
+<p align="center">
+  <img src="./assets/tour-monospecs-git.png" alt="Detalles del proyecto, pestaña Git: tres repositorios seleccionados y la acción Super Commit arriba a la derecha." width="100%" />
+</p>
+
+Selecciona varios repositorios de un mismo proyecto y ejecuta Super Commit sobre ellos desde la pestaña Git.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/super-commit-es-ES-dark.svg" />
+  <img src="./assets/super-commit-es-ES-light.svg" alt="Diagrama: los repositorios seleccionados pasan por una sola acción Super Commit y cada repositorio recibe su propio commit." width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-agents-workspace.png" alt="Espacio de agentes: los agentes aparecen agrupados bajo Claude Code y Codex, cada uno con su modelo." width="100%" />
+</p>
+
+Los agentes se agrupan por Agent CLI, y cada uno muestra el modelo que usa.
+
+<p align="center">
+  <img src="./assets/tour-vault-browser.png" alt="Navegador de Vault: los vaults registrados a la izquierda, un árbol de carpetas y una nota Markdown a la derecha." width="100%" />
+</p>
+
+El Vault reúne repositorios de referencia y notas; puedes explorar sus archivos desde el espacio de trabajo.
+
+<p align="center">
+  <img src="./assets/art-agent-hub.png" alt="Ilustración: insignias geométricas orbitan alrededor de un núcleo luminoso." width="100%" />
+</p>
+
 ## Componentes integrados
 
 Las herramientas en las que HagiCode se apoya o con las que se conecta. La mayoría son opcionales y se activan cuando las necesitas. La pestaña Ajustes → Integración reúne Git, GitHub, TokenMonitor y Code Server.

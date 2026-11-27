@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 330" width="740" height="330" role="img" aria-labelledby="t d">
+  <title id="t">A session moves across the board</title>
+  <desc id="d">Drafted / Executing / Execution Complete / Completed, Waiting for Reply</desc>
+  <style>
+    text{font-family:-apple-system, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif}
+    .h{font-size:15px;font-weight:600;fill:#475569}
+    .s{font-size:21px;font-weight:700;fill:#0F172A}
+    .t{font-size:15px;font-weight:700;fill:#0F172A}
+    .d{font-size:13px;font-weight:500;fill:#475569}
+    .c{font-size:15px;font-weight:600;fill:#0F172A}
+    .b{font-size:15px;font-weight:700;fill:#FFFFFF}
+  </style>
+  <rect width="740" height="330" rx="16" fill="#F5F5F7"/>
+  <text x="26" y="46" class="s">A session moves across the board</text>
+<rect x="26" y="80" width="148" height="96" rx="12" fill="#FFFFFF" stroke="#64748B" stroke-width="2"/><text x="40" y="114.0" class="t">Drafted</text><text x="40" y="134.0" class="d">Proposal &amp;</text><text x="40" y="150.0" class="d">Review</text>
+<path d="M178 128.0H194" stroke="#475569" stroke-width="2" stroke-linecap="round"/><path d="M193 121.0L202 128.0L193 135.0" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="206" y="80" width="148" height="96" rx="12" fill="#FFFFFF" stroke="#0080FF" stroke-width="2"/><text x="220" y="122.0" class="t">Executing</text><text x="220" y="142.0" class="d">Execution</text>
+<path d="M358 128.0H374" stroke="#475569" stroke-width="2" stroke-linecap="round"/><path d="M373 121.0L382 128.0L373 135.0" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="386" y="80" width="148" height="96" rx="12" fill="#FFFFFF" stroke="#15803D" stroke-width="2"/><text x="400" y="113.0" class="t">Execution</text><text x="400" y="131.0" class="t">Complete</text><text x="400" y="151.0" class="d">Execution</text>
+<path d="M538 128.0H554" stroke="#475569" stroke-width="2" stroke-linecap="round"/><path d="M553 121.0L562 128.0L553 135.0" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="566" y="80" width="148" height="96" rx="12" fill="#FFFFFF" stroke="#475569" stroke-width="2"/><text x="580" y="122.0" class="t">Completed</text><text x="580" y="142.0" class="d">Archived</text>
+<rect x="206" y="212" width="148" height="96" rx="12" fill="#FFFFFF" stroke="#B45309" stroke-width="2"/><text x="220" y="245.0" class="t">Waiting for</text><text x="220" y="263.0" class="t">Reply</text><text x="220" y="283.0" class="d">Execution</text>
+<path d="M280.0 182V206" stroke="#475569" stroke-width="2" stroke-linecap="round"/><path d="M274.0 191L280.0 182L286.0 191" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M274.0 197L280.0 206L286.0 197" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

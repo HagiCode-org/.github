@@ -94,6 +94,56 @@
   <img src="./assets/gamified-feedback.png" alt="実績ビュー。日々の進捗、長期的なマイルストーン、ゲーム化されたフィードバックを表示しています。" width="100%" />
 </p>
 
+## ワークスペースを見る
+
+<p align="center">
+  <img src="./assets/art-repos-workbench.png" alt="イラスト：複数のリポジトリのタイルが一つのワークスペースのウィンドウに集まる様子。" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/tour-session-board.png" alt="提案とレビュー、実行、アーカイブの列に分かれたセッションボード。各カードに現在の状態が表示されています。" width="100%" />
+</p>
+
+セッションは段階ごとに一つのボードに並びます。下書き済み、実行中、返信待ち、完了のどこにあるかがカードに表示されます。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/session-statuses-ja-JP-dark.svg" />
+  <img src="./assets/session-statuses-ja-JP-light.svg" alt="図：セッションは下書き済みから実行中へ進み、実行完了、完了へと移ります。実行中と返信待ちの間は行き来します。" width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-conversation-session.png" alt="通常のセッション：コードについての質問、トランスクリプトに表示される読み取ったファイル、提案された変更を含む回答。" width="100%" />
+</p>
+
+通常のセッションは、コードに関する質問に答えます。読み取ったファイルはすべて会話記録に表示されるので、回答の根拠を確認できます。
+
+<p align="center">
+  <img src="./assets/tour-monospecs-git.png" alt="プロジェクト詳細の Git タブ：3 つのリポジトリが選択され、右上に Super Commit の操作があります。" width="100%" />
+</p>
+
+一つのプロジェクトで複数のリポジトリを選び、Git タブからまとめて Super Commit を実行できます。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/super-commit-ja-JP-dark.svg" />
+  <img src="./assets/super-commit-ja-JP-light.svg" alt="図：選択したリポジトリが一つの Super Commit 操作にまとめられ、リポジトリごとにコミットされます。" width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-agents-workspace.png" alt="Agent ワークスペース：Agent は Claude Code と Codex ごとにまとめられ、それぞれのモデルが表示されています。" width="100%" />
+</p>
+
+Agent は Agent CLI ごとにまとまり、それぞれが使うモデルが表示されます。
+
+<p align="center">
+  <img src="./assets/tour-vault-browser.png" alt="Vault ブラウザ：左に登録済みの Vault、右にフォルダツリーと Markdown ノート。" width="100%" />
+</p>
+
+Vault は参照リポジトリとノートをまとめて管理し、ワークスペースからファイルを閲覧できます。
+
+<p align="center">
+  <img src="./assets/art-agent-hub.png" alt="イラスト：光るハブの周りを幾何学的なバッジが回っています。" width="100%" />
+</p>
+
 ## 統合コンポーネント
 
 HagiCode が土台にしている、または接続しているツールです。多くは任意で、必要になったときに有効にできます。設定の「統合」タブに Git、GitHub、TokenMonitor、Code Server がまとまっています。

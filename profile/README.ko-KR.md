@@ -94,6 +94,56 @@
   <img src="./assets/gamified-feedback.png" alt="일일 진행 상황, 장기 마일스톤, 게임화된 피드백을 보여 주는 업적 보기." width="100%" />
 </p>
 
+## 워크스페이스 살펴보기
+
+<p align="center">
+  <img src="./assets/art-repos-workbench.png" alt="일러스트: 여러 저장소 타일이 하나의 워크스페이스 창으로 모이는 모습." width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/tour-session-board.png" alt="제안 및 검토, 실행, 보관 열로 나뉜 세션 보드. 각 카드에 현재 상태가 표시됩니다." width="100%" />
+</p>
+
+세션은 단계에 따라 하나의 보드에 놓입니다. 카드에서 초안 작성됨, 실행 중, 답변 대기, 완료 중 어디에 있는지 바로 보입니다.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/session-statuses-ko-KR-dark.svg" />
+  <img src="./assets/session-statuses-ko-KR-light.svg" alt="다이어그램: 세션은 초안 작성됨에서 실행 중으로 넘어간 뒤 실행 완료와 완료로 이어집니다. 실행 중과 답변 대기 사이를 오갈 수 있습니다." width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-conversation-session.png" alt="일반 세션: 코드에 대한 질문, 대화에 표시된 파일 읽기, 제안된 변경이 담긴 답변." width="100%" />
+</p>
+
+일반 세션은 코드에 관한 질문에 답합니다. 읽은 파일은 모두 대화 기록에 표시되므로 답변의 근거를 확인할 수 있습니다.
+
+<p align="center">
+  <img src="./assets/tour-monospecs-git.png" alt="프로젝트 세부 정보의 Git 탭: 저장소 세 개가 선택되어 있고 오른쪽 위에 Super Commit 작업이 있습니다." width="100%" />
+</p>
+
+한 프로젝트에서 여러 저장소를 선택하고 Git 탭에서 한 번에 Super Commit을 실행할 수 있습니다.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/super-commit-ko-KR-dark.svg" />
+  <img src="./assets/super-commit-ko-KR-light.svg" alt="다이어그램: 선택한 저장소들이 하나의 Super Commit 작업을 거치고, 저장소마다 커밋됩니다." width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-agents-workspace.png" alt="Agent 워크스페이스: Agent가 Claude Code와 Codex 아래에 그룹화되어 있고 각 모델이 표시됩니다." width="100%" />
+</p>
+
+Agent는 Agent CLI별로 묶이며, 각 Agent가 사용하는 모델이 표시됩니다.
+
+<p align="center">
+  <img src="./assets/tour-vault-browser.png" alt="Vault 브라우저: 왼쪽에 등록된 Vault, 오른쪽에 폴더 트리와 Markdown 노트." width="100%" />
+</p>
+
+Vault는 참조 저장소와 노트를 함께 보관하며, 워크스페이스에서 바로 파일을 살펴볼 수 있습니다.
+
+<p align="center">
+  <img src="./assets/art-agent-hub.png" alt="일러스트: 빛나는 허브 주위를 도는 기하학 배지들." width="100%" />
+</p>
+
 ## 통합 구성 요소
 
 HagiCode가 기반으로 삼거나 연결하는 도구입니다. 대부분 선택 사항이며 필요할 때 켤 수 있습니다. 설정의 「통합」 탭에 Git, GitHub, TokenMonitor, Code Server가 모여 있습니다.

@@ -94,6 +94,56 @@ Du brauchst nicht jedes Mal einen Vorschlag. Für eine schnelle Frage zum Code s
   <img src="./assets/gamified-feedback.png" alt="Erfolgsansicht mit Tagesfortschritt, langfristigen Meilensteinen und spielerischem Feedback." width="100%" />
 </p>
 
+## Ein Rundgang durch den Workspace
+
+<p align="center">
+  <img src="./assets/art-repos-workbench.png" alt="Illustration: Kacheln verschiedener Repositories fließen in ein gemeinsames Workspace-Fenster." width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/tour-session-board.png" alt="Session-Board mit den Spalten Vorschlag &amp; Prüfung, Ausführung und Archiv; jede Karte zeigt ihren Status." width="100%" />
+</p>
+
+Sitzungen liegen nach Phase auf einem Board. Jede Karte zeigt, ob sie im Entwurf ist, läuft, auf eine Antwort wartet oder abgeschlossen ist.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/session-statuses-de-DE-dark.svg" />
+  <img src="./assets/session-statuses-de-DE-light.svg" alt="Diagramm: Eine Sitzung geht von Entwurf über Wird ausgeführt zu Ausführung fertig und Abgeschlossen; zwischen Wird ausgeführt und Wartet auf Antwort gibt es eine Schleife." width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-conversation-session.png" alt="Normale Sitzung mit einer Frage zum Code, einem im Verlauf angezeigten Dateizugriff und der Antwort mit einem Änderungsvorschlag." width="100%" />
+</p>
+
+Eine normale Sitzung beantwortet Fragen zu deinem Code. Jede gelesene Datei erscheint im Verlauf, sodass du die Quelle einer Antwort nachprüfen kannst.
+
+<p align="center">
+  <img src="./assets/tour-monospecs-git.png" alt="Projektdetails, Git-Tab: drei Repositories sind ausgewählt, rechts oben die Aktion Super Commit." width="100%" />
+</p>
+
+Wähle in einem Projekt mehrere Repositories aus und führe Super Commit im Git-Tab für alle gemeinsam aus.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/super-commit-de-DE-dark.svg" />
+  <img src="./assets/super-commit-de-DE-light.svg" alt="Diagramm: Die ausgewählten Repositories laufen durch eine Super-Commit-Aktion, und jedes Repository wird committet." width="100%" />
+</picture>
+
+<p align="center">
+  <img src="./assets/tour-agents-workspace.png" alt="Agents-Workspace: Agents sind unter Claude Code und Codex gruppiert, jeweils mit ihrem Modell." width="100%" />
+</p>
+
+Agents sind nach Agent CLI gruppiert, und jeder zeigt das Modell, das er verwendet.
+
+<p align="center">
+  <img src="./assets/tour-vault-browser.png" alt="Vault-Browser mit registrierten Vaults links, einem Ordnerbaum und einer Markdown-Notiz rechts." width="100%" />
+</p>
+
+Der Vault hält Referenz-Repositories und Notizen zusammen; du durchsuchst ihre Dateien direkt im Workspace.
+
+<p align="center">
+  <img src="./assets/art-agent-hub.png" alt="Illustration: geometrische Abzeichen kreisen um einen leuchtenden Knotenpunkt." width="100%" />
+</p>
+
 ## Integrierte Komponenten
 
 Werkzeuge, auf denen HagiCode aufbaut oder mit denen es sich verbindet. Die meisten sind optional und lassen sich bei Bedarf einschalten. Im Tab Einstellungen → Integration findest du Git, GitHub, TokenMonitor und Code Server.
