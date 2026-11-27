@@ -73,8 +73,8 @@
 4. **回看并留下上下文**：在工作台检查会话与执行状态，用 AI Compose Commit 整理提交；提案与提交记录可供回顾，跨仓库协作交给 MonoSpecs 管理。
 
 <p align="center">
-  <img src="./assets/create-proposal.png" alt="新建提案抽屉：选择项目，把仓库标为参考或可编辑，并预览合并后的需求。" width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="提案会话，工作流各阶段已逐项完成直至执行完成，任务列表全部完成。" width="49%" />
+  <img src="./assets/create-proposal.png" alt="新建提案抽屉：选择项目，把仓库标为参考或可编辑，并预览合并后的需求。" width="100%" />
+  <img src="./assets/proposal-workflow.png" alt="提案会话，工作流各阶段已逐项完成直至执行完成，任务列表全部完成。" width="100%" />
 </p>
 
 不必每次都走提案流程：只想了解代码或处理简单问题时，从普通会话开始即可。
@@ -87,7 +87,7 @@
 - **带有真实信号的游戏化反馈**：成就、日报、效率倍率与 token 吞吐量，让长期 AI 协作更容易读懂。这是工作台体验的一部分，不想用可以忽略。
 
 <p align="center">
-  <img src="./assets/skills-gallery.png" alt="Skills 画廊，展示可搜索、可安装的技能与来源筛选。" width="49%" />
+  <img src="./assets/skills-gallery.png" alt="Skills 画廊，展示可搜索、可安装的技能与来源筛选。" width="100%" />
 </p>
 
 <p align="center">

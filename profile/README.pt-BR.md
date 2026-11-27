@@ -73,8 +73,8 @@ As instruções passo a passo estão no [guia de instalação](https://docs.hagi
 4. **Revisar e manter o contexto.** Confira as sessões e o estado de execução no workbench e deixe o AI Compose Commit organizar os commits. Propostas e registros de commits continuam disponíveis, e o MonoSpecs coordena mudanças entre vários repositórios.
 
 <p align="center">
-  <img src="./assets/create-proposal.png" alt="Gaveta de nova proposta: escolha o projeto, marque repositórios como referência ou editáveis e visualize a solicitação combinada." width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="Sessão de proposta com todas as etapas do fluxo concluídas até a execução e a lista de tarefas completa." width="49%" />
+  <img src="./assets/create-proposal.png" alt="Gaveta de nova proposta: escolha o projeto, marque repositórios como referência ou editáveis e visualize a solicitação combinada." width="100%" />
+  <img src="./assets/proposal-workflow.png" alt="Sessão de proposta com todas as etapas do fluxo concluídas até a execução e a lista de tarefas completa." width="100%" />
 </p>
 
 Você não precisa de uma proposta toda vez. Para uma pergunta rápida sobre o código, comece com uma sessão normal.
@@ -87,7 +87,7 @@ Você não precisa de uma proposta toda vez. Para uma pergunta rápida sobre o c
 - **Feedback gamificado com sinais reais**: conquistas, relatórios diários, multiplicadores de eficiência e vazão de tokens deixam o trabalho longo com IA mais fácil de ler. Faz parte do workbench, e você pode ignorar.
 
 <p align="center">
-  <img src="./assets/skills-gallery.png" alt="Galeria de Skills com skills pesquisáveis e instaláveis e filtros de origem." width="49%" />
+  <img src="./assets/skills-gallery.png" alt="Galeria de Skills com skills pesquisáveis e instaláveis e filtros de origem." width="100%" />
 </p>
 
 <p align="center">

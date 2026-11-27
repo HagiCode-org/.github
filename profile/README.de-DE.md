@@ -73,8 +73,8 @@ Schritt-für-Schritt-Anleitungen findest du im [Installationsleitfaden](https://
 4. **Prüfen und Kontext behalten.** Kontrolliere Sitzungen und Ausführungsstatus in der Workbench und lass AI Compose Commit die Commits ordnen. Vorschläge und Commit-Protokolle bleiben für später erhalten, und MonoSpecs koordiniert Änderungen über mehrere Repositories hinweg.
 
 <p align="center">
-  <img src="./assets/create-proposal.png" alt="Schublade für neue Vorschläge: Projekt wählen, Repositories als Referenz oder bearbeitbar markieren und die zusammengeführte Anfrage ansehen." width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="Vorschlagssitzung mit allen Workflow-Phasen bis zur Ausführung abgehakt und vollständiger Aufgabenliste." width="49%" />
+  <img src="./assets/create-proposal.png" alt="Schublade für neue Vorschläge: Projekt wählen, Repositories als Referenz oder bearbeitbar markieren und die zusammengeführte Anfrage ansehen." width="100%" />
+  <img src="./assets/proposal-workflow.png" alt="Vorschlagssitzung mit allen Workflow-Phasen bis zur Ausführung abgehakt und vollständiger Aufgabenliste." width="100%" />
 </p>
 
 Du brauchst nicht jedes Mal einen Vorschlag. Für eine schnelle Frage zum Code starte mit einer normalen Sitzung.
@@ -87,7 +87,7 @@ Du brauchst nicht jedes Mal einen Vorschlag. Für eine schnelle Frage zum Code s
 - **Spielerisches Feedback mit echten Signalen**: Erfolge, Tagesberichte, Effizienz-Multiplikatoren und Token-Durchsatz machen lange KI-Arbeit leichter lesbar. Es gehört zur Workbench, und du kannst es ignorieren.
 
 <p align="center">
-  <img src="./assets/skills-gallery.png" alt="Skills-Galerie mit durchsuchbaren, installierbaren Skills und Quellfiltern." width="49%" />
+  <img src="./assets/skills-gallery.png" alt="Skills-Galerie mit durchsuchbaren, installierbaren Skills und Quellfiltern." width="100%" />
 </p>
 
 <p align="center">

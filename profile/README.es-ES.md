@@ -73,8 +73,8 @@ Las instrucciones paso a paso están en la [guía de instalación](https://docs.
 4. **Revisar y conservar el contexto.** Comprueba las sesiones y el estado de ejecución en el espacio de trabajo y deja que AI Compose Commit organice los commits. Las propuestas y los registros de commits siguen disponibles, y MonoSpecs coordina los cambios entre varios repositorios.
 
 <p align="center">
-  <img src="./assets/create-proposal.png" alt="Panel de nueva propuesta: elegir el proyecto, marcar repositorios como referencia o editables y previsualizar la solicitud combinada." width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="Sesión de propuesta con todas las fases del flujo marcadas hasta la ejecución y la lista de tareas completa." width="49%" />
+  <img src="./assets/create-proposal.png" alt="Panel de nueva propuesta: elegir el proyecto, marcar repositorios como referencia o editables y previsualizar la solicitud combinada." width="100%" />
+  <img src="./assets/proposal-workflow.png" alt="Sesión de propuesta con todas las fases del flujo marcadas hasta la ejecución y la lista de tareas completa." width="100%" />
 </p>
 
 No necesitas una propuesta cada vez. Para una pregunta rápida sobre el código, empieza con una sesión normal.
@@ -87,7 +87,7 @@ No necesitas una propuesta cada vez. Para una pregunta rápida sobre el código,
 - **Retroalimentación gamificada con señales reales**: logros, informes diarios, multiplicadores de eficiencia y rendimiento de tokens hacen más legible el trabajo largo con IA. Forma parte del entorno y puedes ignorarla.
 
 <p align="center">
-  <img src="./assets/skills-gallery.png" alt="Galería de Skills con skills que se pueden buscar e instalar, y filtros por origen." width="49%" />
+  <img src="./assets/skills-gallery.png" alt="Galería de Skills con skills que se pueden buscar e instalar, y filtros por origen." width="100%" />
 </p>
 
 <p align="center">

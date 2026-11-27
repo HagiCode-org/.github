@@ -73,8 +73,8 @@
 4. **回看並留下上下文**：在工作台檢查工作階段與執行狀態，用 AI Compose Commit 整理提交；提案與提交紀錄可供回顧，跨儲存庫協作交給 MonoSpecs 管理。
 
 <p align="center">
-  <img src="./assets/create-proposal.png" alt="新增提案抽屜：選擇專案，把儲存庫標為參考或可編輯，並預覽合併後的需求。" width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="提案工作階段，工作流程各階段已逐項完成至執行完成，任務清單全部完成。" width="49%" />
+  <img src="./assets/create-proposal.png" alt="新增提案抽屜：選擇專案，把儲存庫標為參考或可編輯，並預覽合併後的需求。" width="100%" />
+  <img src="./assets/proposal-workflow.png" alt="提案工作階段，工作流程各階段已逐項完成至執行完成，任務清單全部完成。" width="100%" />
 </p>
 
 不必每次都走提案流程：只想了解程式碼或處理簡單問題時，從一般工作階段開始即可。
@@ -87,7 +87,7 @@
 - **帶有真實訊號的遊戲化回饋**：成就、日報、效率倍率與 token 吞吐量，讓長期 AI 協作更容易讀懂。這是工作台體驗的一部分，不想用可以忽略。
 
 <p align="center">
-  <img src="./assets/skills-gallery.png" alt="Skills 圖庫，顯示可搜尋、可安裝的技能與來源篩選。" width="49%" />
+  <img src="./assets/skills-gallery.png" alt="Skills 圖庫，顯示可搜尋、可安裝的技能與來源篩選。" width="100%" />
 </p>
 
 <p align="center">

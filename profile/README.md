@@ -75,8 +75,8 @@ Step-by-step instructions are in the [installation guide](https://docs.hagicode.
 4. **Review and keep the context.** Check sessions and execution state in the workbench, and let AI Compose Commit organize the commits. Proposals and commit records stay available for later, and MonoSpecs coordinates changes across repositories.
 
 <p align="center">
-  <img src="./assets/create-proposal.png" alt="New proposal drawer: choose the project, mark repositories as reference or editable, and preview the combined request." width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="Proposal session with every workflow stage checked through execution, and the task list complete." width="49%" />
+  <img src="./assets/create-proposal.png" alt="New proposal drawer: choose the project, mark repositories as reference or editable, and preview the combined request." width="100%" />
+  <img src="./assets/proposal-workflow.png" alt="Proposal session with every workflow stage checked through execution, and the task list complete." width="100%" />
 </p>
 
 You don't need a proposal every time. For a quick question about the code, start with a normal session.
@@ -89,7 +89,7 @@ You don't need a proposal every time. For a quick question about the code, start
 - **Gamified feedback with real signals**: achievements, daily reports, efficiency multipliers, and token throughput make long-running AI work easier to read. It is part of the workbench, and you can ignore it.
 
 <p align="center">
-  <img src="./assets/skills-gallery.png" alt="Skills gallery with searchable, installable skills and source filters." width="49%" />
+  <img src="./assets/skills-gallery.png" alt="Skills gallery with searchable, installable skills and source filters." width="100%" />
 </p>
 
 <p align="center">

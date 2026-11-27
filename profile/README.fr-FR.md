@@ -73,8 +73,8 @@ Les instructions détaillées se trouvent dans le [guide d'installation](https:/
 4. **Revoir et garder le contexte.** Vérifiez les sessions et l'état d'exécution dans l'atelier, et laissez AI Compose Commit organiser les commits. Les propositions et l'historique des commits restent disponibles, et MonoSpecs coordonne les changements entre plusieurs dépôts.
 
 <p align="center">
-  <img src="./assets/create-proposal.png" alt="Panneau de nouvelle proposition : choisir le projet, marquer les dépôts en référence ou modifiables, et prévisualiser la demande combinée." width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="Session de proposition avec toutes les étapes du workflow validées jusqu'à l'exécution, et la liste des tâches terminée." width="49%" />
+  <img src="./assets/create-proposal.png" alt="Panneau de nouvelle proposition : choisir le projet, marquer les dépôts en référence ou modifiables, et prévisualiser la demande combinée." width="100%" />
+  <img src="./assets/proposal-workflow.png" alt="Session de proposition avec toutes les étapes du workflow validées jusqu'à l'exécution, et la liste des tâches terminée." width="100%" />
 </p>
 
 Pas besoin d'une proposition à chaque fois. Pour une question rapide sur le code, commencez par une session normale.
@@ -87,7 +87,7 @@ Pas besoin d'une proposition à chaque fois. Pour une question rapide sur le cod
 - **Un retour ludique fondé sur de vrais signaux** : succès, rapports quotidiens, multiplicateurs d'efficacité et débit de tokens rendent le travail long avec l'IA plus lisible. Cela fait partie de l'atelier, et vous pouvez l'ignorer.
 
 <p align="center">
-  <img src="./assets/skills-gallery.png" alt="Galerie Skills avec des skills recherchables et installables, et des filtres de source." width="49%" />
+  <img src="./assets/skills-gallery.png" alt="Galerie Skills avec des skills recherchables et installables, et des filtres de source." width="100%" />
 </p>
 
 <p align="center">

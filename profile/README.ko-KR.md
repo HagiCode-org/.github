@@ -73,8 +73,8 @@
 4. **검토하고 맥락을 남깁니다.** 워크벤치에서 세션과 실행 상태를 확인하고, AI Compose Commit으로 커밋을 정리합니다. 제안과 커밋 기록은 나중에도 볼 수 있고, 여러 저장소에 걸친 변경은 MonoSpecs가 조율합니다.
 
 <p align="center">
-  <img src="./assets/create-proposal.png" alt="새 제안 서랍: 프로젝트를 고르고, 저장소를 참조용 또는 편집 가능으로 표시하고, 합쳐진 요청을 미리 봅니다." width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="제안 세션에서 실행 완료까지 워크플로 단계가 모두 체크되고 작업 목록이 완료된 모습입니다." width="49%" />
+  <img src="./assets/create-proposal.png" alt="새 제안 서랍: 프로젝트를 고르고, 저장소를 참조용 또는 편집 가능으로 표시하고, 합쳐진 요청을 미리 봅니다." width="100%" />
+  <img src="./assets/proposal-workflow.png" alt="제안 세션에서 실행 완료까지 워크플로 단계가 모두 체크되고 작업 목록이 완료된 모습입니다." width="100%" />
 </p>
 
 매번 제안이 필요한 것은 아닙니다. 코드에 대해 간단히 확인하고 싶다면 일반 세션으로 시작하세요.
@@ -87,7 +87,7 @@
 - **실제 신호에 기반한 게임화 피드백**: 업적, 일일 리포트, 효율 배율, 토큰 처리량으로 오래 걸리는 AI 작업을 더 쉽게 파악할 수 있습니다. 워크벤치의 일부이며, 원하지 않으면 무시해도 됩니다.
 
 <p align="center">
-  <img src="./assets/skills-gallery.png" alt="검색하고 설치할 수 있는 스킬과 소스 필터가 있는 Skills 갤러리." width="49%" />
+  <img src="./assets/skills-gallery.png" alt="검색하고 설치할 수 있는 스킬과 소스 필터가 있는 Skills 갤러리." width="100%" />
 </p>
 
 <p align="center">
