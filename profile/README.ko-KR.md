@@ -36,7 +36,7 @@
   <a href="https://docs.hagicode.com/ko-KR/blog/">블로그</a>
 </p>
 
-<img src="./assets/workspace-overview.png" alt="세션 목록, 커밋 메모, 상단 작업 메뉴를 보여 주는 HagiCode 워크스페이스." width="100%" />
+<img src="./assets/workspace-overview.png" alt="세션 보드, 빠른 작업, 저장소 상태를 보여 주는 HagiCode 워크스페이스." width="100%" />
 
 </div>
 
@@ -74,7 +74,7 @@
 
 <p align="center">
   <img src="./assets/create-proposal.png" alt="새 제안 서랍: 프로젝트를 고르고, 저장소를 참조용 또는 편집 가능으로 표시하고, 합쳐진 요청을 미리 봅니다." width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="제안 세션에서 생성, 검토부터 실행, 보관까지의 워크플로 단계를 보여 줍니다." width="49%" />
+  <img src="./assets/proposal-workflow.png" alt="제안 세션에서 실행 완료까지 워크플로 단계가 모두 체크되고 작업 목록이 완료된 모습입니다." width="49%" />
 </p>
 
 매번 제안이 필요한 것은 아닙니다. 코드에 대해 간단히 확인하고 싶다면 일반 세션으로 시작하세요.

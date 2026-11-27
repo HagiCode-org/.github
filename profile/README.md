@@ -38,7 +38,7 @@
 
 ![Desktop Stable](https://img.shields.io/badge/Desktop%20Stable-v0.1.91-blue)
 
-<img src="./assets/workspace-overview.png" alt="HagiCode workspace showing the session list, commit notes, and top-level actions." width="100%" />
+<img src="./assets/workspace-overview.png" alt="HagiCode workbench with the session board, quick actions, and repository status." width="100%" />
 
 </div>
 
@@ -76,7 +76,7 @@ Step-by-step instructions are in the [installation guide](https://docs.hagicode.
 
 <p align="center">
   <img src="./assets/create-proposal.png" alt="New proposal drawer: choose the project, mark repositories as reference or editable, and preview the combined request." width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="Proposal session showing workflow stages from creation and review to execution and archive." width="49%" />
+  <img src="./assets/proposal-workflow.png" alt="Proposal session with every workflow stage checked through execution, and the task list complete." width="49%" />
 </p>
 
 You don't need a proposal every time. For a quick question about the code, start with a normal session.

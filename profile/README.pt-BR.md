@@ -36,7 +36,7 @@
   <a href="https://docs.hagicode.com/pt-BR/blog/">Blog</a>
 </p>
 
-<img src="./assets/workspace-overview.png" alt="Workspace do HagiCode com a lista de sessões, as notas de commit e as ações principais." width="100%" />
+<img src="./assets/workspace-overview.png" alt="Workspace do HagiCode com o quadro de sessões, as ações rápidas e o status dos repositórios." width="100%" />
 
 </div>
 
@@ -74,7 +74,7 @@ As instruções passo a passo estão no [guia de instalação](https://docs.hagi
 
 <p align="center">
   <img src="./assets/create-proposal.png" alt="Gaveta de nova proposta: escolha o projeto, marque repositórios como referência ou editáveis e visualize a solicitação combinada." width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="Sessão de proposta mostrando as etapas do fluxo, da criação e revisão até a execução e o arquivamento." width="49%" />
+  <img src="./assets/proposal-workflow.png" alt="Sessão de proposta com todas as etapas do fluxo concluídas até a execução e a lista de tarefas completa." width="49%" />
 </p>
 
 Você não precisa de uma proposta toda vez. Para uma pergunta rápida sobre o código, comece com uma sessão normal.

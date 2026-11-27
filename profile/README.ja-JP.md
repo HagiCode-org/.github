@@ -36,7 +36,7 @@
   <a href="https://docs.hagicode.com/ja-JP/blog/">ブログ</a>
 </p>
 
-<img src="./assets/workspace-overview.png" alt="セッション一覧、コミットメモ、上部の操作を表示した HagiCode のワークスペース。" width="100%" />
+<img src="./assets/workspace-overview.png" alt="セッションボード、クイックアクション、リポジトリの状態を表示した HagiCode のワークスペース。" width="100%" />
 
 </div>
 
@@ -74,7 +74,7 @@
 
 <p align="center">
   <img src="./assets/create-proposal.png" alt="新規提案ドロワー。プロジェクトを選び、リポジトリを参照用または編集可能に設定し、統合後のリクエストをプレビューします。" width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="提案セッション。作成、レビューから実行、アーカイブまでのワークフローの段階を表示しています。" width="49%" />
+  <img src="./assets/proposal-workflow.png" alt="提案セッション。実行完了までのワークフローの各段階にチェックが付き、タスクがすべて完了しています。" width="49%" />
 </p>
 
 毎回提案が必要なわけではありません。コードについて軽く確認したいときは、通常セッションから始めてください。

@@ -36,7 +36,7 @@
   <a href="https://docs.hagicode.com/blog/">博客</a>
 </p>
 
-<img src="./assets/workspace-overview.png" alt="HagiCode 工作台，展示会话列表、提交说明与顶部操作入口。" width="100%" />
+<img src="./assets/workspace-overview.png" alt="HagiCode 工作台，展示会话看板、快捷操作与仓库状态。" width="100%" />
 
 </div>
 
@@ -74,7 +74,7 @@
 
 <p align="center">
   <img src="./assets/create-proposal.png" alt="新建提案抽屉：选择项目，把仓库标为参考或可编辑，并预览合并后的需求。" width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="提案会话，展示从创建、审阅到执行、归档的工作流阶段。" width="49%" />
+  <img src="./assets/proposal-workflow.png" alt="提案会话，工作流各阶段已逐项完成直至执行完成，任务列表全部完成。" width="49%" />
 </p>
 
 不必每次都走提案流程：只想了解代码或处理简单问题时，从普通会话开始即可。

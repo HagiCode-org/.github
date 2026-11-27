@@ -3,28 +3,28 @@
 This directory stores the screenshots copied from `repos/docs` and `repos/site`, the Steam artwork copied from `repos/index`, the Codex-generated banners and the authored 2D diagrams, for `repos/org-github/profile/README*.md`. The Steam artwork is no longer referenced by the READMEs (the Steam main application is retired).
 
 ## workspace-overview.png
-- Theme: Core product definition and integrated workspace
-- Source: `repos/docs/src/content/docs/img/screenshots/shared/classic-view/original.png`
+- Theme: Workbench overview: session board, quick actions and repository status (refreshed 2026-11-27)
+- Source: `repos/docs/src/content/docs/img/user-guide/workbench/01-workbench-overview.avif`, converted to PNG (1920x1080). Replaces the April classic-view capture.
 
 ## gamified-feedback.png
-- Theme: Achievements and long-running workflow feedback
-- Source: `repos/docs/src/content/docs/img/screenshots/shared/achivement-view/original.png`
+- Theme: Achievements and long-running workflow feedback (refreshed 2026-11-27)
+- Source: `repos/docs/src/content/docs/img/screenshots/product/achievements/original.avif`, converted to PNG (1920x1080)
 
 ## create-proposal.png
-- Theme: Proposal setup (project, reference/editable repositories, combined preview)
-- Source: `repos/docs/src/content/docs/img/screenshots/shared/create-proposal-drawser/original.png`
+- Theme: Proposal setup (project, reference/editable repositories, combined preview), refreshed 2026-11-27
+- Source: `repos/docs/src/content/docs/img/screenshots/product/create-proposal/original.avif`, converted to PNG (1920x1080)
 
 ## proposal-workflow.png
-- Theme: Proposal session workflow stages from creation to archive
-- Source: `repos/site/src/assets/img/readme-sync/open-spec-proposal-workflow.png`
+- Theme: Proposal session with the workflow stages checked through execution and the Tasks tab (refreshed 2026-11-27)
+- Source: `repos/docs/src/content/docs/img/screenshots/product/proposal-complete/original.avif`, converted to PNG (1920x1080). The earlier readme-sync capture is no longer used for this slot.
 
 ## omniroute-routing.png
 - Theme: Retired integration settings screenshot. No README references it, because the integration is no longer a supported HagiCode component. Kept as a historical asset, not deleted.
 - Source: `repos/site/src/assets/img/readme-sync/omniroute-routing.png`
 
 ## skills-gallery.png
-- Theme: Searchable, installable Skills
-- Source: `repos/site/src/assets/img/readme-sync/skills-gallery.png`
+- Theme: Searchable, installable Skills (Gallery tab, refreshed 2026-11-27)
+- Source: `repos/docs/src/content/docs/img/screenshots/product/skills-gallery/original.avif`, converted to PNG (1920x1080)
 
 ## steam/hagicode-wide-capsule.png
 - Theme: Steam lineup preview banner

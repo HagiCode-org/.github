@@ -36,7 +36,7 @@
   <a href="https://docs.hagicode.com/de-DE/blog/">Blog</a>
 </p>
 
-<img src="./assets/workspace-overview.png" alt="HagiCode-Workspace mit Sitzungsliste, Commit-Notizen und den wichtigsten Aktionen oben." width="100%" />
+<img src="./assets/workspace-overview.png" alt="HagiCode-Workspace mit Session-Board, Schnellaktionen und Repository-Status." width="100%" />
 
 </div>
 
@@ -74,7 +74,7 @@ Schritt-für-Schritt-Anleitungen findest du im [Installationsleitfaden](https://
 
 <p align="center">
   <img src="./assets/create-proposal.png" alt="Schublade für neue Vorschläge: Projekt wählen, Repositories als Referenz oder bearbeitbar markieren und die zusammengeführte Anfrage ansehen." width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="Vorschlagssitzung mit den Workflow-Phasen von Erstellung und Prüfung bis zu Ausführung und Archivierung." width="49%" />
+  <img src="./assets/proposal-workflow.png" alt="Vorschlagssitzung mit allen Workflow-Phasen bis zur Ausführung abgehakt und vollständiger Aufgabenliste." width="49%" />
 </p>
 
 Du brauchst nicht jedes Mal einen Vorschlag. Für eine schnelle Frage zum Code starte mit einer normalen Sitzung.

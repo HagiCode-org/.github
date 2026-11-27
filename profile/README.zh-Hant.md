@@ -36,7 +36,7 @@
   <a href="https://docs.hagicode.com/zh-Hant/blog/">部落格</a>
 </p>
 
-<img src="./assets/workspace-overview.png" alt="HagiCode 工作台，顯示工作階段清單、提交說明與頂部操作入口。" width="100%" />
+<img src="./assets/workspace-overview.png" alt="HagiCode 工作台，顯示工作階段看板、快捷操作與儲存庫狀態。" width="100%" />
 
 </div>
 
@@ -74,7 +74,7 @@
 
 <p align="center">
   <img src="./assets/create-proposal.png" alt="新增提案抽屜：選擇專案，把儲存庫標為參考或可編輯，並預覽合併後的需求。" width="49%" />
-  <img src="./assets/proposal-workflow.png" alt="提案工作階段，顯示從建立、審閱到執行、封存的工作流程階段。" width="49%" />
+  <img src="./assets/proposal-workflow.png" alt="提案工作階段，工作流程各階段已逐項完成至執行完成，任務清單全部完成。" width="49%" />
 </p>
 
 不必每次都走提案流程：只想了解程式碼或處理簡單問題時，從一般工作階段開始即可。
